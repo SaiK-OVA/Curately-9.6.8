@@ -56,20 +56,20 @@ jobs:
 
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }} 
 
-  # invalidate_cache: 
+  invalidate_cache: 
 
-  #   runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest 
 
-  #   steps: 
+    steps: 
 
-  #     - name: Invalidate CloudFront Cache 
+      - name: Invalidate CloudFront Cache 
 
-  #       run: | 
+        run: | 
 
-  #         aws cloudfront create-invalidation --distribution-id EXT4AFZ2WGEMK --paths '/*' 
+          aws cloudfront create-invalidation --distribution-id E2W2UFD442E97E --paths '/*' 
 
-  #       env: 
+        env: 
 
-  #         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }} 
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }} 
 
-  #         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }} 
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }} 
