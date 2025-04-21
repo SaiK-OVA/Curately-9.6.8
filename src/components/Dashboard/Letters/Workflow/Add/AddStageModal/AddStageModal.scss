@@ -1,0 +1,21 @@
+.AddStageModal {
+    .stage {
+        // padding: 16px;
+        cursor: pointer;
+        background-color: var(--c-primary-color);
+        color: white;
+    }
+
+    .title {
+        //    font-size: 13px;
+        color: var(--curatelyWhite);
+    }
+    .closePopup {
+        color: var(--curatelyDarkGrey);
+    }
+
+    .stage .MuiSvgIcon-root {
+        width: 18px;
+        height: 18px;
+    }
+}

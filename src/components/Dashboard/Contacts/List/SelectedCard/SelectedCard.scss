@@ -1,0 +1,78 @@
+.selected-card-full-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected-card-pointer {
+    border: 1px solid;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected-card-pointer-color {
+    // border: 1px solid;
+    height: 8px;
+    width: 8px;
+    background-color: var(--curatelyGreen);
+}
+
+.selected-card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    width: 90%;
+}
+
+.selected-card-name-heading {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--curatelyBlack);
+}
+
+.selected-card-application-role {
+    font-size: 15px;
+    color: var(--curatelyOrange);
+    font-weight: 600;
+}
+
+.selected-card-headings {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--curatelyBlack);
+}
+
+.selected-card-para {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--curatelyGrey);
+}
+
+.selected-card-button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.selected-card-button {
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.selected-card-edit-button {
+    border-color: var(--curatelyDarkBlue);
+    color: var(--curatelyDarkBlue);
+}
+
+.selected-card-delete-button {
+    border-color: var(--curatelyOrange);
+    color: var(--curatelyOrange);
+}

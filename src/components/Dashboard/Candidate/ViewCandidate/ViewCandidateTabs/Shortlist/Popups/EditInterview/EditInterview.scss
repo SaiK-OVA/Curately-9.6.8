@@ -1,0 +1,23 @@
+.inputLabel {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    color: var(--c-text-labels);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+.valueLabel {
+    width: calc(100% - 130px);
+}
+
+.labelDiv {
+    .mainLabel {
+        width: 130px;
+    }
+
+    .valueLabel {
+        width: calc(100% - 140px);
+    }
+}

@@ -1,0 +1,78 @@
+#ChromeExtensionHeader {
+  background-color: #f9fafb;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 99%;
+  //max-width: 900px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 6px 2px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title {
+      font-size: 16px;
+      font-weight: 500;
+      background: linear-gradient(90deg, #ff00ff, #00e0ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .close-icon {
+      color: #bbb;
+      cursor: pointer;
+    }
+  }
+
+  .progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    height: 4px;
+    margin: 10px 0 15px;
+    overflow: hidden;
+
+    .progress {
+      width: 20%; // Adjust this width based on progress completion
+      height: 100%;
+      background-color: #6200ea;
+    }
+  }
+
+  .steps {
+    display: flex;
+    gap: 10px;
+
+    .step {
+      display: flex;
+      align-items: center;
+      padding: 8px 15px;
+      border-radius: 20px;
+      border: 1px solid #007bff;
+      color: #007bff;
+      font-size: 14px;
+      font-weight: 500;
+      transition: background 0.3s ease;
+
+      .icon {
+        font-size: 18px;
+        margin-right: 8px;
+      }
+
+      &.completed {
+        background-color: #e6f7ff;
+        border-color: var(--curatelyGreen);
+        color: var(--curatelyGreen);
+        .step-label{
+          font-weight: 600;
+        }
+        .icon {
+          color: var(--curatelyGreen);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.tab {
+    border-right: 1 !important;
+    // border-color: divider !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
+
+
+}
+
+.vertical-menu-item {
+    color: var(--c-neutral-60) !important;
+    align-items: flex-start !important;
+    text-transform: none !important;
+    font-size: 14px
+}

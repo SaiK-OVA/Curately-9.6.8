@@ -1,0 +1,20 @@
+.AddMessageBox {
+    .enableIcons svg {
+        width: 21px;
+        height: 21px;
+        color: grey;
+    }
+
+    .mailEnabled {
+        color: #c5940b !important;
+    }
+
+    .smsEnabled {
+        color: #0b8cc5 !important;
+    }
+
+    .lastUpdated {
+        font-size: 14px;
+        color: grey;
+    }
+}

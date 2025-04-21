@@ -1,0 +1,15 @@
+.submission {
+    color: var(--curatelyPurple);
+}
+
+.submission.MRTableCustom .MuiTableContainer-root {
+    max-height: calc(100vh - 370px);
+    min-height: calc(100vh - 370px);
+}
+
+.sub {
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 370px);
+        min-height: calc(100vh - 370px);
+    }
+}

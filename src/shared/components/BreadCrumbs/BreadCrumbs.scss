@@ -1,0 +1,35 @@
+#breadCrumbNav {
+    margin: 4px 0 8px 0;
+
+    .MuiBreadcrumbs-li {
+        a {
+            text-decoration: none !important;
+            color: var(--c-primary-color);
+            padding: 0 6px;
+            font-weight: 400;
+            font-size: 12px;
+            border-radius: 4px;
+        }
+
+        a:hover {
+            background-color: var(--c-primary-10);
+        }
+
+    }
+
+
+    .MuiBreadcrumbs-separator {
+        margin: 0 4px;
+
+        svg {
+            width: 16px;
+            height: 16px;
+        }
+    }
+
+    .titleDisplay {
+        font-weight: 500;
+        color: var(--c-text-header);
+        font-size: 13px;
+    }
+}

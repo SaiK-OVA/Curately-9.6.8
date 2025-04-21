@@ -1,0 +1,99 @@
+#jobContent1,
+#jobContent {
+  .header_footer_box {
+    position: relative;
+    margin: 22px;
+    width: 96%;
+    // height: 390px;
+    padding: 10px 10px 40px 10px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+    .MuiGrid2-root {
+      .routerHeight {
+        height: auto !important;
+        overflow: hidden;
+      }
+    }
+
+    .header_footer_subbox {
+      margin-top: 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .preview_icon {
+      position: absolute;
+      right: 15px;
+      top: 10px;
+    }
+
+    .description-text {
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    .preview-text {
+      width: 80%;
+    }
+
+    .ql-editor {
+      max-height: 80px;
+    }
+  }
+
+  //   .MuiPaper-root.MuiDialog-paper {
+  //     max-width: 560px;
+  //     width: 560px;
+  // }
+  //MuiTypography-root MuiTypography-h6 MuiDialogTitle-root header css-1thdem7-MuiTypography-root-MuiDialogTitle-root
+
+  .MuiTypography-root,
+  .MuiDialogTitle-root {
+    padding: 2px 2px 0px 20px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 10px;
+      color: var(--c-text-primary);
+    }
+  }
+
+  .input-label {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    color: var(--c-text-header);
+    margin-bottom: 5px;
+  }
+
+  .MuiInputBase-inputSizeSmall {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--c-text-header);
+
+    b {
+      font-weight: 500;
+    }
+
+    &:hover {
+      color: var(--c-primary-color);
+    }
+
+    &::placeholder {
+      font-weight: 600;
+      color: var(--c-text-placeholder);
+      opacity: 1;
+    }
+  }
+
+
+}

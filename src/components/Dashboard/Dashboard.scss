@@ -1,0 +1,73 @@
+.dashLogoImg {
+    width: 125px;
+    cursor: pointer;
+}
+
+.topBar {
+    height: 55px;
+    background-color: var(--c-neutral-0);
+}
+
+.routerHeight {
+    height: calc(100vh - 60px);
+    overflow: auto;
+    padding-top: 5px;
+    padding-left: 8px;
+    background-color: var(--c-neutral-10);
+}
+
+#universalSearch {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    font-size: 14px;
+}
+
+#dash-name-button {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+
+    background-color: var(--c-neutral-30);
+    color: var(--c-text-secondary);
+    text-transform: uppercase;
+}
+
+#dash-name-button.opened {
+    background-color: var(--c-primary-color);
+    color: var(--c-neutral-0);
+    // font-size: 14px;
+    // font-weight: 500;
+}
+
+#dash-name-menu {
+    .MuiMenuItem-root {
+        min-width: 170px;
+    }
+
+    .fullName {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        color: var(--c-text-primary);
+        margin-bottom: 4px;
+    }
+
+    ul {
+        padding-bottom: 0 !important;
+    }
+}
+
+.searchIcon {
+    cursor: pointer;
+}
+
+.clientListLogoSpan {
+    width: 36px;
+}
+
+.clientListLogo {
+    max-width: 36px;
+    height: 20px;
+}

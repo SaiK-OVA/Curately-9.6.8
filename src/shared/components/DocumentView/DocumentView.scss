@@ -1,0 +1,17 @@
+#DocumentView.p-dialog {
+
+    .p-dialog-header {
+        padding: 10px 16px;
+    }
+
+    .p-dialog-content {
+        height: calc(100vh - 100px);
+        padding-right: 0;
+    }
+
+    .p-dialog-header,
+    .p-dialog-content {
+        // background-color: var(--c-neutral-10) !important;
+    }
+
+}

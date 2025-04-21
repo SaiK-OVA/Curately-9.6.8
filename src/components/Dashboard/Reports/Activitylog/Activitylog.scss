@@ -1,0 +1,18 @@
+#ActivityLog {
+    .activityLogDate {
+        min-height: 55px;
+    }
+
+
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 260px) !important;
+        min-height: calc(100vh - 260px) !important;
+    }
+
+    .inPopUp {
+        .MRTableCustom .MuiTableContainer-root {
+            max-height: calc(100vh - 180px) !important;
+            min-height: calc(100vh - 180px) !important;
+        }
+    }
+}

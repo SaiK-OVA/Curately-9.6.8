@@ -1,0 +1,105 @@
+#NewLayoutMenu {
+    .MuiPaper-root {
+        margin-top: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
+        height: 35rem;
+        width: 42rem;
+
+        // .MuiGrid2-root {
+        //     overflow-y: auto;
+        //     height: 35rem;
+        //     max-height: 100%;
+        //     padding-right: 6px;
+        // }
+    }
+
+    .scrollable-grid {
+        overflow-y: auto;
+        height: 33.15rem;
+        max-height: 100%;
+        padding-right: 6px;
+
+        .MuiList-root {
+            padding-right: 2px;
+        }
+    }
+
+    .search-scrollable-grid {
+
+        // padding-right: 6px;
+
+        .MuiList-root {
+            overflow-y: auto;
+            height: 30rem;
+            max-height: 100%;
+            padding-right: 6px;
+        }
+    }
+
+
+
+
+    .default-column {
+        padding: 3px 8px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 4px;
+        margin-bottom: 4px;
+        border: 1px solid var(--c-neutral-60);
+        background-color: white;
+
+        .MuiListItemIcon-root {
+            min-width: 0px;
+            margin-right: 1.25rem;
+        }
+
+        .MuiSvgIcon-root {
+            font-size: 1.3rem;
+        }
+
+        .MuiListItemText-primary {
+            padding-right: 1rem;
+            cursor: pointer;
+            color: var(--c-neutral-80);
+        }
+
+        &:hover {
+            border: 1px solid var(--c-primary-50);
+
+            .MuiSvgIcon-root,
+            .MuiListItemText-primary {
+                color: var(--c-primary-50);
+            }
+        }
+
+    }
+
+    .pinned-column {
+        background-color: var(--c-neutral-20) !important;
+        cursor: not-allowed;
+
+        .MuiListItemIcon-root,
+        .MuiSvgIcon-root,
+        .MuiListItemText-primary {
+            cursor: not-allowed !important;
+        }
+    }
+
+    .dragging-listItem {
+        border: 1px solid var(--c-primary-50) !important;
+        background-color: #0000000a !important;
+
+        .MuiListItemIcon-root {
+            cursor: grab !important;
+        }
+
+        .MuiSvgIcon-root,
+        .MuiListItemText-primary {
+            color: var(--c-primary-50) !important;
+        }
+    }
+}

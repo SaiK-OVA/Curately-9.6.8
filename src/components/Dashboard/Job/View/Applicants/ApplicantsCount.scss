@@ -1,0 +1,33 @@
+#sourcedTabs {
+
+    .showViewButton {
+        text-transform: capitalize;
+        font-weight: 600;
+        width: 10rem;
+    }
+
+    .MRTableCustom {
+        .MuiTableHead-root {
+            .MuiTableRow-root {
+                box-shadow: none !important;
+
+                .MuiTableCell-root {
+                    vertical-align: middle;
+
+                    div,
+                    p {
+                        font-weight: 500 !important;
+                        font-size: 13px !important;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .paper-padding {
+        .MuiPaper-root {
+            padding-top: 4px;
+        }
+    }
+}

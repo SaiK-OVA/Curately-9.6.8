@@ -1,0 +1,56 @@
+#dashCountDetails {
+    .table {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    iframe {
+        min-height: calc(100vh - 200px);
+        border: 0;
+    }
+
+    .MRTableCustom td span,
+    .MRTableCustom td {
+        text-transform: capitalize;
+    }
+    .MuiTableContainer-root+.MuiToolbar-root {
+        border: 1px solid rgb(192, 192, 192);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        min-height: 40px;
+
+        .MuiBox-root>.MuiBox-root {
+            left: 0;
+            right: auto;
+
+            .MuiToolbar-root.MuiTablePagination-toolbar {
+                padding-left: 0;
+                min-height: 40px;
+            }
+        }
+    }
+
+    .MRTableCustom {
+        .MuiTablePagination-root {
+            display: none;
+        }
+
+        .MuiBox-root {
+            left: 0 !important;
+            top: 0 !important;
+            align-items: center;
+        }
+    }
+
+    .MuiTableContainer-root+.MuiBox-root>.MuiBox-root {
+        flex-direction: row-reverse !important;
+        padding: 0;
+    }
+
+}

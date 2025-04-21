@@ -1,0 +1,33 @@
+$values: (
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+);
+
+@each $val in $values {
+    .br-#{$val} {
+        border-radius: #{$val * 5}px !important;
+    }
+}
+
+.br-0 {
+    border-radius: 0px !important;
+}
+
+.bt-1 {
+    // border-width: 1px !important;
+    // border-style: solid !important;
+    border-top: 1px solid #dee5fb !important;
+}
+
+.bt-2 {
+    border-top: 2px solid rgb(222, 229, 251) !important;
+}
+
+
+// .b-1 {
+//     border: 1px solid var(--curatelyGrey) !important;
+// }

@@ -1,0 +1,37 @@
+.k-button {
+    margin: 5px;
+    float: right
+}
+
+.elli {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.topRowButtons {
+    font-weight: 400;
+    font-size: 13px;
+    color: black;
+    text-transform: capitalize;
+    border-color: black;
+}
+
+.icons {
+    color: black;
+    font-weight: 400;
+}
+
+.sideButtons {
+    font-weight: 400;
+    font-size: 13px;
+    color: black;
+    text-transform: capitalize;
+    border-color: none;
+
+}
+
+.manage {
+    text-transform: capitalize;
+    color: black;
+}

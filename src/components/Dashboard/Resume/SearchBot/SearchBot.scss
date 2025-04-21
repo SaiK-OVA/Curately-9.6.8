@@ -1,0 +1,24 @@
+#searchBotContainer {
+    .searchBotContainer {
+        .d-flex {
+            display: -ms-flexbox !important;
+            display: flex !important;
+        }
+    }
+
+    .flexDiv1 {
+        width: 510px;
+    }
+
+    .flexDiv2 {
+        width: calc(100vw - 530px);
+        margin-left: 10px;
+    }
+
+    .agentdetails {
+        width: 815px;
+        height: calc(100vh - 75px);
+        border: 0px;
+        margin-left: 5px;
+    }
+}

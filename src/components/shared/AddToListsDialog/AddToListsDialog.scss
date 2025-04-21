@@ -1,0 +1,82 @@
+#AddToListsDialog {
+
+    .MuiAccordionSummary-root {
+        width: 440px;
+        margin: 0px 24px;
+        padding: 0;
+    }
+    .closeBtn {
+        padding: 0;
+    }
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        & > div {
+            display: flex;
+            align-items: center;
+        }
+        svg {
+            color: #bbaeae
+        }
+        label {
+            padding-left: 10px;
+        }
+        .checkIcon {
+            color: #038303;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+    }
+    .customIcon {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        line-height: 1;
+        border-radius: 50%;
+        overflow: hidden;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: #bbaeae;
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+        font-weight: 700;
+        background-color: transparent;
+        color: #bbaeae;
+        border: 1px solid;
+    }
+    .MuiAccordion-root.Mui-expanded {
+        background-color: #f7f7f7;
+        .MuiAccordionSummary-root {
+            border-bottom: 1px solid #dbdbdb;
+        }
+        .title {
+            svg, label {
+                color: #146ef6;
+            }
+        }
+        .MuiAccordionSummary-expandIconWrapper svg {
+            color: #146ef6;
+        }
+    }
+    .MuiAccordionDetails-root {
+        padding: 8px 24px 16px;
+    }
+}

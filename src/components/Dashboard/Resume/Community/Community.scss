@@ -1,0 +1,312 @@
+#communityCandidates {
+  .candidateNameCommunity {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .candidateStatusCommunity {
+    width: 25px;
+    padding-top: 6px;
+  }
+
+  .linkedinIcon {
+    color: rgb(211, 211, 211);
+  }
+
+  .linkedinIcon:hover {
+    color: var(--curatelySkyBlue) !important;
+  }
+
+  .MRTableCustom {
+    .css-192dx0w {
+      display: none;
+    }
+
+    .MuiBox-root {
+      left: 0 !important;
+      top: 0 !important;
+      align-items: center;
+    }
+
+    .MuiTableBody-root {
+      .MuiTableRow-root {
+
+        &:first-child {
+          .MuiTableCell-root {
+            border-top: none !important
+          }
+        }
+
+        &:last-child {
+          .MuiTableCell-root {
+            border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+          }
+        }
+
+        .MuiTableCell-root {
+          border-top: 1px solid rgba(224, 224, 224, 1);
+          border-bottom: none !important;
+        }
+      }
+    }
+  }
+
+  .MRTableCustom .MuiTableContainer-root {
+    max-height: calc(100vh - 290px);
+    overflow: auto;
+    max-width: 100%;
+    min-height: calc(100vh - 290px);
+  }
+
+  .actionRightItems {
+    position: absolute !important;
+    top: 40px;
+    right: 20px;
+    z-index: 999;
+  }
+
+  .MRTableCustom td span,
+  .MRTableCustom td {
+    text-transform: capitalize;
+  }
+
+  .MRTableCustom thead tr th:first-child,
+  .MRTableCustom tbody tr td:first-child {
+    min-width: 30px !important;
+    width: 30px !important;
+    padding-right: 0 !important;
+  }
+
+  .MRTableCustom tbody tr td:nth-child(2) {
+    padding-left: 0 !important;
+  }
+
+  .MRTableCustom thead tr th:nth-child(2) {
+    padding-left: 23px !important;
+  }
+
+  .MRTableCustom thead tr th:nth-child(2),
+  .MRTableCustom tbody tr td:nth-child(2) {
+    left: 30px !important;
+  }
+
+  [aria-label="Show/Hide search"] {
+    display: none !important;
+  }
+
+  .MuiTableContainer-root+.MuiBox-root>.MuiBox-root {
+    flex-direction: row-reverse !important;
+    padding: 0;
+    // align-items: center;
+  }
+
+  .MuiTableContainer-root+.MuiToolbar-root {
+    border: 1px solid rgb(192, 192, 192);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 40px;
+    align-items: center;
+
+    .MuiBox-root>.MuiBox-root {
+      left: 0;
+      right: auto;
+
+      .MuiToolbar-root.MuiTablePagination-toolbar {
+        padding-left: 0;
+        min-height: 40px;
+      }
+    }
+
+  }
+
+  .customButtonForHover * {
+    pointer-events: none;
+  }
+
+  .customButtonForHover.disabled {
+    cursor: not-allowed;
+  }
+
+  .tableTabs {
+    min-height: 20px;
+
+    .MuiButtonBase-root {
+      text-transform: inherit;
+      font-size: 14px;
+      min-width: auto;
+      padding: 6px 16px;
+      min-height: 20px;
+    }
+  }
+
+  .actionItems {
+    top: 48px;
+    position: initial !important;
+    padding-top: 7px;
+
+    .btnSecondary {
+      color: #474747 !important;
+      height: 30px !important;
+      font-size: 14px;
+
+      svg {
+        color: var(--c-neutral-60);
+        max-width: 16px;
+      }
+
+      &:hover {
+        color: var(--c-primary-color) !important;
+        border-color: var(--c-primary-color) !important;
+
+        svg {
+          color: var(--c-primary-color) !important;
+        }
+      }
+    }
+
+    .btnSecondary.Mui-disabled {
+      color: var(--c-text-disabled) !important;
+      border: 1px solid var(--c-border-normal) !important;
+      cursor: not-allowed;
+      pointer-events: auto;
+
+      svg {
+        color: var(--c-text-disabled) !important;
+      }
+
+      &:hover {
+        border: 1px solid var(--c-border-normal) !important;
+
+        svg {
+          color: var(--c-text-disabled) !important;
+        }
+      }
+    }
+
+  }
+
+  .tabWithCount {
+    display: flex;
+    align-items: center;
+
+    svg {
+      color: var(--c-neutral-50);
+      width: 18px;
+      margin-left: 6px;
+      position: relative;
+      animation: spin 1s linear infinite;
+    }
+
+    .count {
+      margin-left: 6px;
+    }
+  }
+
+
+  .Match,
+  .PotentialMatch,
+  .NotaMatch {
+    // width: 20px;
+    height: 27px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 6px;
+    padding: 2px;
+
+    svg {
+      font-size: 17px;
+      margin: 5px;
+    }
+  }
+
+  .Match {
+    background-color: var(--c-positive-20);
+    color: var(--c-positive-60)
+  }
+
+  .PotentialMatch {
+    background-color: var(--c-secondary-20);
+    color: var(--c-secondary-60)
+  }
+
+  .NotaMatch {
+    background-color: var(--c-negative-20);
+    color: var(--c-negative-60)
+  }
+
+
+  .communityFiltersClosed {
+    width: 310px;
+    overflow: hidden;
+    opacity: 1;
+  }
+
+  .communityFiltersOpened {
+    width: 0px;
+    overflow: hidden;
+    opacity: 0;
+  }
+
+
+  .label-btn {
+    font-size: 11px;
+    color: #474747;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 2px;
+    background-color: var(--c-neutral-20);
+    padding: 2px 10px;
+
+    &:hover {
+      background-color: var(--c-neutral-40);
+    }
+  }
+}
+
+.communitySearchContainer {
+  padding-top: 0.3rem;
+
+  input {
+    padding: 6.5px 10px !important;
+    font-size: 13px !important;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.customSorting {
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  .MuiButtonBase-root {
+    text-transform: initial;
+    font-size: 14px;
+    padding: 12px 6px;
+  }
+
+  .MuiButton-startIcon {
+    svg[data-testid="SouthRoundedIcon"] {
+      font-size: 15px;
+      margin-top: 1px;
+      margin-right: -3px;
+    }
+
+    svg[data-testid="MenuIcon"] {
+      font-size: 16px;
+    }
+
+    .flip {
+      transform: scaleY(-1);
+    }
+  }
+
+}

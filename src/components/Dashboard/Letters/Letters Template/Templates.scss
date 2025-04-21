@@ -1,0 +1,44 @@
+.temp {
+    text-transform: capitalize;
+    margin: 5px;
+}
+
+.row-full {
+    width: 202px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 13px;
+}
+
+.para {
+    font-size: 13px;
+    padding-left: 20px;
+
+}
+
+.lab {
+    padding-left: 20px;
+}
+
+.fix {
+    position: fixed;
+    height: calc(100vh - 185px);
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    position: scroll;
+    height: calc(100vh - 185px);
+    margin-bottom: 5px;
+    ;
+    /* Used in this example to enable scrolling */
+}
+
+.tab {
+    height: calc(100vh - 185px);
+}
+
+.box {
+    height: calc(100vh - 500px);
+}

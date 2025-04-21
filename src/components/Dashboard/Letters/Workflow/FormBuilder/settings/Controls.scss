@@ -1,0 +1,89 @@
+.controlSettingsPaper {
+    padding: 10px 10px;
+    background-color: #ffffff;
+    width: 380px !important;
+
+    .control-settings .MuiTypography-root {
+        font-family: Bold !important;
+        font-size: 13px;
+    }
+
+    .popover-content {
+        margin-left: 12%;
+        width: 300;
+        /* vertical-align: middle;
+    transform-origin: left; */
+
+    }
+
+
+    @media screen and (max-width: 1290px) {
+        .popover-content {
+            margin-left: 10%;
+            width: 200;
+        }
+    }
+
+    @media screen and (max-width: 915px) {
+        .popover-content {
+            top: 100%;
+            margin-left: 0;
+            width: 150;
+            margin-top: 18%;
+        }
+    }
+
+    // .MuiListItemText-primary {
+    //     font-family: Regular !important;
+    // }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .row-label {
+        font-size: 13px !important;
+        color: #1e1d19;
+        font-weight: 700;
+    }
+
+    .required-label label {
+        margin-right: 0 !important;
+    }
+
+    .section-grid {
+        padding: 0px 4px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+
+    }
+
+    .section-advanced {
+        padding: 8px 4px;
+    }
+
+    .row-adv {
+        cursor: pointer;
+    }
+}
+
+#menu- {
+    z-index: 9999;
+}
+
+#control-settings {
+    z-index: 9999;
+}
+
+.MuiAutocomplete-popper {
+    z-index: 99999;
+}
+
+.MuiAutocomplete-groupLabel {
+    font-size: 14px;
+    background-color: #f1f1f1;
+    color: #146ef6;
+    line-height: 28px;
+}

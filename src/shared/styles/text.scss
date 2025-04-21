@@ -1,0 +1,65 @@
+$fontWeights: (
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+);
+
+@each $space in $fontWeights {
+  .fw-#{$space} {
+    font-weight: #{$space * 100} !important;
+  }
+}
+
+$fontSizes: (
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24
+);
+
+@each $space in $fontSizes {
+  .fs-#{$space} {
+    font-size: #{$space}px !important;
+  }
+
+  // .fhw-#{$space} {
+  //   font-size: #{$space}px !important;
+  //   height: #{$space}px !important;
+  //   width: #{$space}px !important;
+  // }
+
+  .hw-#{$space} {
+    height: #{$space}px !important;
+    width: #{$space}px !important;
+  }
+}
+
+.tt-upper {
+  text-transform: uppercase !important;
+}
+
+.tt-capital {
+  text-transform: capitalize !important;
+}
+
+.tt-lower {
+  text-transform: lowercase !important;
+}

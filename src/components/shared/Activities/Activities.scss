@@ -1,0 +1,677 @@
+.Activities {
+    .MuiLinearProgress-root{
+         margin-left: -15px !important;
+         margin-top: 8px;
+     }
+     .popover__activities{        
+         background-color: red;
+     }
+  
+    .initialBox {
+        display: flex;
+        height: 100vh;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .mainStack {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        // margin-top: 15px;
+        cursor: default;
+        margin-left: 8%;
+        // margin-right: 8%;
+    }
+
+    .mainHeadBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #E6E6E6;
+        padding: 8px 20px;
+    }
+
+    .Activities-Style {
+        color: #1A1A1A;
+        font-size: 16px;
+        font-weight: 600;
+
+        padding-left: 0;
+    }
+
+    .hide-Activities-Style {
+        color: var(--c-primary-color);
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 600;
+
+
+        padding-right: 5%;
+
+        &:hover {
+            background-color: var(--c-bg-feedback);
+        }
+    }
+
+
+    .hide-Act-Box1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1%,
+    }
+
+    .con-Acc-Box {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+        width: 50%;
+        padding-bottom: 8px;
+
+        &:hover {
+
+            border-bottom: 1px solid var(--c-primary-color);
+
+            &:hover svg,
+            &:hover p {
+                color: var(--c-primary-color),
+            }
+        }
+    }
+
+    .con-Acc-Text {
+        font-size: 14px;
+        font-weight: 600;
+
+    }
+
+    .MuiFormControlLabel-label {
+        color: #1A1A1A;
+        font-weight: 600;
+        font-size: 14px;
+        width: auto
+    }
+
+    .radio-Box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px;
+    }
+
+    .render-Tf {
+        & .MuiInputBase-input.MuiOutlinedInput-input {
+            color: #1A1A1A;
+            font-size: 14px;
+            font-weight: 600;
+
+            padding: 8.5px 14px;
+        }
+
+
+        & .MuiInputBase-input::placeholder {
+            color: #737373;
+            font-size: 14px;
+            font-weight: 600;
+
+            opacity: 1;
+        }
+
+        ;
+
+        & .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+            border-color: var(--c-primary-color);
+        }
+
+        ;
+
+        & .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+            border-color: var(--c-primary-color);
+            border-width: 1px;
+        }
+    }
+
+    .typeNote {
+        width: 100%;
+        color: #1A1A1A;
+
+        & .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+            border-color: var(--c-primary-color);
+        }
+
+
+        & .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+            border-color: var(--c-primary-color);
+            border-width: 1px;
+        }
+
+
+        & .MuiInputBase-input {
+            color: #1A1A1A;
+            font-size: 14px;
+            font-weight: 600;
+
+        }
+
+
+        & .MuiInputBase-input::placeholder {
+            color: #919191;
+            font-size: 14px;
+            font-weight: 600;
+
+            opacity: 0.80;
+        }
+    }
+
+    .pin-Note {
+        color: #1A1A1A;
+        font-Size: 14px;
+        font-weight: 600;
+
+        line-height: 1px;
+    }
+
+    .Activities-Style-Box {
+        height: 32px;
+        background-color: #F7F7F7;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .Activities-Style-2 {
+        height: 32px;
+        // background-color: #F7F7F7;
+        border-bottom: 1px solid #E6E6E6;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 20px;
+        justify-content: space-between;
+
+        p {
+            color: var(--c-text-header);
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+
+    .typeText {
+        padding-right: 2px;
+        color: var(--c-primary-color);
+        font-size: 14px;
+        font-weight: 600;
+
+        text-transform: capitalize;
+        white-space: nowrap;
+
+        &:hover {
+            background-color: #F7F7F7;
+            color: #0852C2;
+        }
+    }
+
+    .mainDiv {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    // .noteBox {
+    //     height: 200px !important;
+    //     overflow-y: auto;
+    // }
+    #Note .noteBox {
+        height: 300px;
+        min-height: 255px;
+        overflow: auto;
+    }
+
+    #SMS .noteBox {
+        height: 300px;
+        min-height: 255px;
+        overflow: auto;
+    }
+
+    .boxText {
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        width: 100%;
+        padding: 0px 10px 12px 20px;
+        position: relative;
+        background-color: var(--c-bg-main);
+        border-top: 1px solid rgba(0, 0, 0, 0)
+    }
+
+    .boxText-box1 {
+        border-right: 1px solid #919191;
+        display: flex;
+        align-items: center;
+    }
+
+    .after-Act-Box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+
+    .boxText-text {
+        //color: #474747;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        font-family: Segoe UI;
+        color: var(--c-text-primary);
+    }
+
+
+    .boxText-text1 {
+        padding-left: 5%;
+        color: #474747;
+        font-size: 11px;
+        font-weight: 400;
+
+        margin-top: 2px;
+    }
+
+    .boxText-text2 {
+        color: #1A1A1A;
+        font-size: 14px;
+        font-weight: 600;
+
+    }
+
+    .boxText-text3 {
+        color: #474747;
+        font-size: 14px;
+        font-weight: 400;
+
+        padding-right: 5%;
+    }
+
+    .boxText-box2 {
+        background-color: #EB7A2F;
+        height: 20px;
+        width: 155px;
+        border-radius: 3px;
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    .boxText-text4 {
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 700;
+
+        margin: 0px;
+    }
+
+    .dateBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 4px 0;
+        // font-weight: 500;
+    }
+
+    .dateText {
+        // color: #474747;
+        // font-size: 12px;
+        // font-weight: 600;
+
+        // font-size: 12px;
+        font-size: 12px;
+        font-weight: 600;
+
+
+        line-height: 1;
+        color: var(--c-text-secondary);
+
+
+    }
+
+
+    .mail-Icon {
+        width: 13px;
+        height: 13px;
+        color: #ffffff;
+    }
+
+    .mailBox-bg1 {
+        height: 23px;
+        width: 23px;
+        background-color: #1DB268;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .mailBox-bg2 {
+        height: 23px;
+        width: 23px;
+        background-color: #F0F0F0;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .mail-Border1 {
+        border-top: 2px solid #1DB268;
+        width: 10px;
+    }
+
+    .mail-Border2 {
+        border-top: 2px solid #F0F0F0;
+        width: 10px;
+    }
+
+    .bottom-Window {
+        color: var(--c-primary-color);
+        font-size: 14px;
+        font-weight: 600;
+
+        text-transform: capitalize;
+
+        &:hover {
+            background-color: #E6E6E6;
+
+        }
+    }
+
+    .Logcall-stack {
+        flex-direction: row;
+        padding-left: 8%;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    // .Logcall-style {
+    //     width: 100px;
+    //     height: 31px;
+    //     text-transform: capitalize;
+    //     color: #ffffff;
+    //     font-weight: 700;
+    //     font-size: 14px;
+    //     
+
+    // }
+
+    .LogAction-style {
+        width: 130px;
+        height: 31px;
+        text-transform: capitalize;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 14px;
+
+        margin-top: 30px;
+    }
+
+    .autocomplete {
+        width: 100%;
+        margin-bottom: 12px;
+
+        & .MuiAutocomplete-popupIndicator {
+            transform: unset;
+            color: #737373;
+
+            & .MuiTouchRipple-root {
+                display: none;
+            }
+
+            &:hover {
+                background-color: #ffffff;
+            }
+        }
+
+        & .MuiOutlinedInput-root {
+            padding-left: 0;
+            padding-bottom: 0;
+            padding-top: 0;
+            padding-right: 0;
+        }
+
+        & .MuiAutocomplete-clearIndicator {
+            color: #919191;
+            height: 8px;
+            width: 8px;
+
+            &:hover {
+                background-color: #ffffff;
+            }
+        }
+    }
+
+    .autocomplete1 {
+        width: 50%;
+
+        & .MuiAutocomplete-popupIndicator {
+            transform: unset;
+            color: #737373;
+
+            & .MuiTouchRipple-root {
+                display: none;
+            }
+
+            &:hover {
+                background-color: #ffffff;
+            }
+        }
+
+        & .MuiOutlinedInput-root {
+            padding-left: 0;
+            padding-bottom: 0;
+            padding-top: 0;
+            padding-right: 0;
+        }
+
+        & .MuiAutocomplete-clearIndicator {
+            color: #919191;
+            height: 8px;
+            width: 8px;
+            margin-right: 1%;
+
+            &:hover {
+                background-color: #ffffff;
+            }
+        }
+    }
+
+    .radiogroup {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 10px 0px 10px 5px;
+        // gap: 20px;
+
+        .MuiRadio-root {
+            padding: 0 8px 0 0;
+        }
+
+        & .MuiFormControlLabel-root {
+            margin-right: 0;
+            margin-left: 0;
+            padding: 2px 10px;
+            border-radius: 3px;
+
+            &:hover {
+                background-color: var(--c-bg-secondary);
+            }
+        }
+    }
+
+    .dateTime-stack {
+        margin-bottom: 1;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    // .note-block {
+    //     padding: 10px 20px;
+    // }
+    .descriptionText {
+        color: var(--c-text-light)
+    }
+
+    .contactActivitiesDiv {
+        overflow: auto;
+        height: 250px;
+    }
+
+    .hideActivities {
+        display: none;
+    }
+
+    .Mui-disabled .bp-icon {
+        background-color: var(--c-secondary-color) !important;
+    }
+
+    .noteRecrLabel {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        color: var(--c-text-labels);
+        text-transform: capitalize;
+    }
+
+    // .fromEmail {
+    //     .MuiInputBase-input {
+    //         height: 30px;
+    //     }
+    // }
+
+    .tasks-container {
+        width: 100%;
+
+        .MuiStack-root {
+            width: 100%;
+            margin-left: 0;
+
+            .MuiPaper-root {
+                box-shadow: none;
+            }
+        }
+    }
+
+    .dateTime-stack>.MuiFormControl-root {
+        width: 250px;
+    }
+
+    .notesDiv .notesAction svg {
+        // display: none;
+        color: var(--curatelyBrown);
+    }
+
+    // .notesDiv:hover .notesAction {
+    //     display: block !important;
+    // }
+
+    .deleteDisable {
+        // pointer-events: none;
+        cursor: no-drop;
+
+    }
+
+    .preferenceLabelMember {
+        font-weight: 600;
+        font-size: 15px;
+        color: var(--c-text-secondary);
+    }
+
+
+    .preferenceLabel {
+        font-weight: 600;
+        font-size: 12px;
+        color: #1A1A1A;
+    }
+
+    .timeline_item {
+        min-height: 0 !important;
+        margin: 5px;
+    }
+
+    .timeline_count {
+        padding: 0 !important;
+    }
+
+    .aiMatchLabel {
+        font-size: 12px;
+        font-weight: 700 !important;
+        color: var(--curatelyBlack) !important;
+        // max-width: calc(100% - 50px);
+        // max-width: 200px;
+        // white-space: nowrap;
+        // overflow: hidden;
+        // text-overflow: ellipsis;
+    }
+
+    .engagePref {
+        .MuiAccordionSummary-content {
+            margin: 0;
+        }
+
+        .MuiAccordionSummary-content.Mui-expanded {
+            margin: 10px 0 !important;
+        }
+    }
+
+    .matchJob {
+        background-color: var(--c-bg-secondary);
+        padding: 5px 5px;
+        border-radius: 2px;
+    }
+
+    .emailBuilder-body {
+        border: 1px solid #CCCCCC;
+        border-radius: 4px;
+        padding: 14px;
+        height: 300px;
+        max-height: 100%;
+        overflow-y: auto;
+    }
+
+    .smsList {
+        height: 300px;
+        overflow: auto;
+        width: 100%;
+        padding-top: 5px;
+        border-top: 1px solid #ccc;
+        .time {
+            background: #eee;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+            letter-spacing: 0.025em;
+            font-weight: 400;
+            line-height: 1.5;
+            box-sizing: border-box;
+            font-size: 0.8rem;
+            padding: 0.25rem 1rem;
+            border-radius: 2rem;
+            color: #999;
+            width: fit-content;
+            margin: 0 auto;
+            position: sticky;
+            top: 0px;
+            z-index: 1000;
+            min-width: 135px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
+    
+}

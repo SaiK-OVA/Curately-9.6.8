@@ -1,0 +1,73 @@
+#ReportColumns {
+    // .css-2f3oeb-MuiTableContainer-root {
+    //     overflow-x: hidden;
+    // }
+
+    .MuiAccordionSummary-content.Mui-expanded {
+        margin: 0px;
+    }
+
+    .shadowEffect {
+        box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    .MuiAccordionSummary-content p {
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: var(--c-text-labels);
+    }
+
+    .MuiAccordionSummary-root.Mui-expanded {
+        height: 30px;
+    }
+
+    .MuiAccordion-root {
+        margin: 0px 0;
+        border-radius: 4px;
+        box-shadow: var(--shadow-1);
+    }
+
+    .MuiAccordion-root:before {
+        display: none;
+    }
+
+
+    .MuiAccordion-root.Mui-expanded {
+        margin: 1px 0;
+    }
+
+    .MuiDialogContent-root {
+        background-color: var(--c-neutral-10);
+    }
+
+    .MuiAccordion-region {
+        .MuiGrid-item {
+            padding-top: 1px;
+        }
+    }
+
+    .MRTableCustom {
+        background-color: white !important;
+        padding-left: 0 !important;
+
+        .MuiTableContainer-root {
+            max-height: 338px;
+            min-height: 338px;
+            padding-bottom: 38px;
+            max-width: 100%;
+        }
+        .MuiTableContainer-root table, .MuiTableContainer-root  tr, .MuiTableContainer-root  td, .MuiTableContainer-root p {
+           width: 100%!important;
+           max-width: 100%;
+           text-align: center !important;
+        }
+
+        .MuiTableBody-root{
+            width: 100%;
+            text-align: center !important;
+        }
+    }
+
+
+}

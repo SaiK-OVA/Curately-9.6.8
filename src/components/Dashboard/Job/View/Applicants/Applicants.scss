@@ -1,0 +1,102 @@
+#JobApplicants {
+
+    .sourceTab:hover {
+        // border-bottom: solid 1px var(--c-primary-color);
+        background-color: var(--c-neutral-10) !important;
+    }
+
+    .Applicants {
+        .select-all-checkbox {
+            padding-left: 0;
+            padding-top: 0;
+            margin-right: 30px;
+
+            svg {
+                width: 21px;
+                height: 21px;
+            }
+        }
+
+        .MRTableCustom .MuiTableContainer-root {
+            max-height: calc(100vh - 220px);
+            min-height: calc(100vh - 220px);
+            overflow: auto;
+            max-width: 100%;
+        }
+
+
+        .MRTableCustom td span,
+        .MRTableCustom td {
+            text-transform: capitalize;
+        }
+
+        [aria-label="Show/Hide search"] {
+            // display: none !important;
+            right: 185px;
+            padding: 0.5rem !important;
+        }
+
+        .MuiTableContainer-root+.MuiToolbar-root {
+            border: 1px solid rgb(192, 192, 192);
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            min-height: 40px;
+
+            .MuiBox-root>.MuiBox-root {
+                left: 0;
+                right: auto;
+
+                .MuiToolbar-root.MuiTablePagination-toolbar {
+                    padding-left: 0;
+                    min-height: 40px;
+                }
+            }
+        }
+
+        .actionRightItems {
+            position: absolute !important;
+            top: 5px;
+            right: 15px;
+            z-index: 999;
+        }
+
+        .actionItems {
+            width: calc(100% - 500px) !important;
+        }
+
+        .selectedFilterChips {
+            .MuiButtonBase-root.MuiChip-root {
+                height: 28px;
+                margin-right: 4px;
+            }
+        }
+
+        .customSorting {
+            padding-top: 5px;
+            padding-bottom: 5px;
+
+            .MuiButtonBase-root {
+                text-transform: initial;
+                font-size: 14px;
+                padding: 4px 6px;
+            }
+
+            .MuiButton-startIcon {
+                svg[data-testid="SouthRoundedIcon"] {
+                    font-size: 15px;
+                    margin-top: 1px;
+                    margin-right: -3px;
+                }
+
+                svg[data-testid="MenuIcon"] {
+                    font-size: 16px;
+                }
+
+                .flip {
+                    transform: scaleY(-1);
+                }
+            }
+
+        }
+    }
+}

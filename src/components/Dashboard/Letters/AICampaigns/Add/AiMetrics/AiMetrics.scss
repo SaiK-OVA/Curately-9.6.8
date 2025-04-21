@@ -1,0 +1,102 @@
+// .dialog-title {
+//   font-size: 18px;
+//   font-weight: bold;
+//   color: #333;
+// }
+
+.dialog-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //padding-right: 16px;
+  position: relative;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.close-button {
+  color: #555; // Adjust color if needed
+}
+
+.dialog-content {
+  padding: 20px 24px;
+}
+
+.metric-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.metric-box .metric-name {
+  width: 120px;
+  font-weight: 500;
+  color: #007bff;
+}
+
+
+.metric-box .progress-container {
+  flex: 1;
+  margin-right: 16px;
+}
+
+.metric-box .progress-percentage {
+  width: 40px;
+  text-align: right;
+  color: #333;
+}
+
+.linear-progress {
+  height: 11.5px;
+  border-radius: 15px;
+  background-color: #e0e0e0;
+}
+
+.linear-progress .MuiLinearProgress-barColorPrimary {
+  background-color: #007bff;
+  /* Custom color for progress bar */
+}
+
+.diversity-metrics {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  /* Add spacing between diversity metrics */
+  width: 100%;
+
+  .metric-box {
+    .progress-container {
+      .linear-progress .MuiLinearProgress-barColorPrimary {
+        background-color: #e0e0e0;
+      }
+    }
+
+    .metric-name {
+      width: 80px;
+      color: gray;
+    }
+  }
+
+}
+
+.dialog-actions {
+  padding: 10px 24px;
+  justify-content: flex-end;
+  background-color: #f9f9f9;
+  //border-top: 1px solid #e0e0e0;
+}
+
+.MetricsPage {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: flex-end;
+  gap: 90px;
+
+  .Metrics_sub {
+    width: 100%;
+  }
+}

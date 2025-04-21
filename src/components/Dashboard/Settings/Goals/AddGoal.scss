@@ -1,0 +1,46 @@
+#AddGoal {
+    max-width: 720px;
+    margin: auto;
+
+    .inputLabel {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        color: var(--c-text-labels);
+        margin-bottom: 0;
+        margin-top: 0;
+    }  
+        
+    .MuiSelect-select .MuiSelect-outlined {
+
+        padding: 4px 2px 2px 10px !important;
+        font-size: 13px !important;
+        min-height: 26px;
+    }
+
+    .MuiInputBase-input,
+    .MuiOutlinedInput-input {
+        padding: 4px 2px 2px 10px !important;
+        font-size: 13px !important;
+        min-height: 26px;
+    } 
+     
+    .customCard1 {
+        // box-shadow: var(--shadow-4);
+      //  box-shadow: var(--curatelyLightGrey);
+        width: 100%;
+        min-height: 70px;
+        background-color:  var(--c-neutral-10);
+        padding: 10px;
+        border-radius: 10px; 
+        margin: 2px;
+    }
+
+     .customCard1 .closeIcon {
+        position:relative;
+        right: -10px;
+        top: -10px;
+        
+        cursor: pointer;
+    }
+}

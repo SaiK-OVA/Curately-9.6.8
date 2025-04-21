@@ -1,0 +1,86 @@
+.ql-mergeField {
+    width: 60px;
+    margin-left: 10px;
+
+    .ql-picker-item:before {
+        content: attr(data-label);
+    }
+
+    .ql-picker-label:before {
+        content: attr(data-label);
+    }
+
+    .ql-picker-label svg {
+        display: none !important;
+    }
+
+    .ql-picker-label {
+        border-color: white !important;
+    }
+
+    [class="ql-picker-item"][data-value="0"] {
+        display: none !important;
+    }
+
+    .ql-picker-options {
+        top: -200px !important;
+        right: 0 !important;
+        overflow: auto;
+        height: 200px;
+    }
+}
+
+.ql-toolbar {
+    // position: absolute;
+    // bottom: 0;
+    // width: 100%;
+    width: 100%;
+    position: absolute;
+    // bottom: -41px;
+    // bottom: 9px;
+    bottom: 0px;
+    // transform: translateY(100%);
+    padding: 13px 8px !important;
+    background-color: var(--curatelyWhite) !important;
+    z-index: 999 !important;
+}
+
+.text-editor {
+    position: relative;
+}
+
+.ql-header .ql-picker-options {
+    top: -222px !important;
+}
+
+.ql-color .ql-picker-options,
+.ql-background .ql-picker-options,
+.ql-align .ql-picker-options {
+    top: -105px !important;
+}
+
+.text-editor {
+    margin-bottom: 12px;
+
+    .quill {
+        margin-bottom: 61px !important;
+        position: relative;
+    }
+
+    .ql-container {
+        border: 1px solid #ccc !important;
+        margin-bottom: -10px;
+        border-radius: 4px 4px 0 0;
+    }
+
+    .ql-editor {
+        height: 210px !important;
+        min-height: 210px !important;
+        overflow: auto;
+        margin-bottom: 10px;
+    }
+}
+
+.MuiIconButton-root.Mui-disabled {
+    opacity: 0.3;
+}

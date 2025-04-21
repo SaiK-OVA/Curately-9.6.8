@@ -1,0 +1,203 @@
+p1- 59
+p2- 13
+p3- 2
+
+total - 74
+
+Production issues : 
+
+
+
+Fixed
+
+Shafi
+
+Priyanka
+
+Aditya
+
+
+Front End
+
+
+
+
+Need to Discuss:-
+
+
+
+Vali
+
+
+
+
+API
+
+
+
+Phani
+
+
+
+
+QA - Revalidate
+
+
+
+Anil 
+
+
+
+https://tomcat.apache.org/tomcat-8.5-doc/config/http.html
+<Connector port="8900" protocol="HTTP/1.1"
+     connectionTimeout="20000"
+     redirectPort="8443" 
+     compression="on"
+     compressionMinSize="256"
+     compressableMimeType="text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json"
+     noCompressionUserAgents="gozilla, traviata"/>
+
+
+    compression="on"
+    compressionMinSize="128"
+    noCompressionUserAgents="gozilla, traviata"
+
+     <Connector port="8900" protocol="HTTP/1.1"
+     connectionTimeout="20000"
+     redirectPort="8443" />
+
+
+
+https://Curately.broutonlab-demo.cc/api/v1/docs#/
+
+https://www.figma.com/design/8LdPstUmZfGa23OlMFu2dZ/app.Curately.ai?node-id=16585-12031&node-type=connector&t=ErW1d554kOKu5Gyq-0
+
+
+https://levelup.gitconnected.com/after-reviewing-500-react-components-heres-what-you-should-know-f2583483be27
+
+
+https://medium.com/@samhodev/signals-future-of-react-state-management-f4b04b897c9e
+
+https://javascript.plainenglish.io/how-to-write-tests-using-jest-the-best-practice-99a5d207be87
+
+https://krausest.github.io/js-framework-benchmark/2024/table_chrome_127.0.6533.72.html#eyJmcmFtZXdvcmtzIjpbImtleWVkL2FuZ3VsYXItY2YiLCJrZXllZC9hbmd1bGFyLWNmLW5vem9uZSIsImtleWVkL2FuZ3VsYXItY2Ytc2lnbmFscyIsImtleWVkL2FuZ3VsYXItbmdmb3IiLCJrZXllZC9yZWFjdC1jbGFzc2VzIiwia2V5ZWQvcmVhY3QtaG9va3MiLCJrZXllZC9yZWFjdC1yZWR1eCIsImtleWVkL3JlYWN0LXJlZHV4LWhvb2tzIiwia2V5ZWQvcmVhY3QtenVzdGFuZCIsImtleWVkL3Z1ZSJdLCJiZW5jaG1hcmtzIjpbIjAxX3J1bjFrIiwiMDJfcmVwbGFjZTFrIiwiMDNfdXBkYXRlMTB0aDFrX3gxNiIsIjA0X3NlbGVjdDFrIiwiMDVfc3dhcDFrIiwiMDZfcmVtb3ZlLW9uZS0xayIsIjA3X2NyZWF0ZTEwayIsIjA4X2NyZWF0ZTFrLWFmdGVyMWtfeDIiLCIwOV9jbGVhcjFrX3g4IiwiMjFfcmVhZHktbWVtb3J5IiwiMjJfcnVuLW1lbW9yeSIsIjIzX3VwZGF0ZTUtbWVtb3J5IiwiMjVfcnVuLWNsZWFyLW1lbW9yeSIsIjI2X3J1bi0xMGstbWVtb3J5IiwiNDFfc2l6ZS11bmNvbXByZXNzZWQiLCI0Ml9zaXplLWNvbXByZXNzZWQiLCI0M19maXJzdC1wYWludCJdLCJkaXNwbGF5TW9kZSI6MX0=
+
+https://www4.accuick.com/Accuick/Reports/pushJobs.jsp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    checkSettingsByValue(
+        val: roleNumbersInterface['settingRoleWiseNumbers'],
+        type: 'ACCESS' | 'VIEW' | 'CREATE_EDIT' | 'CREATE_EDIT_DELETE' | 'VIEW_EDIT' | 'EDIT_DELETE'
+    ) {
+
+        if (userLocalData.getSettings('settingsRoleWise')) {
+            let roleSettings = userLocalData.getSettings('settingsRoleWise');
+            return (roleSettings[val] || ");
+        }
+        if (userLocalData.getSettings('settingsRoleWise')) {
+            let roleSettings = userLocalData.getSettings('settingsRoleWise');
+            return (roleSettings[val] || ");
+        }
+        return ";
+        // 0  NO_ACCESS
+        // 1  ACCESS
+        // 2  VIEW_ONLY
+        // 3  CREATE_EDIT
+        // 4  CREATE_EDIT_DELETE
+        // 5  VIEW_EDIT
+        // 6  EDIT_DELETE
+    }
+
+
+
+
+
+
+
+
+
+
+https://www2.jobdiva.com/employers/myactivities/contactmgr/vieweditcustomerformV2.jsp?cid=43976598
+ 
+https://www2.jobdiva.com/employers/myjobs/vieweditjobform.jsp?jobid=24674208
+ 
+https://www2.jobdiva.com/employers/myreports/viewcandidate2_real.jsp?candidateid=16418558770902
+ 
+
+
+Chrome Dashboard - Campaign Performance, Leader Board - Emails sent, Leader Board - Candidates Added to Curately,Leader Board - replies received
+
+
+MUI Table -- Focused - Jobs, Applicants
+
+
+
+
+Curately
+Admin
+Chrome Extension
+Chrome Extension React  -- Move
+Workflow  -- Move
+Accuick React
+
+
+
+
+
+
+
+==> working
+https://test-curately.s3.us-west-2.amazonaws.com/DOC
+https://test-curately.s3.us-west-2.amazonaws.com/jpeg.jpeg
+https://test-curately.s3.us-west-2.amazonaws.com/JPG.jpg
+https://test-curately.s3.us-west-2.amazonaws.com/png1.png
+https://test-curately.s3.us-west-2.amazonaws.com/XLS
+https://test-curately.s3.us-west-2.amazonaws.com/XLSX
+https://test-curately.s3.us-west-2.amazonaws.com/CSV.csv
+https://test-curately.s3.us-west-2.amazonaws.com/pdf.pdf
+https://test-curately.s3.us-west-2.amazonaws.com/TXT.txt
+
+==> not working
+https://test-curately.s3.us-west-2.amazonaws.com/Sample.csv.csv
+https://test-curately.s3.us-west-2.amazonaws.com/Sample.doc.doc
+https://test-curately.s3.us-west-2.amazonaws.com/Sample.docx.docx
+https://test-curately.s3.us-west-2.amazonaws.com/sample.eml
+https://test-curately.s3.us-west-2.amazonaws.com/Sample.rtf.rtf
+https://test-curately.s3.us-west-2.amazonaws.com/Sample.xls.xls
+https://test-curately.s3.us-west-2.amazonaws.com/Sample.xlsx.xlsx
+
+==> File not Found
+https://test-curately.s3.us-west-2.amazonaws.com/DOCX
+https://test-curately.s3.us-west-2.amazonaws.com/RTF
+
+
+==> Cors Issue
+
+https://test-curately.s3.us-west-2.amazonaws.com/Sample.pdf.pdf
+https://test-curately.s3.us-west-2.amazonaws.com/sample.txt.txt
+
+
+
+==> Image not rendering
+https://test-curately.s3.us-west-2.amazonaws.com/Sample.jpeg.jpeg
+https://test-curately.s3.us-west-2.amazonaws.com/sample.jpg.jpg
+https://test-curately.s3.us-west-2.amazonaws.com/Sample.png.png
+
+
+

@@ -1,0 +1,166 @@
+.formBuilder {
+    .componentView {
+        #verify_button{
+            color: #fff;
+            width: auto !important;
+            height: 26px !important;
+            border-radius: 4px !important;
+            padding: 0 12px !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            text-transform: capitalize !important;
+        }
+        padding: 30px 10px 20px 10px;
+
+        .formTitle {
+            color: #555555;
+            padding: 0 10px 0 20px;
+            margin-bottom: 5px;
+            font-size: 17px;
+        }
+
+        .form-btn {
+            border: 1px solid transparent !important;
+            /* margin: 0px !important; */
+            padding: 0px !important;
+            width: 36px !important;
+            min-width: 36px !important;
+            height: 32px !important;
+            border-radius: 0px !important;
+            box-shadow: none !important;
+        }
+
+        // .preview-container-child {
+        //     min-height: calc(100vh - 120px);
+        //     max-height: calc(100vh - 120px);
+        // }
+
+        .formInputsGrid {
+            min-height: calc(100vh - 250px);
+            max-height: calc(100vh - 250px);
+            // height: calc(100vh - 250px);
+            // max-height: 100%;
+            // overflow: auto;
+            max-width: 600px;
+            margin: auto;
+            padding: 0 16px;
+            padding-top: 3%;
+        }
+
+        .mobile .formInputsGrid {
+            min-height: calc(100vh - 230px);
+            max-height: calc(100vh - 230px);
+            overflow: auto;
+        }
+
+        .desktop {
+            .preview {
+                .formInputsGrid {
+                    min-height: calc(100vh - 250px);
+                    max-height: calc(100vh - 250px);
+                    overflow: auto;
+                }
+            }
+        }
+
+        .mobile {
+            .preview {
+                .formInputsGrid {
+                    min-height: calc(100vh - 290px);
+                    max-height: calc(100vh - 290px);
+
+
+                }
+            }
+        }
+
+        .previewContainter {
+            max-width: 100%;
+            width: 600px;
+            background-color: white;
+            // box-shadow: 0 0 10px #0003;s
+            padding: 10px 0
+        }
+
+        .desktop {
+            .previewContainter {
+                width: 75%;
+                max-width: 75%;
+                margin: auto;
+                // height: calc(100vh)
+            }
+        }
+
+        .mobile {
+            .previewContainter {
+                width: 90% !important;
+                max-width: 350px !important;
+                // height: calc(100vh - 70px);
+                margin: auto;
+                // height: calc((var(--vh, 1vh) * 100) - 70px)
+            }
+        }
+
+        .btn-back {
+            font-family: Segoe UI !important;
+        }
+
+        .preview-label,
+        .preview-label-desc,
+        .preview-label-desc1,
+        .preview-label-error {
+            font-family: Segoe UI !important;
+            font-size: 13px !important
+        }
+
+        .preview-label-desc1 {
+            font-weight: 300;
+            color: #959595;
+        }
+
+        .preview-label-error {
+            color: red;
+            // margin-bottom: 12px;
+            // height: 16px;
+        }
+
+        .preview-label-desc {
+            color: #959595;
+
+        }
+
+        .preview-label-desc-title {
+            color: #959595;
+            font-weight: bold;
+        }
+
+        .preview-header {
+            font-family: Segoe UI !important;
+            font-size: 14px !important;
+
+        }
+
+        .preview-header-title {
+            font-family: Segoe UI !important;
+            font-size: 14px !important;
+            font-weight: 600;
+
+        }
+
+        .preview-label ol,
+        .preview-label ul {
+            padding: 15px 15px 0px 15px !important
+        }
+
+        .preview-display-text {
+            font-family: Segoe UI !important;
+            word-break: break-all !important;
+        }
+
+    }
+
+    // .preview-form-item {
+    //     margin: 0 20px;
+    // }
+}

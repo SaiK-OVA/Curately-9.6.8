@@ -1,0 +1,144 @@
+.GenerateMagicWand {
+    width: 98%;
+
+    padding: 5px 5px;
+    font-size: 13px;
+
+
+
+    .customCard_outer {
+        box-shadow: var(--shadow-1);
+        width: 100% !important;
+        min-height: 60px;
+        background-color: var(--curatelyWhite);
+        margin-bottom: 2px;
+        padding: 2px;
+        border: 1px solid #dfdede;
+        border-radius: 5px;
+    }
+
+
+    .customCard {
+        box-shadow: var(--shadow-1);
+        width: 100% !important;
+        min-height: 100px;
+        background-color: var(--curatelyWhite);
+        margin-bottom: 20px;
+        padding: 20px;
+        border: 1px solid #dfdede;
+        border-radius: 5px;
+    }
+
+    .groupHeader {
+        padding: 5px;
+    }
+
+    .iconStyle {
+        padding: 4px;
+        float: right;
+    }
+
+    .txtWidth {
+        width: 98% !important;
+        border: #1fe53d solid 1px;
+    }
+
+    .headermagicwand {
+        font-style: italic;
+    }
+
+    .titlesize {
+        font-size: 13px;
+    }
+
+    .butWidth {
+        width: 12px;
+        margin: 0px 2px;
+    }
+
+    .ansColor {
+        color: #1fe53d;
+        font-weight: 600;
+    }
+
+    .Mui-expanded .MuiAccordionSummary-gutters {
+        padding: 0px 8px;
+    }
+
+    .MuiAccordionSummary-root {
+        align-items: baseline;
+        padding: 0px 8px;
+        min-height: 30px;
+        width: 98%;
+    }
+
+    // .MuiFormControlLabel-root{
+    //     width: 30px;
+    //     vertical-align: top;
+    // }
+    .MuiAccordionSummary-content {
+        padding: 0px 1px;
+    }
+
+
+
+    .MuiAccordion-root {
+        box-shadow: none;
+        border: 1px solid #ccc;
+        min-width: 300px;
+        max-width: 98%;
+
+        &::before {
+            background-color: #f0f0f0;
+        }
+
+        .MuiAccordionSummary-expandIconWrapper {
+            color: var(--c-text-placeholder);
+        }
+
+        &.Mui-expanded {
+            border: 1px solid var(--c-primary-color);
+            z-index: 999;
+
+            .MuiAccordionSummary-expandIconWrapper {
+                color: var(--c-primary-color);
+            }
+        }
+
+
+        .MuiButtonBase-root {
+
+            &:hover,
+            &.Mui-expanded {
+                .acc-title {
+
+                    .MuiSvgIcon-root,
+                    p {
+                        color: var(--c-primary-color);
+                    }
+                }
+            }
+        }
+
+        .MuiInputBase-formControl,
+        .MuiInputBase-root {
+            padding: 1px 6px;
+
+            &:hover .MuiOutlinedInput-notchedOutline {
+                border-color: var(--c-primary-color);
+            }
+
+            &.Mui-focused fieldset {
+                border-width: 1px;
+            }
+
+            .MuiSelect-select,
+            .MuiInputBase-input {
+                padding: 8px 8px;
+            }
+        }
+
+
+    }
+
+}

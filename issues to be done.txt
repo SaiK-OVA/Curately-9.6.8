@@ -1,0 +1,37 @@
+
+Overview  - Save Layout - Add Card ---> waiting for API's
+
+Applicants	- status ---> 
+
+Community	More Filters ---> waiting for API's
+
+Candidate	Primary - Phone number and Email
+
+Talent pool	 - Candidate Match Criteria, Add to Sequence ---> Front End 
+
+Resumes	Select all people ---> waiting for API's
+
+Contacts	Placements ---> waiting for API's
+
+Jobs	Board Name   Publish	  UnPublish
+
+Jobs	Select all people 
+
+Job - Applicants - Search Candidate
+
+Jobs - Applicants   - 	Status - need to remove
+
+Jobs -	Sourced -	Sorting -	Name, status, search
+
+Jobs -	Sourced - Select all, Clone to other job
+
+Sequence	Send Preview
+
+Workflow	candidate status
+
+Workflow	Use video from Library ---> Front End 
+
+Reports ---> waiting for API's
+
+
+Mapping Fields

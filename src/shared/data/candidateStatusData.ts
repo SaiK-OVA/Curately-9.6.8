@@ -1,0 +1,31 @@
+
+export const masterStatusList: { id: number, label: string }[] = [
+    // { id: 1, label: "View" },
+    // { id: 2, label: "Shortlist" },
+    // { id: 3, label: "Phone Call" },
+    // { id: 4, label: "Pipeline" },
+    // { id: 5, label: "Not Interested" },
+    // { id: 6, label: "Not Available" },
+    // { id: 7, label: "Submitted by Competition" },
+    // { id: 8, label: "Internal Submission" },
+    // { id: 9, label: "Call First" },
+    // { id: 10, label: "Not Qualified" },
+    // { id: 11, label: "Client Submission" },
+    // { id: 12, label: "Interview Requested" },
+    // { id: 13, label: "Offer Made" },
+    // { id: 14, label: "Forward to HM" },
+    // { id: 15, label: "Placement" },
+    // { id: 16, label: "Bad Delivery" },
+    // { id: 17, label: "Off Market" }
+
+    { id: 1, label: "Lead" },
+    { id: 2, label: "Not reviewed" },
+    { id: 3, label: "Contacted" },
+    { id: 4, label: "Presented" },
+    { id: 5, label: "Interviewing" },
+    { id: 6, label: "Offer Made" },
+    { id: 7, label: "Onboarding" },
+    { id: 8, label: "On Assignment" },
+    { id: 9, label: "Past Contractor" },
+    { id: 10, label: "Do Not Hire" },
+]

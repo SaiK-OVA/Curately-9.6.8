@@ -1,0 +1,46 @@
+#CustomReportList {
+    // width: 90%;
+    // margin: auto;
+
+
+    .editLink {
+        color: var(--c-primary-color);
+        cursor: pointer;
+    }
+
+    .editLink:hover {
+        text-decoration: underline;
+    }
+
+    .actions svg {
+        cursor: pointer;
+    }
+
+    .actionIcons {
+        min-width: 21px;
+        display: inline-block;
+    }
+
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 285px);
+        min-height: calc(100vh - 285px);
+    }
+
+    .MRTableCustom {
+        .css-192dx0w {
+            display: none;
+        }
+
+        .MuiBox-root {
+            left: 0 !important;
+            top: 0 !important;
+            align-items: center;
+        }
+    }
+
+    .MuiTableContainer-root+.MuiBox-root>.MuiBox-root {
+        flex-direction: row-reverse !important;
+        padding: 0;
+    }
+
+}

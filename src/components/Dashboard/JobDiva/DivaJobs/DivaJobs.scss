@@ -1,0 +1,80 @@
+#DivaJobs {
+    margin: 10px;
+
+
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 380px) !important;
+        overflow: auto;
+        max-width: 100%;
+        min-height: calc(100vh - 380px) !important;
+    }
+
+    .MRTableCustom {
+        .MuiTablePagination-root {
+            display: none;
+        }
+    }
+
+    [aria-label="Show/Hide search"] {
+        display: none !important;
+    }
+
+    .user-disabled {
+        margin-right: 5px;
+        color: var(--curatelyDisabledGrey);
+        border-color: var(--curatelyDisabledGrey);
+        text-transform: capitalize;
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+
+    .actionItems {
+        margin-left: -10px;
+    }
+
+    .errorMsg {
+        // font-size: 20px !important;
+        cursor: pointer;
+    }
+
+    .CardView,
+    .MRTableCustom {
+        // .css-192dx0w {
+        //     display: none;
+        // }
+
+        .MuiBox-root {
+            left: 0 !important;
+            top: 0 !important;
+            align-items: center;
+        }
+
+    }
+
+    .MuiTableContainer-root+.MuiBox-root>.MuiBox-root {
+        flex-direction: row-reverse !important;
+        padding: 0;
+    }
+
+    .searched-select-container {
+        .MuiTypography-root {
+            padding-left: 1rem;
+            font-size: 13px;
+        }
+
+        .MuiInputBase-root {
+            padding: 2px 1rem 2px 0.5rem;
+            border: 1px solid lightgray;
+            background-color: white;
+
+            .MuiOutlinedInput-notchedOutline {
+                border: none;
+            }
+
+            .MuiSelect-select {
+                padding: 2px 1rem 2px 0.5rem;
+            }
+        }
+    }
+
+}

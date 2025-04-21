@@ -1,0 +1,63 @@
+#candidateOverview {
+    .mainDetailsVerticalTabPanel {
+        width: calc(100% - 165px);
+
+        &>div {
+            max-height: 460px;
+            overflow: auto;
+        }
+    }
+
+    .mainLabel {
+        min-width: 105px;
+    }
+
+    .labelDiv {
+        margin-right: 10px;
+    }
+
+    .valueLabel {
+        display: block !important;
+        word-wrap: break-word !important;
+        white-space: normal !important;
+        max-width: calc(100% - 110px);
+    }
+
+    .vertical-menu-item {
+        color: var(--c-text-labels);
+        align-items: flex-start !important;
+        text-transform: none !important;
+        font-size: 14px;
+        min-width: 150px;
+        width: 150px;
+    }
+
+    .vertical-menu-item.Mui-selected {
+        color: var(--c-primary-color) !important;
+    }
+
+    .historyBlock {
+        padding-bottom: 15px;
+
+        h5 {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 16px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            width: 100%;
+            color: var(--c-text-primary);
+        }
+
+        span {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            color: var(--c-text-secondary);
+        }
+    }
+}

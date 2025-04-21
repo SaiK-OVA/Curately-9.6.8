@@ -1,0 +1,32 @@
+.formBuilder {
+    .menu-list-cls {
+        width: 320px;
+        margin-top: 0px !important;
+        box-shadow: none !important;
+    }
+
+    // .MuiMenuItem-root {
+    //     font-family: Regular;
+    // }
+
+    .menu-list-cls .MuiMenu-list {
+        padding: 0 !important
+    }
+
+    .menu-header {
+        padding: 10px 0px 10px 15px;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 700;
+        opacity: 0.6;
+    }
+
+    .icon-cls {
+        font-size: 13px;
+    }
+
+    .menu-list-cls>li {
+        font-size: 13px;
+
+    }
+}

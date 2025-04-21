@@ -1,0 +1,57 @@
+#UserAcitivity-container {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+
+    .activity-link {
+        color: var(--c-primary-color);
+        text-decoration: none;
+    }
+
+    .activity-link:hover {
+        text-decoration: underline;
+    }
+
+    .MuiTypography-body1 {
+        margin-bottom: 4px;
+    }
+
+    .MuiTypography-caption {
+        color: #666;
+    }
+
+    #UserAcitivity-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .header-link {
+            color: blue;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+    .css-15r4n4i-MuiModal-root-MuiDialog-root  {
+        height: 500px;
+        width: 700px;
+    }
+    // .activity-card {
+    //     margin-bottom: 10px;
+    // }
+
+    // .activity-icon {
+    //     font-size: 24px;
+    //     margin-right: 8px;
+    //     padding: 5px;
+    // }
+
+    // .activity-content {
+    //     display: flex;
+    //     flex-direction: row;
+    //     align-items: center;
+    //     justify-content: center;
+
+
+    // }
+}

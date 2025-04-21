@@ -1,0 +1,53 @@
+.conferencingIcon {
+    width: 21px;
+    height: 21px;
+}
+
+#AssignWorkflow {
+    .Card1 {
+        background-color: var(--gray-100);
+    }
+
+    .divider {
+        border-top: 1px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
+        height: 1px;
+    }
+
+    .AssignJobData {
+        white-space: pre-wrap !important;
+        font-weight: 650;
+        font-size: 14px;
+        color: var(--c-text-body);
+    }
+
+    .input-label {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        color: var(--c-text-header);
+        margin-bottom: 5px;
+    }
+
+    .MuiBreadcrumbs-separator {
+        svg {
+            font-size: 18px;
+            stroke: var(--curatelyWhite);
+        }
+    }
+
+    .MuiBreadcrumbs-li {
+        padding: 5px 0;
+    }
+
+    .breadcrumbStageList {
+        border: 1px solid var(--curatelyDarkGrey);
+        padding: 0 6px;
+        font-size: 12px;
+        background: var(--curatelyWhite);
+        color: var(--curatelyBlack);
+    }
+
+}
+
+// #AssignWorkflow {}

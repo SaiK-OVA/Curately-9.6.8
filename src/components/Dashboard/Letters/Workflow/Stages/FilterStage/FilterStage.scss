@@ -1,0 +1,88 @@
+#heading {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ifText {
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+
+}
+
+.editGrid_filter {
+    min-height: 43px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-flex;
+    position: relative;
+    padding-right: 25px;
+
+    padding-bottom: 10px;
+
+    span {
+        padding-top: 1px;
+    }
+
+    .editIcon {
+        display: none;
+        position: absolute;
+        right: 5px;
+        bottom: 60px;
+    }
+
+    .editIcon:hover {
+        background-color: none !important;
+        background: none !important;
+
+    }
+}
+
+.editGrid_filter:hover {
+    padding-top: 0px;
+    background-color: rgba(0, 105, 255, 0.067);
+
+    .editIcon {
+        display: block !important;
+    }
+}
+
+.doText {
+    color: rgb(3, 117, 3);
+    font-weight: bold;
+    padding-left: 12px;
+}
+
+.conditionInput {
+    position: relative;
+    top: 78px;
+}
+
+// .ifText.relPosition {
+//     position: absolute;
+// }
+// .editIcon svg{
+//     position: absolute;
+//     bottom: 1vw;
+//     right: 1vw;
+// }
+
+.ml-n100 {
+    margin-left: -108px;
+}
+
+.w-115 {
+    width: 115px;
+}
+
+.filterDialog {
+
+    .dialogContent {
+        width: 1200px;
+        max-width: calc(100vw - 150px);
+    }
+
+    // .editFilter {
+    //     max-width: calc(100% - 40px);
+    // }
+
+}

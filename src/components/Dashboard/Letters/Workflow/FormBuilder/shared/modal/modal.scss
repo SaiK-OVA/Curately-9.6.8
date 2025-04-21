@@ -1,0 +1,45 @@
+::placeholder {
+    font-size: 13px !important;
+}
+
+.box-label {
+    padding-bottom: 5px;
+    font-size: 13px;
+    // font-family: Regular !important;
+}
+
+.text-cls {
+    font-size: 13px;
+    // font-family: Regular !important;
+    border-radius: 5px;
+}
+
+.btn-action {
+    font-size: 13px !important;
+    background-color: rgb(227, 227, 227) !important;
+    text-transform: inherit !important;
+    color: rgb(38, 38, 39) !important;
+    // font-family: Regular !important;
+    box-shadow: none !important;
+}
+
+.dropdown-help-text {
+    font-size: 13px !important;
+    // font-family: Regular !important;
+}
+
+.dropdown-help-title {
+    font-size: 16px !important;
+    // font-family: Regular !important;
+}
+
+.dialogue-actions {
+    padding: 8px 22px 8px 8px !important;
+    // font-family: Regular !important;
+}
+
+.btn-action:disabled {
+    color: rgb(187, 187, 187) !important;
+    background-color: rgb(227, 227, 227) !important;
+    pointer-events: none;
+}

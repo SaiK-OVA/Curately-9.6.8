@@ -1,0 +1,157 @@
+#dashboardCard {
+    .email_box {
+        width: 1225px !important;
+        height: 350px;
+        position: relative;
+
+        .emailsent_main {
+            display: flex;
+            gap: 10px;
+
+            .email_box_subdiv {
+                width: 387px !important;
+                height: 300px;
+                position: relative;
+            }
+        }
+
+        .Custom_grid {
+            direction: row;
+            justify-content: left;
+            align-items: start;
+            gap: 15px;
+
+            .email_status {
+                width: 250px !important;
+                height: 150px
+            }
+        }
+
+    }
+
+    .customCard {
+
+        .MuiPaper-root {
+            box-shadow: none;
+        }
+
+        .hightLightTd {
+            color: var(--c-primary-color);
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        &.applicants {
+            .MuiTableContainer-root {
+                height: 270px;
+            }
+        }
+
+        .MuiTable-root td span,
+        .MuiTable-root td {
+            text-transform: capitalize;
+        }
+    }
+
+    .customCard.applicants {
+        .MuiTable-root td {
+            padding: 4px 7px !important;
+        }
+    }
+
+    .cardW850 {
+        max-width: 700px;
+        width: 700px;
+        margin-right: 8px;
+    }
+
+    .statusRow {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 170px;
+        background-color: #fff;
+
+        span {
+            display: flex;
+            width: 34px;
+            height: 24px;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding-right: 4px;
+
+            &::before {
+                content: '';
+                position: absolute;
+                width: 19px;
+                height: 19px;
+                border: 1px solid #ccc;
+                transform: rotate(45deg);
+                border-left-color: transparent;
+                border-bottom-color: transparent;
+                right: 0px;
+            }
+
+            &:last-child::before {
+                display: none;
+            }
+        }
+    }
+
+    .MuiTableContainer-root {
+        height: 240px;
+        overflow: hidden;
+    }
+
+    .doughDot {
+        top: calc(50% - 4px);
+        left: 0;
+        width: 8px;
+        height: 8px;
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+    }
+
+    .doughList {
+        position: relative;
+        padding: 4px 0 4px 15px;
+    }
+
+    .doughLabel {
+        text-transform: capitalize;
+    }
+
+    #reactCards {
+        width: 100%;
+        border: 0;
+        height: calc(100vh - 165px);
+    }
+
+    .applicantsJobsCard {
+        .MuiTabs-root {
+            min-height: 24px;
+        }
+
+        button.MuiButtonBase-root.MuiTab-root {
+            padding: 0 !important;
+            min-height: 30px !important;
+        }
+    }
+
+    .table_panel {
+        padding: 0.7vw;
+    }
+
+    .cursor-pointer {
+        cursor: pointer;
+    }
+}
+
+.list_item {
+    padding: 2px 18px;
+}
+
+.list_item_options {
+    padding: 2px 20px;
+}

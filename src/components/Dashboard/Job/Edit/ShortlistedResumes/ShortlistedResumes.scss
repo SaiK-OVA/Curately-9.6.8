@@ -1,0 +1,42 @@
+.externalapp {
+    color: var(--curatelyBlack);
+    border: 1px solid var(--curatelyBlack);
+    width: 160px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: start;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+.downloadcv {
+    background-color: var(--curatelyPurple);
+    margin-left: 40px;
+    display: flex;
+    border-radius: 15px;
+    white-space: nowrap;
+
+}
+
+.radio {
+    margin-left: 580px;
+}
+
+.bigbox {
+    width: 375px;
+    height: 180px;
+    padding-left: 25px;
+    border: 1px solid var(--curatelyBlack);
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+.advert {
+    color: var(--curatelyPurple);
+}
+
+.filicon {
+    align-items: flex-end;
+}

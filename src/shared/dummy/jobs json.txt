@@ -1,0 +1,146 @@
+{
+    "v": "v9",
+        "data": [
+            {
+                "selectable": true,
+                "width": "35px",
+                "locked": true
+            },
+            {
+                "template": `#if(status == "Open") {# <span class='badge badge-pill badge_open'>Open</span>#}
+                    else if(status == "Halted") {# <span class='badge badge-pill badge_halted'>Halted</span>#}
+                    else if(status == "Closed") {# <span class='badge badge-pill badge_closed'>Closed</span>#}
+                    else if(status == "Cancelled") {# <span class='badge badge-pill badge_cancelled'>Cancelled</span>#}
+                    else if(status == "Pipeline") {# <span class='badge badge-pill badge_pipeline'>Pipeline</span>#}
+                    else if(status == "Heads Up") {# <span class='badge badge-pill badge_headsup'>Heads Up</span>#}
+                    else if(status == "ReOpened") {# <span class='badge badge-pill badge_reopened'>ReOpened</span>#}
+                    else if(status == "Automation") {# <span class='badge badge-pill'>Automation</span>#}
+                    else if(status == "POC") {# <span class='badge badge-pill'>POC</span>#}"`,
+                "field": "status",
+                "hidden": false,
+                "stickable": true,
+                "title": "Status",
+                "width": 105,
+                "sortable": true,
+                "lockable": true
+            },
+            {
+                "field": "jobtype",
+                "hidden": false,
+                "stickable": true,
+                "title": "&nbsp;",
+                "width": 52.8,
+                "lockable": true,
+                "sortable": true,
+                "headerAttributes": {
+                    "title": "Job Type"
+                }
+            },
+            {
+                "field": "date",
+                "hidden": false,
+                "stickable": true,
+                "title": "Created",
+                "width": 111.8,
+                "sortable": true,
+                "lockable": true,
+                "filterable": false,
+                "format": "{0:MM/dd/yyyy}"
+            }, {
+                "template": `<span class="clickable" title="#: title#" onclick="parent.getJobsList(#: jobid#, 'Adityak', '1893'); parent.openJob(); ">#:title#</span>`,
+                "field": "title",
+                "hidden": false,
+                "stickable": true,
+                "title": "JobTitle",
+                "width": 331.8,
+                "lockable": true,
+                "sortable": true
+            }, {
+                "field": "reqno",
+                "hidden": false,
+                "stickable": true,
+                "title": "Req ID",
+                "width": 104.8,
+                "lockable": true,
+                "sortable": true
+            }, {
+                "template": `<span class= "clickable" title="#: hiringmanager#" onclick='parent.loadContactFromJob(#:candid#,#:empid#);' >#: hiringmanager#</span>`,
+                "field": "hiringmanager",
+                "hidden": false,
+                "stickable": true,
+                "title": "HM Manager",
+                "width": 141.8,
+                "lockable": true,
+                "sortable": true
+            }, {
+                "field": "mspowner",
+                "hidden": false,
+                "stickable": true,
+                "title": "MSP",
+                "width": 89.8,
+                "sortable": true
+            }, {
+                "field": "loc",
+                "hidden": false,
+                "stickable": true,
+                "title": "ST",
+                "width": 76.8,
+                "sortable": true,
+                "headerAttributes": { "title": "State" }
+            }, {
+                "field": "billrate",
+                "hidden": false,
+                "stickable": true,
+                "title": "Rate",
+                "width": 113
+            }, {
+                "field": "intersub",
+                "hidden": false,
+                "stickable": true,
+                "title": "ISub",
+                "width": 40,
+                "sortable": true,
+                "headerAttributes": { "title": "Internal Submission" }
+            }, {
+                "field": "clientsub",
+                "hidden": false,
+                "stickable": true,
+                "title": "CSub",
+                "width": 46,
+                "sortable": true,
+                "headerAttributes": { "title": "Client Submission" }
+            }, {
+                "field": "fhm",
+                "hidden": false,
+                "stickable": true,
+                "title": "FHM",
+                "width": 40,
+                "sortable": true,
+                "headerAttributes": { "title": "Forward to HM" }
+            }, {
+                "field": "interview",
+                "hidden": false,
+                "stickable": true,
+                "title": "INT",
+                "width": 33,
+                "sortable": true,
+                "headerAttributes": { "title": "Interview" }
+            }, {
+                "field": "clientreject",
+                "hidden": false,
+                "stickable": true,
+                "titleToDisp": "Client Reject",
+                "title": "CR",
+                "width": 41,
+                "sortable": true,
+                "headerAttributes": { "title": "Client Reject" }
+            }, {
+                "field": "offers",
+                "hidden": false,
+                "stickable": true,
+                "title": "Offers",
+                "width": 62,
+                "sortable": true
+            }
+        ]
+}

@@ -1,0 +1,173 @@
+// Admin
+
+30001 --> Direct Sourcing
+30002 --> High Volume Hiring
+30003 --> Talent Source
+30004 --> Staffing
+30005 --> Adhoc
+
+
+20001 -->  Core       -->  Jobs
+20002 -->  Core       -->  Candidates
+20003 -->  Core       -->  Clients
+20004 -->  Core       -->  Contacts
+20005 -->  Add-on     -->  Career portal
+20006 -->  Add-on     -->  Chatbot
+20007 -->  Add-on     -->  Projects/Talentpool
+20008 -->  Add-on     -->  Referral
+20009 -->  Add-on     -->  SMS
+20010 -->  Add-on     -->  Chrome Extension
+20011 -->  Add-on     -->  Public Talent Cloud
+20012 -->  Add-on     -->  Document Signing
+20013 -->  Add-on     -->  People Contact
+20014 -->  Add-on     -->  People Candidate
+20015 -->  Add-on     -->  System Checker
+20016 -->  Add-on     -->  IDIBU
+20017 -->  Add-on     -->  JobTarget
+20018 -->  Settings   -->  Applicants
+20019 -->  Settings   -->  Community
+20020 -->  Settings   -->  TalentPool
+20021 -->  Settings   -->  Resumes
+20022 -->  Settings   -->  People
+20023 -->  Settings   -->  Forms
+20024 -->  Settings   -->  Campaigns
+20025 -->  Settings   -->  Workflow
+20026 -->  Settings   -->  EmailBuilder
+20027 -->  Settings   -->  Hiring workflow
+20028 -->  Settings   -->  Journeys
+20029 -->  Reports    -->  Talent Community Insights
+20030 -->  Reports    -->  Executive Insights
+20031 -->  Reports    -->  Hiring Insights
+20032 -->  Reports    -->  Sourcing Insights
+20033 -->  Reports    -->  Pipeline Insights
+20034 -->  Reports    -->  Recruiter Activity Insights
+20035 -->  Reports    -->  Create Dashboard
+20036 -->  Reports    -->  AI Data Analyst
+20037 -->  Reports    -->  Custom Report
+20040 -->  Add-on     -->  Job Icon
+20041 -->  Settings   -->  People Location ALL
+20042 -->  Settings   -->  People Location US
+20043 -->  ATS        -->  BullHorn
+20044 -->  ATS        -->  VoiceAI
+20045 -->  ATS        -->  Avionteapi
+20046 -->  Settings   -->  Evalute
+20047 -->  ATS        -->  Jobdiva
+20048 -->  Settings   -->  Sovren
+20049 -->  Reports    -->  Outreach Activity
+20050 -->  Reports    -->  Outreach KPI
+20051 -->  Reports    -->  LinkedIn Viewed Profiles
+20052 -->  Settings   -->  SendGrid
+20053 -->  Settings   -->  Quick Action
+
+// Admin
+
+
+// Role
+10001   --> Yes --> Admin Settings
+100001  --> Yes --> User
+100002  --> Yes --> Role
+
+10002   --> Yes --> Company Settings
+110001  --> Yes --> Brand
+110002  --> No  --> Goals
+110003  --> No  --> Career portal
+110004  --> No  --> Organization
+110005  --> Yes --> Sources
+110006  --> No  --> Sending Limit
+110007  --> Yes --> Sequence ruleset
+110008  --> Yes --> Community 
+110009  --> No  --> Referral
+
+10003   --> No  --> Developer Settings
+120001  --> No  --> Webhook
+120002  --> No  --> API
+
+10004   --> No  --> App Settings
+130001  --> Yes --> Message Templates
+130002  --> Yes --> Custom Fields
+130003  --> Yes --> Reasons
+130004  --> Yes --> Option Banks
+130005  --> Yes --> Duplicate Settings
+130006  --> No  --> Score
+130007  --> No  --> Goals
+130008  --> Yes --> Holiday Setting
+
+40001   --> Yes --> Job Module
+400001  --> Yes --> Allow to create new job
+400002  --> Yes --> Allow to delete job
+400003  --> Yes --> Allow to merge jobs
+400004  --> Yes --> Allow to post jobs on internal and external sites
+
+40002   --> Yes --> Candidate Module
+400005  --> Yes --> Can create new candidate
+400006  --> Yes --> Can create Talent pools
+400007  --> Yes --> Can view/edit talent pools including private
+400008  --> Yes --> Can search in talent community
+400009  --> Yes --> Can search external job boards
+400010  --> No  --> Can search public talent pool
+
+40003   --> Yes --> Contact Module
+400011  --> Yes --> Can create new contact
+400012  --> Yes --> Can edit Contact
+// 400013  --> Yes --> Can merge contact
+400014  --> Yes --> Can view tasks, notes, activity logs of all users
+400015  --> Yes --> Can edit tasks, notes, activity logs of all users
+400040  --> Yes --> Can view Contact
+
+40004   --> No  --> Client Module
+400016  --> No  --> Can create new client
+400017  --> No  --> Can merge clients new client
+400018  --> No  --> Can view all clients
+400019  --> No  --> Can view only clients assigned to them
+
+40005   --> Yes --> Email and SMS
+400020  --> Yes --> Can send bulk email
+400021  --> Yes --> Can send bulk SMS
+400022  --> Yes --> Can send email on behalf of other users
+400023  --> Yes --> Can send SMS on behalf of other users
+400044 --> Can edit\/view Message Templates
+400045 --> Can edit\/delete Message Templates
+
+40006   --> No  --> People
+400024  --> No  --> Can search talent directory
+400025  --> No  --> Can add/edit personas
+400026  --> No  --> Can request email contact
+400027  --> No  --> Can request mobile contact 
+400028  --> No  --> Can bulk request mobile contact
+400029  --> No  --> Can bulk request email contact
+
+40007   --> Yes --> Analytics
+400030  --> Yes --> Can access executive insights
+400031  --> Yes --> Can access Hiring insights
+400032  --> Yes --> Can access recruiter activity insights
+400033  --> Yes --> Can access Sourcing insights
+400034  --> No  --> Can access Applicant insights
+400035  --> Yes --> Can access Community insights
+400036  --> Yes --> Can access pipeline insights
+400037  --> Yes --> Can access custom reports
+400041 --> Can access Outreach Activity
+400042 --> Can access Outreach KPI
+400043 --> Can access LinkedIn Viewed Profiles
+
+40008   --> No  --> Subscription
+400038  --> No  --> Usage
+400039  --> No  --> Manage Plan
+
+
+
+
+ // Role
+
+
+ // Role option values
+
+0   --> No Access
+1   --> Access
+2   --> View Only
+3   --> Create and Edit
+4   --> Create, Edit and Delete
+5   --> View and Edit
+6   --> Edit and Delete
+
+
+ // Role option values

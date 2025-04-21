@@ -1,0 +1,65 @@
+.popup-card-conatainer {
+    padding: 20px;
+    width: 45%;
+    border-radius: 10px;
+}
+
+.popup-header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.popup-input-header-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 50px;
+}
+
+.popup-header-button {
+    border-color: var(--curatelyLightGreen) !important;
+    color: var(--curatelyLightGreen);
+    // text-transform: capitalize;
+    margin-top: 7px;
+
+}
+
+.checkbox-tickMark.Mui-checked .MuiSvgIcon-root {
+    color: var(--curatelyLightGreen) !important;
+}
+
+.popup-input {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 65px;
+}
+
+.popup-description-input {
+    width: 100%;
+    height: 80px;
+}
+
+.popup-button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-add-button {
+    background-color: var(--curatelyBlue) !important;
+    width: 100px;
+}
+
+.popup-cancel-button {
+    border-color: var(--curatelyBlue) !important;
+    color: var(--curatelyBlue);
+    width: 100px;
+}
+
+.popup-errors {
+    color: var(--curatelyRed);
+}

@@ -1,0 +1,29 @@
+#sourcing {
+    .source {
+        width: 549px;
+        height: 298px;
+    }
+
+    .funnel {
+        width: 390px;
+        height: 196px;
+    }
+
+    .sourcingHeader {
+        border: 1px solid rgb(232, 232, 232);
+        cursor: pointer;
+        width: 1264px;
+        height: 78px;
+        margin-left: 8px;
+        margin-bottom: 10px;
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    .content {
+        font-size: 1.25rem;
+        font-weight: 600;
+        align-items: center;
+        margin-left: 15px;
+    }
+}

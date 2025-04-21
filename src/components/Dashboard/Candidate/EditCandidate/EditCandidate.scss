@@ -1,0 +1,190 @@
+.AddCandidateModal {
+    //   width: 656px;
+    //   margin: 10px auto;
+    //   background-color: var(--curatelyWhite);
+    //   box-shadow: var(--shadow-1);
+    //   border-radius: 4px;
+
+    .header {
+        padding: 12px 20px;
+
+        h4 {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            color: var(--c-text-header);
+        }
+    }
+
+    .form-block {
+        border-top: 1px solid var(--c-border-light);
+
+        &.disabled {
+            .sub-heading {
+                color: var(--c-text-header);
+            }
+        }
+
+        .sub-heading {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: var(--c-primary-color);
+            background-color: var(--c-bg-secondary);
+        }
+
+        .block-inner {
+            padding: 12px 20px 20px;
+        }
+
+        .form-wrap {
+            margin-bottom: 16px;
+        }
+
+        .input-label {
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 14px;
+            color: var(--c-text-header);
+            margin-bottom: 5px;
+        }
+
+        .input-info {
+            font-size: 12px;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .MuiInputBase-inputSizeSmall {
+            //   padding: 5px 14px;
+
+            &::placeholder {
+                font-weight: 600;
+                color: var(--c-text-placeholder);
+                opacity: 1;
+            }
+
+        }
+
+        .MuiInputBase-root {
+            &:hover {
+                fieldset {
+                    border-color: var(--c-primary-color);
+                }
+            }
+
+            &.Mui-focused fieldset {
+                border-width: 1px;
+            }
+        }
+
+    }
+
+    .candidateTabsPanel {
+        width: 565px;
+        height: 265px;
+    }
+
+    .customDropZone {
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            font-family: sans-serif;
+        }
+
+        .container>p {
+            font-size: 1rem;
+        }
+
+        .container>em {
+            font-size: .8rem;
+        }
+
+        .dropzone {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border-width: 2px;
+            border-radius: 2px;
+            border-color: #eeeeee;
+            border-style: dashed;
+            background-color: #fafafa;
+            color: #bdbdbd;
+            outline: none;
+            transition: border .24s ease-in-out;
+        }
+
+        .dropzone:focus {
+            border-color: #2196f3;
+        }
+
+        .dropzone.disabled {
+            opacity: 0.6;
+        }
+    }
+
+    .MuiSelect-select.MuiSelect-outlined,
+    .MuiInputBase-input {
+        --input-border-color: var(--c-border-normal);
+        --input-text-color: var(--c-text-primary);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        color: var(--input-text-color);
+        border: 1px solid var(--input-border-color);
+        border-radius: 3px;
+        padding: 0 10px;
+        height: 30px;
+        background: #fff;
+    }
+
+    textarea {
+        background: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #1a1a1a;
+        border: 1px solid rgba(0, 0, 0, 0.23);
+        border-radius: 3px;
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    .MuiAccordionSummary-content p {
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: var(--c-text-labels);
+    }
+
+    .MuiAccordionSummary-root.Mui-expanded {
+        min-height: 48px;
+    }
+
+    .MuiAccordion-root {
+        margin: 16px 0;
+        border-radius: 4px;
+        box-shadow: var(--shadow-1);
+    }
+
+    .MuiAccordion-root:before {
+        display: none;
+    }
+
+    .MuiDialogContent-root {
+        background-color: var(--c-neutral-10);
+    }
+
+    .MuiAccordion-region {
+        .MuiGrid-item {
+            padding-top: 10px;
+        }
+    }
+}

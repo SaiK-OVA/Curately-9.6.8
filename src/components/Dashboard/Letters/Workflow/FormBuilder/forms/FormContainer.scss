@@ -1,0 +1,36 @@
+.formBuilder {
+    .topBar {
+        height: 55px;
+        background-color: var(--c-neutral-0);
+        margin-top: 1px;
+        //  -webkit-box-shadow: 0px 3px 2px 0px rgb(226 226 226);
+        //   -moz-box-shadow: 0px 3px 2px 0px rgb(226 226 226);
+        //   box-shadow: 0px 3px 2px 0px rgb(226 226 226);
+        //  position: fixed;
+    }
+
+    .mainForm {
+        height: auto; // calc(100vh - 125px);
+        width: 98%;
+        max-width: 850px;
+        margin: auto;
+        overflow: auto;
+        padding-top: 58px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: var(--c-neutral-10);
+    }
+
+    // .routerHeight {
+    //     height: calc(100vh - 60px);
+    //     overflow: auto;
+    //     padding-top: 5px;
+    //     padding-left: 8px;
+    //     background-color: var(--c-neutral-10);
+    // }
+
+
+    // .scroolWidth{
+    //     width: 80%;
+    // }
+}

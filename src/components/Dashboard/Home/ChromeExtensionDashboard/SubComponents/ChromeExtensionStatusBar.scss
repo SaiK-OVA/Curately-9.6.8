@@ -1,0 +1,230 @@
+// #ChromeExtension_statusbar {
+#ChromeExtension_Header {
+  // background-color: #f9fafb;
+  // padding: 15px 40px;
+  // border-radius: 8px;
+  // box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  min-width: 90px;
+  // //max-width: 900px;
+  // font-family: Arial, sans-serif;
+  // color: #333;
+  // margin: 6px 2px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  // margin-right: 36px;
+  // gap: 15px;
+
+  .add_icon {
+    background-color: #1a90ff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    margin-right: -10px;
+
+    .addIcon {
+      color: white;
+      font-size: 28px;
+    }
+  }
+
+  .progress_bar {
+    // width: 230px;
+    border: 1px solid lightgray;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-right: 12px;
+
+    .progress_bar_sub {
+      // margin-bottom: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      flex-wrap: wrap;
+
+      svg {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .invite_teammate {
+    // display="flex" alignItems="center" gap={2} mt={2}
+    display: flex;
+    align-items: center;
+    gap: 0 !important;
+    flex-direction: row-reverse;
+  }
+
+}
+
+#customized-dialog-title {
+  padding: 16px 24px;
+}
+
+.Invite_to_project {
+  justify-content: left;
+  padding: 12px 12px 12px 24px;
+
+  .MuiButtonBase-root {
+    border-radius: 20px !important;
+    padding: 18px 15px !important;
+    text-transform: none !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+  }
+}
+
+.teammate_list {
+  li {
+    // padding: 3px 3px 3px 0 !important;
+    padding: 0 !important;
+  }
+
+  .MuiAvatar-root {
+    width: 28px !important;
+    height: 28px !important;
+    font-size: 12px !important;
+  }
+
+  .MuiTypography-root {
+    font-weight: 600;
+  }
+
+  .MuiListItemIcon-root {
+    min-width: 35px;
+
+    .MuiButtonBase-root {
+      padding-left: 0 !important;
+    }
+  }
+
+  .MuiListItemText-root {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    .MuiTypography-root {
+      width: 45%;
+    }
+  }
+
+}
+
+.popup_box_container {
+  width: 100%;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 14px;
+  display: inline-block;
+  margin-top: 15px;
+  //   border-color: linear-gradient(90deg, #ff00ff, #00e0ff);
+
+  .primary_secondary {
+    display: flex;
+    flex-direction: column;
+
+    .primary_name {
+      font-size: 14px;
+      font-weight: 700;
+      padding: 0 !important;
+      text-transform: capitalize;
+    }
+  }
+
+  .popup_box_subdiv {
+    li {
+      padding-left: 0 !important;
+    }
+
+  }
+
+  .popup_box_sub {
+    display: flex;
+    align-items: center;
+
+    .request_button {
+      border-radius: 20px !important;
+      padding: 18px 15px !important;
+      text-transform: none !important;
+      font-size: 14px !important;
+      font-weight: 400 !important;
+    }
+
+    .remind_button {
+      border-radius: 20px !important;
+      padding: 6.5px 15px !important;
+      text-transform: none !important;
+      font-size: 14px !important;
+      font-weight: 400 !important;
+
+    }
+
+    .remind_button:hover {
+      background: rgb(213, 207, 207);
+      color: #0d80ec;
+    }
+  }
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.popup-actions button {
+  margin: 10px;
+}
+
+.MuiAvatar-root {
+  text-transform: uppercase;
+}
+
+
+.creditsPopupHeader {
+  top: 0;
+  position: fixed;
+  // width: 80vw;
+  z-index: 999;
+  box-shadow: none;
+  background-color: var(--c-neutral-10);
+  border-bottom: 1px solid var(--c-neutral-40);
+  padding: 5px 10px;
+
+  .MuiTypography-root {
+    color: var(--c-neutral-80);
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+
+.creditsBody {
+  padding: 0px 1rem;
+  margin-top: 4rem;
+  background-color: var(--c-neutral-20);
+  height: calc(100vh - 60px);
+}
+
+// }

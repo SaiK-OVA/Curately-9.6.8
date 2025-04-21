@@ -1,0 +1,41 @@
+#hiringInsights{
+    .data {
+        border: 1px solid rgb(232, 232, 232);
+        cursor: pointer;
+        //width: 231px;
+        //height: 179px;
+        //margin:10px
+    }
+    .avg{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .response{
+        //color: rgb(255, 255, 255);
+        //background-color: rgb(13, 7, 106);
+        padding: 3px 5px;
+            font-size: .8rem;
+            font-weight: 500;
+            line-height: 0;
+    }
+    .hrs{
+        color: #060606;
+        font-size: 1.15rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 8px;
+        margin-block-end: 0;
+        margin-block-start: 0;
+        padding: 0 5px;
+    }
+    .prev{
+        color: #9ca0a9;
+        font-size: 0.9rem;
+        margin-bottom: -3px;
+        margin-top: 1px;
+        padding: 5px 5px;
+    }
+}

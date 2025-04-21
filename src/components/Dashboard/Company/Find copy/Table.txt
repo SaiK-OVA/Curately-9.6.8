@@ -1,0 +1,166 @@
+import * as React from 'react';
+import {
+  Grid, GridColumn as Column,
+  GridColumn,
+  GridDataStateChangeEvent,
+  GridColumnMenuFilter,
+  GridColumnMenuCheckboxFilter,
+  GridColumnMenuProps,
+  GridSelectionChangeEvent,
+  GridHeaderSelectionChangeEvent,
+  getSelectedState,
+  GridSortChangeEvent
+} from "@progress/kendo-react-grid";
+import { DataResult, process, State } from '@progress/kendo-data-query';
+import { getter } from '@progress/kendo-react-common';
+import { orderBy, SortDescriptor } from '@progress/kendo-data-query';
+
+//import { ColumnMenu, ColumnMenuCheckboxFilter } from './columnMenu';
+
+// import jobs from './jobs.json';
+import { useState } from 'react';
+
+
+const initialSort: Array<SortDescriptor> = [{ field: 'ProductName', dir: 'asc' }]
+
+
+const jobs = [{
+  title: "",
+  reqno: "",
+  date: "",
+  hiringmanager: "",
+  offers: "",
+  empid: "",
+  loc: ""
+}];
+
+const createDataState = (dataState: State) => {
+  return {
+    result: process(jobs.slice(0), dataState),
+    dataState: dataState
+  };
+}
+export const ColumnMenu = (props: GridColumnMenuProps) => {
+  return (
+    <div>
+      <GridColumnMenuFilter {...props} expanded={true} />
+    </div>
+  );
+}
+
+export const ColumnMenuCheckboxFilter = (props: GridColumnMenuProps) => {
+  return (
+    <div>
+      <GridColumnMenuCheckboxFilter {...props} data={jobs} expanded={true} />
+    </div>
+  );
+}
+
+const DATA_ITEM_KEY: string = 'title';
+const SELECTED_FIELD: string = 'selected';
+const idGetter = getter(DATA_ITEM_KEY);
+const Table = () => {
+
+  const [sort, setSort] = React.useState(initialSort);
+
+  let initialState = createDataState({
+    take: 8,
+    skip: 0
+  });
+
+  const [result, setResult] = React.useState<DataResult>(initialState.result);
+  const [dataState, setDataState] = React.useState<State>(initialState.dataState);
+
+  const dataStateChange = (event: GridDataStateChangeEvent) => {
+    let updatedState = createDataState(event.dataState);
+    setResult(updatedState.result);
+    setDataState(updatedState.dataState);
+  }
+
+  const [dataState1, setDataState1] = useState<Table[]>(
+
+    jobs.map((dataItem: Table) =>
+
+      Object.assign({ selected: false }, dataItem)
+
+    )
+
+  );
+
+  const [selectedState, setSelectedState] = React.useState<{
+    [id: string]: boolean | number[];
+  }>({});
+
+  const onSelectionChange = React.useCallback(
+    (event: GridSelectionChangeEvent) => {
+      const newSelectedState = getSelectedState({
+        event,
+        selectedState: selectedState,
+        dataItemKey: DATA_ITEM_KEY
+      });
+      setSelectedState(newSelectedState);
+    },
+    [selectedState]
+  );
+
+  const onHeaderSelectionChange = React.useCallback(
+    (event: GridHeaderSelectionChangeEvent) => {
+      const checkboxElement: any = event.syntheticEvent.target
+      const checked = checkboxElement.checked;
+      const newSelectedState: Record<string, boolean> = {};
+
+      event.dataItems.forEach(item => {
+        newSelectedState[idGetter(item)] = checked;
+      });
+      setSelectedState(newSelectedState);
+    },
+    []
+  );
+
+  interface Table {
+    date: string | number;
+    // date: number;
+    offers: string | number;
+    empid: string | number;
+    loc: string;
+    hiringmanager: string;
+    title: string;
+  }
+
+  return (
+
+    <Grid
+      data={result}
+      {...dataState}
+      //data={orderBy(jobs, sort)}
+      onDataStateChange={dataStateChange}
+      sortable={true}
+      pageable={true}
+      pageSize={8}
+      // sort={sort}
+      //data={dataState1.map(item => ({ ...item, [SELECTED_FIELD]: selectedState[idGetter(item)] }))}
+      style={{ height: '400px' }}
+      dataItemKey={DATA_ITEM_KEY}
+      selectedField={SELECTED_FIELD}
+      selectable={{ enabled: true, drag: false, cell: false, mode: 'multiple' }}
+      onSelectionChange={onSelectionChange}
+      onHeaderSelectionChange={onHeaderSelectionChange}
+      onSortChange={(e: GridSortChangeEvent) => {
+        setSort(e.sort)
+      }}
+    >
+      <Column
+        field={SELECTED_FIELD}
+        width="50px"
+        headerSelectionValue={
+          dataState1.findIndex(item => !selectedState[idGetter(item)]) === -1
+        } />
+      <Column field="title" title="Title" columnMenu={ColumnMenu} />
+      <Column field="reqno" title="Req.No" filter={'numeric'} columnMenu={ColumnMenu} />
+      <Column field="date" title="Date" filter={'numeric'} columnMenu={ColumnMenu} />
+      <Column field="hiringmanager" title="Hiring Manager" filter={'boolean'} columnMenu={ColumnMenu} />
+    </Grid>
+  );
+
+}
+export default Table;

@@ -1,0 +1,227 @@
+import * as React from 'react';
+import { useState } from 'react'
+import {
+    Grid, GridColumn,
+    GridSelectionChangeEvent,
+    GridHeaderSelectionChangeEvent,
+    getSelectedState,
+    GridColumnMenuSort,
+    GridColumnMenuFilter,
+    GridColumnMenuProps,
+    GridColumnMenuItemGroup,
+    GridColumnMenuItem,
+    GridColumnMenuItemContent,
+} from "@progress/kendo-react-grid";
+import { DataResult, process, State } from "@progress/kendo-data-query";
+import '@progress/kendo-theme-default/dist/all.css';
+import { orderBy, SortDescriptor } from "@progress/kendo-data-query";
+import { Button } from "@progress/kendo-react-buttons";
+import { getter } from "@progress/kendo-react-common";
+// import data from './Data.json'
+import './FindContacts.scss'
+
+
+const DATA_ITEM_KEY: string = "contid";
+const SELECTED_FIELD: string = "selected";
+const idGetter = getter(DATA_ITEM_KEY);
+
+const ColumnMenu = (props: GridColumnMenuProps) => {
+    return (
+        <div>
+            <GridColumnMenuSort {...props} />
+            <GridColumnMenuFilter {...props} />
+        </div>
+
+    );
+};
+
+
+const data = [{
+    contid: "",
+    fname: "",
+    lname: "",
+    phone1: "",
+    phone2: "",
+    loc: "",
+    title: "",
+    dept: "",
+}];
+
+const fields = [
+    { field: 'contid', title: 'ID' },
+    { field: 'fname', title: 'First Name' },
+    { field: 'lname', title: 'Last Name' },
+    { field: 'phone1', title: 'Phone Number-1' },
+    { field: 'phone2', title: 'Phone Number-2' },
+    { field: 'loc', title: 'Location' },
+    { field: 'title', title: 'Title' },
+    { field: 'dept', title: 'Department' },
+]
+
+
+interface Data {
+    contid: string;
+    fname: string;
+    lname: string;
+    phone1: string;
+    phone2: string;
+    loc: string;
+    title: string;
+    dept: string;
+}
+
+
+const initialDataState = {
+    skip: 0,
+    take: 10,
+};
+
+const initialSort: Array<SortDescriptor> = [
+    { field: '', dir: "asc" },
+];
+
+
+
+const FindContacts = () => {
+    const [page, setPage] = useState(initialDataState);
+    const [pageSizeValue, setPageSizeValue] = useState();
+    const [sort, setSort] = useState(initialSort);
+    const [dataState, setDataState] = useState<Data[]>(data);
+    const [selectedState, setSelectedState] = React.useState<{
+        [id: string]: boolean | number[];
+    }>({});
+
+
+    const onSelectionChange = React.useCallback(
+        (event: GridSelectionChangeEvent) => {
+            const newSelectedState = getSelectedState({
+                event,
+                selectedState: selectedState,
+                dataItemKey: DATA_ITEM_KEY,
+            });
+            setSelectedState(newSelectedState);
+            setDataState(
+                dataState.map((dataItem: Data) => {
+                    const id = idGetter(dataItem);
+                    return {
+                        ...dataItem,
+                        selected: newSelectedState[id] || false,
+                    };
+                })
+            );
+        },
+        [selectedState, dataState]
+    );
+
+    const onHeaderSelectionChange = React.useCallback(
+        (event: GridHeaderSelectionChangeEvent) => {
+            const checkboxElement: any = event.syntheticEvent.target;
+            const checked = checkboxElement.checked;
+            const newSelectedState: Record<string, boolean> = {};
+
+            if (checked) {
+                dataState.forEach((item) => {
+                    newSelectedState[idGetter(item)] = true;
+                });
+            } else {
+                dataState.forEach((item) => {
+                    newSelectedState[idGetter(item)] = false;
+                });
+            }
+
+            setSelectedState(newSelectedState);
+        },
+        [dataState]
+    );
+
+
+    const pageChange = (event: any) => {
+        const targetEvent = event.targetEvent;
+        const take = targetEvent.value === "All" ? data.length : event.page.take;
+        if (targetEvent.value) {
+            setPageSizeValue(targetEvent.value);
+        }
+        setPage({
+            ...event.page,
+            take,
+        });
+    };
+
+    const finalData = orderBy(data, sort)
+        .slice(page.skip, page.skip + page.take)
+        .map((item) => ({
+            ...item,
+            [SELECTED_FIELD]: selectedState[idGetter(item)],
+        }));
+
+    console.log(finalData)
+
+    const numSelected = Object.values(selectedState).filter((isSelected) => isSelected).length;
+
+
+    return (
+        <div>
+            <div>
+                <Button color="primary">New</Button>
+                <Button color="primary" disabled={numSelected !== 1}>Clone</Button>
+                <Button color="primary" disabled={numSelected !== 0 && numSelected !== 2}>Merge</Button>
+                <Button color="primary" disabled={numSelected === 0}>Delete</Button>
+            </div>
+            <div>
+                <Grid
+                    data={finalData}
+                    // {...dataState}
+                    dataItemKey={DATA_ITEM_KEY}
+                    selectedField={SELECTED_FIELD}
+                    // filter={{ logic: "and", filters: [] }}
+                    selectable={{
+                        enabled: true,
+                        drag: false,
+                        cell: false,
+                        mode: 'multiple',
+                    }}
+                    onSelectionChange={onSelectionChange}
+                    onHeaderSelectionChange={onHeaderSelectionChange}
+                    pageable={{
+                        buttonCount: 5,
+                        pageSizes: [10, 20, 50, 100, 200, "All"],
+                        pageSizeValue: pageSizeValue,
+                    }}
+                    skip={page.skip}
+                    take={page.take}
+                    onPageChange={pageChange}
+                    sortable={true}
+                    sort={sort}
+                    onSortChange={(e: any) => {
+                        setSort(e.sort);
+                    }}
+
+                    total={data.length}
+                    reorderable
+                >
+                    <GridColumn
+                        field={SELECTED_FIELD}
+                        width="50px"
+                        headerSelectionValue={
+                            dataState.findIndex((item) => !selectedState[idGetter(item)]) === -1
+                        }
+
+                    />
+
+                    {fields.map((field) => (
+                        <GridColumn
+                            key={field.field}
+                            field={field.field}
+                            title={field.title}
+                            filterable={true}
+                            columnMenu={ColumnMenu}
+                        />
+                    ))}
+                </Grid>
+            </div>
+        </div>
+    )
+}
+
+export default FindContacts
+

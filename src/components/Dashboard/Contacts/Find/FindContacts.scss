@@ -1,0 +1,215 @@
+.findContact {
+    max-width: calc(100vw - 40px);
+    margin: auto 16px;
+
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 290px) !important;
+        min-height: calc(100vh - 290px) !important;
+    }
+
+    .filterListTab {
+        max-height: calc(100vh - 203px) !important;
+        min-height: calc(100vh - 203px) !important;
+        overflow: auto;
+    }
+
+    .MRTableCustom {
+        .css-192dx0w {
+            display: none;
+        }
+
+        .MuiBox-root {
+            left: 0 !important;
+            top: 0 !important;
+            align-items: center;
+        }
+    }
+
+    .MuiTableContainer-root+.MuiBox-root>.MuiBox-root {
+        flex-direction: row-reverse !important;
+        padding: 0;
+    }
+
+    .header {
+        // margin-top: 50px;
+        // margin-bottom: 30px;
+        color: black;
+        font-weight: 700;
+    }
+
+    .cand-form {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        margin-top: 10px;
+    }
+
+    // .inputDiv {
+    //     width: calc(50% - 10px);
+    // }
+
+    .actionRightItems {
+        position: absolute !important;
+        top: 40px;
+        right: 20px;
+        z-index: 999;
+    }
+
+    .mainCard {
+        min-width: 750px;
+        // max-width: 950px;
+        // margin-left: auto;
+        // margin-right: auto;
+        margin-top: 50px;
+    }
+
+    .candidate {
+        color: var(--curatelyPurple);
+        background-origin: padding-box;
+
+    }
+
+    .text-center {
+        text-align: center !important;
+    }
+
+    .mainhead {
+        padding: 5px;
+        color: #1a54a1;
+        font-weight: 500;
+        font-size: 17px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background-color: #f1f1f1;
+    }
+
+    .actionItems {
+        top: 48px;
+        position: initial !important;
+        padding-top: 7px;
+
+        .btnSecondary {
+            color: #474747 !important;
+            height: 32px !important;
+            font-size: 14px;
+
+            svg {
+                color: var(--c-neutral-60);
+                max-width: 16px;
+            }
+
+            &:hover {
+                color: var(--c-primary-color) !important;
+                border-color: var(--c-primary-color) !important;
+
+                svg {
+                    color: var(--c-primary-color) !important;
+                }
+            }
+        }
+
+        .btnSecondary.Mui-disabled {
+            color: var(--c-text-disabled) !important;
+            border: 1px solid var(--c-border-normal) !important;
+            cursor: not-allowed;
+            pointer-events: auto;
+
+            svg {
+                color: var(--c-text-disabled) !important;
+            }
+
+            &:hover {
+                border: 1px solid var(--c-border-normal) !important;
+
+                svg {
+                    color: var(--c-text-disabled) !important;
+                }
+            }
+        }
+    }
+
+    .customButtonForHover * {
+        pointer-events: none;
+    }
+
+    .customButtonForHover.disabled {
+        cursor: not-allowed;
+    }
+
+    .customSorting {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: -30px;
+
+        .MuiButtonBase-root {
+            text-transform: initial;
+            font-size: 14px;
+            padding: 3px 6px;
+        }
+
+        .MuiButton-startIcon {
+            svg[data-testid="SouthRoundedIcon"] {
+                font-size: 15px;
+                margin-top: 1px;
+                margin-right: -3px;
+            }
+
+            svg[data-testid="MenuIcon"] {
+                font-size: 16px;
+            }
+
+            .flip {
+                transform: scaleY(-1);
+            }
+        }
+
+    }
+
+    .contact-nav-container {
+        a {
+            text-decoration: none !important;
+            padding: 0 6px;
+
+            .MuiTypography-subtitle1 {
+                color: var(--c-primary-color);
+                font-weight: 400;
+                font-size: 12px;
+                border-radius: 4px;
+                text-transform: capitalize;
+                text-decoration: none;
+            }
+        }
+
+        a:hover {
+            background-color: var(--c-primary-10);
+        }
+
+        .MuiTypography-body1 {
+            font-weight: 500;
+            color: var(--c-text-header);
+            font-size: 13px;
+        }
+
+        .MuiSvgIcon-root {
+            width: 16px;
+            height: 16px;
+            margin: 0 4px;
+        }
+    }
+
+
+    .linkedinIcon {
+        color: rgb(211, 211, 211);
+        cursor: pointer;
+    }
+
+    .linkedinIcon:hover {
+        color: var(--curatelySkyBlue) !important;
+    }
+
+    .contactNameSpan {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+}

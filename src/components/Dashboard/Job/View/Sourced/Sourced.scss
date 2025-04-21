@@ -1,0 +1,186 @@
+// .tab {
+
+//     font-size: 14px !important;
+//     font-weight: 500 !important;
+//     margin-right: 35px !important;
+//     text-decoration: none !important;
+//     height: 40px !important;
+//     line-height: 40px !important;
+//     color: #474747 !important;
+//     border-bottom: var(--c-primary-color) !important;
+//     text-transform: none !important;
+
+//     &:hover {
+//         color: var(--c-primary-color) !important
+//     }
+
+// }
+#sourcedTabs {
+    #viewSourcedTab {
+        overflow-y: hidden;
+    }
+
+    .Mui-selected.sourceTab {
+        background-color: var(--c-neutral-10) !important;
+    }
+
+    .Mui-selected {
+        .sourceTab {
+            // border-bottom: solid 1px var(--c-primary-color);
+            background-color: var(--c-neutral-10) !important;
+        }
+
+        .statusCount,
+        .statusLabel {
+            color: var(--c-ui-primary) !important;
+        }
+
+
+    }
+
+    .statusCount,
+    .statusLabel {
+        font-size: 12px;
+        line-height: 17px;
+        display: block;
+        line-height: 17px;
+    }
+
+    .statusCount {
+        font-weight: 700;
+        color: var(--c-text-primary);
+    }
+
+    .statusLabel {
+        font-weight: 400;
+        white-space: nowrap;
+        color: var(--c-text-labels);
+        text-transform: capitalize;
+    }
+
+    // .sourceTab {
+    //     max-width: 110px;
+    // }
+
+    .sourceTab:hover {
+        // border-bottom: solid 1px var(--c-primary-color);
+        background-color: var(--c-neutral-10) !important;
+    }
+
+    .select-all-checkbox {
+        padding-left: 0;
+        padding-top: 0;
+        margin-right: 30px;
+
+        svg {
+            width: 21px;
+            height: 21px;
+        }
+    }
+
+    .actionItems {
+        .btnSecondary.Mui-disabled {
+            color: var(--c-text-disabled) !important;
+        }
+    }
+
+    .actionRightItems {
+        position: absolute !important;
+        // top: 5px;
+        right: 15px;
+        z-index: 999;
+    }
+
+    .sourceSearchName {
+        position: absolute !important;
+        top: 14px;
+        // right: 200px;
+        right: 182px;
+        width: 180px;
+
+        input {
+            padding: 6px 10px !important;
+            font-size: 14px !important;
+        }
+    }
+
+    .rerun-container {
+        border-top: 1px solid #d8d8d8;
+        border-bottom: 1px solid #d8d8d8;
+        margin: 5px 0px 0px;
+        padding: 3px 10px;
+        background-color: #ffffff;
+
+        .MuiButton-root {
+            margin: 0px;
+            padding: 0px;
+            text-transform: none;
+            text-decoration: underline;
+            background: none;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .MuiTypography-root {
+            font-weight: bold;
+            font-size: 13px;
+        }
+    }
+
+    .Match,
+    .PotentialMatch,
+    .NotaMatch {
+        // width: 20px;
+        height: 27px;
+        display: inline-flex;
+        align-items: center;
+        border-radius: 6px;
+        padding: 2px;
+
+        svg {
+            font-size: 17px;
+            margin: 5px;
+        }
+
+        border: radius 5px;
+    }
+
+    .Match {
+        background-color: var(--c-positive-20);
+        color: var(--c-positive-60);
+        border: radius 5px;
+    }
+
+    .PotentialMatch {
+        background-color: var(--c-secondary-20);
+        color: var(--c-secondary-60);
+        border: radius 5px;
+    }
+
+    .NotaMatch {
+        background-color: var(--c-negative-20);
+        color: var(--c-negative-60);
+        border: radius 5px;
+    }
+
+    .showViewButton {
+        text-transform: capitalize;
+        font-weight: 600;
+        width: 10rem;
+    }
+
+    .MRTableCustom {
+        .MuiTable-root {
+            border-top: 1px solid var(--c-neutral-10);
+        }
+    }
+}
+
+#ApplicantsListView.p-dialog {
+
+    .p-dialog-header,
+    .p-dialog-content {
+        background-color: var(--c-neutral-10) !important;
+    }
+
+}

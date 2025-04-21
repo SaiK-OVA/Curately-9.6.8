@@ -1,0 +1,73 @@
+#mainDetails {
+    background-color: var(--c-neutral-10);
+
+    .tab {
+        border-right: 1 !important;
+        border-color: divider !important;
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        align-items: flex-start !important;
+
+
+    }
+
+    .vertical-menu-item {
+        color: var(--c-neutral-60) !important;
+        align-items: flex-start !important;
+        text-transform: none !important;
+        font-size: 14px;
+        min-width: 210px;
+    }
+
+    .mainDetailsVerticalTabPanel {
+        width: calc(100% - 215px);
+    }
+
+    .detailsDiv {
+        display: flex;
+        margin-bottom: 12px;
+    }
+
+    .mainLabel {
+        width: 120px;
+    }
+
+    .valueLabel {
+        width: calc(100% - 130px);
+    }
+
+    .labelDiv {
+        .mainLabel {
+            width: 130px;
+        }
+
+        .valueLabel {
+            width: calc(100% - 140px);
+        }
+    }
+
+    .linkLabel {
+        color: var(--c-text-links) !important;
+    }
+
+    .badge {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        display: inline-flex;
+        border-radius: 3px;
+        height: 20px;
+        white-space: nowrap;
+        text-align: center;
+        padding: 2px 6px;
+        --badge-background-color: var(--c-neutral-20);
+        background-color: var(--badge-background-color);
+        color: var(--c-text-primary);
+        margin-right: 4px;
+        border: 1px solid rgba(0, 0, 0, 0);
+
+
+
+    }
+
+}

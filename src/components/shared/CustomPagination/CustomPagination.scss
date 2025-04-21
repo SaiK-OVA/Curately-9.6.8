@@ -1,0 +1,35 @@
+.custom_pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  height: 25px;
+  border-radius: 5px;
+  margin-left: 15px;
+  background: white;
+
+  .MuiIconButton-root {
+    padding: 3px;
+  }
+
+  .MuiInputBase-root {
+    height: 25px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-radius: 0 !important;
+
+    .MuiOutlinedInput-notchedOutline {
+      border: none;
+    }
+  }
+}
+
+.pagination_number {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  text-align: center;
+  margin: 0 4px 0 8px;
+  min-width: 8ch;
+
+}

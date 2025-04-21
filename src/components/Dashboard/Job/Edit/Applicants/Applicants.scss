@@ -1,0 +1,68 @@
+.externalapp {
+    color: var(--curatelyBlack);
+    border: 1px solid var(--curatelyBlack);
+    width: 160px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: start;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+.downloadcv {
+    background-color: var(--curatelyPurple);
+    margin-left: 80px;
+    display: flex;
+    border-radius: 15px;
+    white-space: nowrap;
+
+}
+
+.radio {
+    margin-left: 580px;
+}
+
+.bigbox {
+    width: 1000px;
+    height: 300;
+    padding-left: 25px;
+    border: 1px solid var(--curatelyBlack);
+    font-size: 12px;
+    border-radius: 15px;
+    right: 50px;
+}
+
+.advert {
+    color: var(--curatelyPurple);
+}
+
+label {
+    font-size: 12px;
+}
+
+.externalapplication {
+    margin-top: 5px;
+    padding: 5px;
+
+}
+
+.nata {
+    margin-top: 5px;
+    align-items: center;
+    padding: 10px
+}
+
+.icons {
+    padding: 10px
+}
+
+.iconslabel {
+    padding: 30px;
+    margin-top: 10px
+}
+
+.event {
+    display: flex;
+    margin-top: 5px;
+    align-items: center
+}

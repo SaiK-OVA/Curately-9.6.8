@@ -1,0 +1,70 @@
+.AddPolicyDialogContent {
+  padding-left: 38px !important;
+}
+
+.AddPolicyFormControlLabel {
+  padding-bottom: 10px !important;
+  font-weight: 700 !important;
+}
+
+.policyDetailsLabel {
+  // padding-bottom: 10px !important;
+  padding-top: 10px !important;
+  padding-left: 38px !important;
+  font-weight: 700 !important;
+}
+
+.policyInputContainer {
+  display: none !important;
+  height: 150px !important;
+  overflow-y: auto !important;
+}
+
+.policyInputContainer.active {
+  display: block !important;
+}
+
+.customDropZone {
+
+  .container {
+    display: flex !important;
+    flex-direction: column !important;
+    font-family: sans-serif !important;
+  }
+
+  .container>p {
+    font-size: 1rem !important;
+  }
+
+  .container>em {
+    font-size: .8rem !important;
+  }
+
+  .dropzone {
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 20px !important;
+    border-width: 2px !important;
+    border-radius: 2px !important;
+    border-color: #eeeeee !important;
+    border-style: dashed !important;
+    background-color: #fafafa !important;
+    color: #bdbdbd !important;
+    outline: none !important;
+    transition: border .24s ease-in-out !important;
+
+    &.fileDroped {
+      color: var(--c-text-primary) !important;
+    }
+  }
+
+  .dropzone:focus {
+    border-color: #2196f3 !important;
+  }
+
+  .dropzone.disabled {
+    opacity: 0.6 !important;
+  }
+}

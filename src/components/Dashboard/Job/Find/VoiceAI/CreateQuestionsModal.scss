@@ -1,0 +1,106 @@
+#createQuestionsModal {
+    
+    .questions-grid {
+        .MuiList-root {
+            overflow-y: auto;
+            height: 32rem;
+            max-height: 100%;
+            padding-right: 8px;
+            margin-top: 0.35rem;
+            border: 1px solid var(--c-neutral-20);
+            border-radius: 4px 4px 0px 0px;
+            padding: 0.4rem;
+
+            .MuiListItem-root {
+                border: 1px solid var(--c-neutral-40);
+                padding: 2px 3px 2px 0px;
+                margin-bottom: 0.25rem;
+                border-radius: 4px;
+                cursor: pointer;
+
+                .MuiListItemText-primary {
+                    font-weight: 400;
+                }
+
+                .MuiListItemIcon-root {
+                    max-width: 40px !important;
+                    min-width: 40px !important;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+        }
+
+        .checkboxWidth {
+            height: 32px;
+            width: 32px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+    
+        .no-records-text {
+            text-align: center;
+            border: none !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 88%;
+            cursor: default !important;
+
+            .MuiListItemText-secondary {
+                color: var(--c-neutral-60);
+                font-size: 14px;
+            }
+        }
+    }
+
+    .selected-questions-grid {
+        margin-left: 1rem;
+        padding: 1rem;
+        overflow-y: auto;
+        height: 36rem;
+        max-height: 100%;
+        max-width: 100%;
+
+        .MuiGrid2-container {
+            width: 100%;
+        }
+    }
+
+    .selected_question_border{
+        border: 1px solid var(--c-neutral-30) !important;
+        padding: 2px 10px 2px 10px;
+        margin-bottom: 0.25rem;
+        border-radius: 4px;
+    }
+
+    .pagination-container {
+        background-color: var(--c-neutral-10);
+        border-radius: 0px 0px 4px 4px;
+        border: 1px solid var(--c-neutral-40);
+        padding: 7px 1rem;
+    }
+
+    .addHeader1 {
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center !important;
+        align-items: center !important;
+    }
+
+    .actions-container {
+        .MuiButton-root {
+
+            width: auto !important;
+            height: 26px !important;
+            border-radius: 4px !important;
+            padding: 0 12px !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            text-transform: capitalize !important;
+        }
+    }
+
+}

@@ -1,0 +1,31 @@
+.typeCall {
+    width: 100%;
+    color: #1A1A1A;
+
+    & .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+        border-color: var(--c-primary-color);
+    }
+
+
+    & .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+        border-color: var(--c-primary-color);
+        border-width: 1px;
+    }
+
+
+    & .MuiInputBase-input {
+        color: #1A1A1A;
+        font-size: 14px;
+        font-weight: 600;
+
+    }
+
+
+    & .MuiInputBase-input::placeholder {
+        color: #919191;
+        font-size: 14px;
+        font-weight: 600;
+
+        opacity: 0.80;
+    }
+}

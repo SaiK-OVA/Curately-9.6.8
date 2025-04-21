@@ -1,0 +1,142 @@
+#SubSms {
+    .item {
+        // padding: none;
+        // width: 45%;
+        border: 1px solid #CCC;
+        // border-bottom: 1px solid #CCC;
+    }
+
+    .item2 {
+        width: 100%;
+        // height: 42vh;
+    }
+
+    .date_inputs {
+        display: flex;
+    }
+
+    .header1 {
+        text-align: center !important;
+        //background-color: rgb(206, 206, 206);
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto;
+        font-size: 12pt;
+        font-weight: bold;
+
+    }
+
+    .header2 {
+        text-align: center !important;
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto;
+        font-size: 10pt;
+        font-weight: bold;
+        // background-color: rgb(87, 157, 234);
+        padding: 4px;
+    }
+
+    .input-label {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        color: var(--c-text-header);
+        margin-bottom: 5px;
+    }
+
+    .time {
+        /* Your styles for the message date, as previously provided */
+        background: #eee;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+        letter-spacing: 0.025em;
+        font-weight: 400;
+        line-height: 1.5;
+        box-sizing: border-box;
+        font-size: 0.8rem;
+        padding: 0.25rem 1rem;
+        border-radius: 2rem;
+        color: #999;
+        width: fit-content;
+        margin: 0 auto;
+        position: sticky;
+        top: 0px;
+        z-index: 1000;
+        min-width: 135px;
+        text-align: center;
+    }
+
+    .division {
+        padding: 6px 0px;
+        // margin: 6px 0px;
+        border: 1px solid #eeeeee;
+    }
+
+    .datepicker {
+        width: 150px;
+        margin-right: 15px;
+    }
+
+    .division1 {
+        padding: 6px 6px 6px 6px;
+        // margin-bottom: 6px;
+        border-bottom: 1px solid #d6d4d4;
+        // background-color: rgb(212, 208, 208);
+        border-left: 3px solid var(--c-neutral-0);
+    }
+
+    .namePhone {
+        text-transform: capitalize;
+    }
+
+    .hightLightTd {
+        color: var(--c-primary-color);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .msgCard {
+        border-radius: 0 !important;
+        cursor: pointer;
+        border-top: 0 !important;
+        border-left-color: #fff
+    }
+
+    .active {
+        border-left: 3px solid var(--c-info-60);
+        background-color: var(--c-neutral-30);
+        // padding: 6px 0px;
+        // margin: 6px 0px;
+        border-bottom: 1px solid #d6d4d4;
+    }
+
+    .yetToRead {
+        background-color: var(--c-primary-10);
+        border-left: 3px solid var(--c-positive-50);
+    }
+
+    .sms-footer {
+        display: flex;
+        padding: 0 5px;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+
+        .charcount {
+            justify-self: flex-end;
+            // background-color: #f5f5f5;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            margin-right: -5px;
+            padding: 0px 20px;
+        }
+
+        .MuiInputBase-root {
+            color: #1565c0;
+        }
+    }
+
+    .leftIcons {
+        display: flex;
+        justify-content: space-between;
+        padding: 4px;
+
+    }
+}

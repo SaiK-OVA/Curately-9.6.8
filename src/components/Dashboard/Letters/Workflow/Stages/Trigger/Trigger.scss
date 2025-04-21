@@ -1,0 +1,43 @@
+.trigger {
+
+    .triggerIcon {
+        width: 22px;
+        height: 22px;
+        // color: #ffffff;
+    }
+
+    .checked {
+        .triggerIcon {
+            color: white;
+        }
+
+        .checkbox {
+            color: white;
+        }
+    }
+
+    .checkbox {
+        padding: 6px 9px;
+    }
+
+    .checkIconText {
+        // background-color: #0a0a0a;
+        // border-radius: 4px;
+        // padding: 4px 13px;
+        // color: white;
+        font-size: 13px;
+    }
+
+    .checkLabel {
+        background-color: #f3f3f3;
+        border-radius: 4px;
+
+    }
+
+    .checkLabel.checked {
+        background-color: rgb(30, 116, 255);
+        color: white;
+    }
+
+
+}

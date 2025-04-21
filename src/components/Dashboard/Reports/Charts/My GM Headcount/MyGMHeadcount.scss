@@ -1,0 +1,80 @@
+#myGM {
+    .textClient {
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(128, 128, 128);
+    }
+
+    .clientWrapper {
+        padding: 6px;
+        border: 1px solid rgb(230, 230, 230);
+        border-radius: 3px;
+        background-color: rgb(255, 255, 255);
+        width: 185.12px;
+        height: 60px;
+    }
+
+    .activeHeadcount {
+        width: 240px;
+        height: 200px;
+        padding: 3px;
+        border: 1px solid rgb(230, 230, 230);
+        background-color: rgb(255, 255, 255);
+    }
+
+    .headCount {
+        width: 197.683px;
+        height: 75.1197px;
+        font-size: 34px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .portal {
+        width: 100.139px;
+        height: 73.3695px;
+        font-size: 21px;
+        padding-left: 5px;
+    }
+
+    .portalText {
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .hours {
+        width: 180.17px;
+        height: 99.9845px;
+        padding: 8px;
+        border: 1px solid rgb(230, 230, 230);
+        border-radius: 7px;
+        background-color: rgb(255, 255, 255);
+        font-size: 21px;
+        font-weight: normal;
+    }
+
+    .date {
+        width: 302.456px;
+        height: 282.687px;
+        padding: 6px;
+        border: 1px solid rgb(230, 230, 230);
+        border-radius: 3px;
+        background-color: rgb(255, 255, 255);
+        transform: scale(0.916406);
+    }
+
+    .trend {
+        width: 580px;
+        height: 240px;
+    }
+
+    .performance {
+        width: 380px;
+        height: 300;
+    }
+
+    .assignments {
+        width: 595px;
+        height: 360px;
+    }
+}

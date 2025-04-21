@@ -1,0 +1,148 @@
+#templates {
+    .previewHeader {
+        color: var(--curatelyBlack);
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: capitalize;
+        padding-right: 8px;
+
+
+    }
+
+
+    .previewText {
+        color: rgba(0, 0, 0, 0.87);
+        font-weight: 400;
+        font-size: 14px;
+        // text-transform: capitalize;
+        display: block;
+        padding-top: 4px;
+
+    }
+
+
+    .emailBody {
+        //border: 1px solid var(--curatelyGrey);
+        padding: 8px;
+        // display: inline-flex;
+        //min-width: 98%;
+        width: 685px;
+        max-height: calc(100vh - 250px);
+        overflow: auto;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    }
+
+    .MuiDialogContent-root {
+        padding: 0 24px 20px;
+    }
+
+    .MuiPaper-root.MuiDialog-paper {
+        max-width: 760px;
+        //width: 760px;
+        min-width: 500px;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            color: var(--c-text-primary);
+        }
+    }
+
+    .input-label {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        color: var(--c-text-header);
+        margin-bottom: 5px;
+    }
+
+    .MuiInputBase-inputSizeSmall {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--c-text-header);
+
+        b {
+            font-weight: 500;
+        }
+
+        &:hover {
+            color: var(--c-primary-color);
+        }
+
+        &::placeholder {
+            font-weight: 600;
+            color: var(--c-text-placeholder);
+            opacity: 1;
+        }
+    }
+
+    .MuiInputBase-root {
+        &:hover {
+            fieldset {
+                border-color: var(--c-primary-color);
+            }
+        }
+
+        &.Mui-focused fieldset {
+            border-width: 1px;
+        }
+
+        &.Mui-disabled {
+            color: var(--c-text-placeholder);
+            -webkit-text-fill-color: var(--c-text-placeholder);
+            background-color: var(--c-bg-feedback) !important;
+
+            &:hover {
+                fieldset {
+                    border-color: rgba(0, 0, 0, 0.26) !important;
+                }
+            }
+        }
+    }
+
+
+    .MuiDialogActions-root {
+        padding: 0px 20px 15px;
+    }
+
+}
+
+.emailTemplateList {
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 270px);
+        overflow: auto;
+        max-width: 100%;
+        min-height: calc(100vh - 270px);
+    }
+
+    .MRTableCustom .MuiTableCell-root.MuiTableCell-body {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        max-width: 5vw;
+    }
+}
+
+.MRTableCustom {
+    .css-192dx0w {
+        display: none;
+    }
+
+    .MuiBox-root {
+        left: 0 !important;
+        top: 0 !important;
+        align-items: center;
+    }
+}
+
+.MuiTableContainer-root+.MuiBox-root>.MuiBox-root {
+    flex-direction: row-reverse !important;
+    padding: 0;
+}

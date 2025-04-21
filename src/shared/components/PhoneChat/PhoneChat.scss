@@ -1,0 +1,29 @@
+#PhoneChatDialog {
+    width: 85%;
+    height: calc(100vh - 56px);
+    max-height: 100vh;
+    margin: 0;
+    bottom: 0;
+    position: fixed;
+
+    .p-dialog-header {
+        padding: 0 10px;
+        background-color: var(--c-neutral-10);
+        border-bottom: 1px solid var(--c-neutral-40);
+
+        .p-dialog-title {
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+    .p-dialog-content {
+        padding: 0;
+    }
+
+    #PhoneChat {
+        width: 100%;
+        border: 0;
+        height: calc(100vh - 100px);
+    }
+}

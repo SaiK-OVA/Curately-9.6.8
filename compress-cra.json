@@ -1,0 +1,13 @@
+{
+    "algorithms": [
+        "gz"
+    ],
+    "filetypes": [
+        ".html",
+        ".js",
+        ".css"
+    ],
+    "directory": "/curately",
+    "retainUncompressedFiles": true,
+    "asynchronousCompression": true
+}

@@ -1,0 +1,23 @@
+#SubTabs {
+
+    .tabLabelName {
+        text-transform:capitalize !important;
+        font-size: 14px;
+        font-weight: 600; 
+    }
+        
+     
+    .MuiTab-root.MuiButtonBase-root:hover {
+        .tabLabelName {
+            color: var(--c-primary-color) !important;
+        }
+
+       // border-bottom: 3px solid var(--c-primary-color) !important;
+
+        .tabCountName {
+            background-color: var(--c-primary-color);
+        }
+
+    } 
+
+}

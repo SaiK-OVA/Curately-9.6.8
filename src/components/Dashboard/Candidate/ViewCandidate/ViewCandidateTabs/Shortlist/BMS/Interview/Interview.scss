@@ -1,0 +1,29 @@
+#AddBMSInterview {
+    .sub-heading {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .labelText {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+    }
+
+    .valueText {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        color: var(--c-text-secondary);
+    }
+
+
+    .inputLabel {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        color: var(--c-text-labels);
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,21 @@
+#NodeModal {
+    .MuiDialog-container .MuiPaper-root.MuiDialog-paper {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        max-height: calc(100vh) !important;
+    }
+
+    .input-label {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        color: var(--c-text-header);
+        margin-bottom: 5px;
+    }
+
+    .mainForm {
+        height: calc(100vh - 230px) !important;
+    }
+}

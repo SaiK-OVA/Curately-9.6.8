@@ -1,0 +1,123 @@
+.dashCardContent {
+
+
+    .count {
+        // color: #146ef6;
+        text-align: center;
+        // margin-top: 18%;
+        cursor: pointer;
+        font-size: 60px;
+        font-weight: 700;
+
+    }
+
+    .p-calendar input.p-component.p-inputtext {
+        padding-top: 7px !important;
+        padding-bottom: 7px !important;
+    }
+
+    //new dashboard css
+
+    .card_count_icon {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        align-items: center;
+    }
+
+    // .Box_icon{
+    //     width: px; 
+    //     height: px;
+    //     margin-top: 7px;
+    // }
+    .date-range-display {
+        margin-left: 1.8vw;
+
+        .datepicker_icon {
+            vertical-align: middle;
+
+        }
+
+        p {
+            color: #8A9BB6;
+            font-size: 14px;
+            font-weight: 600;
+
+            .p-calendar {
+                box-shadow: none;
+            }
+
+            span {
+                border: none;
+                vertical-align: middle;
+
+
+                input {
+                    color: #8A9BB6;
+                    padding: 7px;
+                    font-weight: 500;
+                }
+
+                button {
+                    color: #8A9BB6;
+                    padding: 0px;
+                    width: unset;
+                    border-radius: 0;
+                    background: none;
+                }
+            }
+        }
+    }
+
+    .weeks_main {
+        // background-color: red;
+        border-radius: inherit;
+        border-bottom: 1px solid lightgray;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            border: none !important;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+
+    }
+}
+
+//new dashboard css
+.headerGrid {
+
+    .middle-truncate {
+        display: inline-block;
+        max-width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        vertical-align: middle;
+        // font-size: 14px;
+        font-weight: 600;
+    }
+
+    // .css-11c2f1a-MuiTypography-root {
+    //     font-weight: 700 !important;
+    //     font-size: 16px;
+    // }
+
+    .iconsDiv {
+        .MuiSvgIcon-root {
+            font-size: 18px;
+            vertical-align: middle;
+        }
+    }
+
+}
+
+.dialog_box_main {
+    .MuiPaper-root {
+        min-width: 400px;
+    }
+
+}

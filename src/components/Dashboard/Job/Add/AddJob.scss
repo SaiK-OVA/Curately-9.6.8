@@ -1,0 +1,204 @@
+#AddJobModal {
+    .start {
+        background-color: var(--curatelyPurple);
+    }
+
+    .close {
+        background-color: var(--curatelyRed);
+    }
+
+    .tabActive {
+        background-color: #146EF6; //var(--c-text-labels);
+        color: #fff !important; // var(--c-text-labels);
+    }
+
+    .tabinActive {
+        background-color: #DCE3ED; //var(--c-text-labels);
+        color: #6B7686;
+    }
+
+    .tabPanelHeight {
+        min-height: 250px;
+    }
+
+    .inputLabel {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 14px;
+        color: var(--c-text-labels);
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .box {
+        background-color: lightgrey;
+        width: 170px;
+        height: 35px;
+        padding-left: 4px;
+        border: 1px solid var(--curatelyBlack);
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .togglewidth {
+        width: 40px;
+        height: 35px;
+        font-size: 12px !important;
+    }
+
+    .jobPanelDiv {
+        padding: 20px 50px;
+        overflow: auto;
+        // height: calc(100vh - 175px);
+        // min-height: 450px;
+        min-height: calc(100vh - 275px);
+        max-height: calc(100vh - 275px);
+    }
+
+    #publicDescription+.quill,
+    #originalDescription+.quill {
+        margin-bottom: 0 !important;
+    }
+
+    .addJobTabsPanel.customTabsPanel {
+        margin: 0 !important;
+    }
+
+    .MuiSelect-select.Mui-disabled {
+        background-color: var(--c-bg-feedback);
+    }
+
+    .text-editor {
+        margin-bottom: 50px !important;
+
+        .ql-editor {
+            margin-bottom: 0 !important;
+        }
+
+        .ql-toolbar {
+            bottom: -50px !important;
+        }
+    }
+
+
+    .customCenteredJobTabs {
+
+        .MuiTabs-root {
+            min-height: 25px !important;
+
+            .tabCountName {
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 16px;
+                margin-left: 6px;
+                padding: 3px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-width: 18px;
+                height: 18px;
+                color: var(--c-text-reversed);
+                background-color: var(--c-neutral-40);
+                border-radius: 50px;
+                font-feature-settings: "tnum";
+                font-variant-numeric: tabular-nums;
+            }
+
+            .MuiTab-root.MuiButtonBase-root {
+                padding: 0px 16px !important;
+                font-size: 12px !important;
+                min-height: 25px !important;
+                font-weight: 500 !important;
+                text-transform: capitalize !important;
+                white-space: nowrap;
+
+
+                .MuiSvgIcon-root {
+                    width: 24px !important;
+                    height: 16px !important;
+                    margin-right: 2px;
+                    color: var(--c-neutral-40);
+                }
+            }
+
+            .Mui-selected {
+                .MuiSvgIcon-root {
+                    color: var(--c-primary-color) !important;
+                }
+
+                .tabCountName {
+                    background-color: var(--c-primary-color);
+                }
+
+            }
+        }
+
+        .MuiTab-root.MuiButtonBase-root {
+            color: var(--c-text-labels);
+            //  border-bottom: 1px solid #f0f8ff00 !important;
+        }
+
+        .MuiTab-root.MuiButtonBase-root.Mui-selected {
+            // color: var(--c-primary-color) !important;
+        }
+
+        .MuiTab-root.MuiButtonBase-root:hover {
+            .tabLabelName {
+                color: var(--c-primary-color) !important;
+            }
+
+            // border-bottom: 1px solid var(--c-primary-color) !important;
+
+            .tabCountName {
+                background-color: var(--c-primary-color);
+            }
+
+        }
+    }
+
+    .unPub {
+        color: var(--curatelyBlack);
+        text-transform: capitalize;
+        border-color: var(--c-neutral-40);
+        min-width: 100px;
+    }
+
+    .email {
+        color: var(--curatelyLightOrange);
+    }
+
+    .pub {
+        color: var(--curatelyWhite);
+        text-transform: capitalize;
+        background-color: var(--c-primary-color);
+        min-width: 100px;
+    }
+
+    .boardName {
+        font-weight: 500;
+    }
+
+
+
+    .button-group {
+        display: flex;
+        justify-content: flex-end;
+        //   //  margin-left: 2px;
+        //    // margin-bottom: 1px;
+        margin-top: -25px;
+    }
+
+    .button-group .MuiButton-root {
+        background-color: #7e57c2;
+        color: white;
+        //  margin-left: 8px;
+    }
+
+    .button-group .MuiButton-root:hover {
+        background-color: #5e35b1;
+    }
+
+}

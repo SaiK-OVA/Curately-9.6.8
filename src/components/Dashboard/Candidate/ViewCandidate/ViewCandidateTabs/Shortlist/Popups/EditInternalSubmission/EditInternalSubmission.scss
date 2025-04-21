@@ -1,0 +1,30 @@
+.addHeader{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    color: var(--c-text-primary);
+   // margin-top: 7px;
+
+}
+
+    .detailsDiv {
+        display: flex;
+        margin-bottom: 12px;
+    }
+
+    .mainLabel {
+        width: 673px;
+    }
+
+    .valueLabel {
+        width: calc(100% - 220px);
+    }
+
+    
+
+    .linkLabel {
+        color: var(--c-text-links) !important;
+    }
+
+  
+

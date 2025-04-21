@@ -1,0 +1,769 @@
+@import './../../shared/config/variables.module.scss';
+
+#people-section {
+    // .right-section {
+
+        // background-color: $alert-color;
+        .css-1ex1afd-MuiTableCell-root {
+            padding: 7px;
+        }
+
+        .right-section-btn {
+            height: 32px;
+            width: auto;
+            // white-space: nowrap;
+            text-transform: capitalize !important;
+            padding: 7px;
+            font-size: 14px;
+            font-weight: 600;
+            border-color: #CACACC;
+            color: #919191;
+        }
+
+        .default-box button {
+            border-color: #CACACC;
+            cursor: default;
+        }
+
+        .right-section-btn-clr {
+            color: #474747;
+            // border-color: #CACACC;
+        }
+
+        .record-selected button:hover,
+        .record-selected button:hover svg {
+            color: $primary-text-color !important;
+            cursor: pointer;
+        }
+
+        .record-selected button:hover {
+            background-color: #ffffff;
+            border-color: $primary-text-color !important;
+        }
+
+
+
+        // .right-section-btn-clr:hover {
+        //     background-color: inherit;
+        //     // border-color: $primary-text-color;
+        //     // color: $primary-text-color;
+        // }
+
+        .right-section-resolution:hover {
+            background-color: inherit;
+            // border-color: $primary-text-color;
+            // color: $primary-text-color;
+        }
+
+        .css-1d6wzja-MuiButton-startIcon {
+            margin-right: 4px;
+        }
+
+        .right-section-btn.big-btn {
+            padding: 10px;
+        }
+
+        .MuiDataGrid-main.css-204u17-MuiDataGrid-main>div:nth-child(3) {
+            display: none;
+        }
+
+        .table-header-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            // padding: 1px;
+        }
+
+        .table-header-sort-btn {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .border-hover {
+            border: 1px solid var(--primaryTextColor);
+        }
+
+    // }
+
+    // @media screen and (min-width : 768px) {
+    //     .table-container {
+    //         height: 60vh;
+    //     }
+    // }
+
+    // @media screen and (min-width : 1280px) and (max-width : 1490px) {
+    //     .table-container {
+    //         height: 57.5vh;
+    //     }
+    // }
+
+    // @media screen and (min-width : 1491px) and (max-width : 1524px) {
+    //     .table-container {
+    //         height: 60vh;
+    //     }
+    // }
+
+    // @media screen and (min-width : 1525px) {
+    //     .table-container {
+    //         height: 65vh;
+    //     }
+    // }
+
+    // @media screen and (min-width : 1800px) {
+    //     .table-container {
+    //         height: 73.5vh;
+    //     }
+    // }
+
+    // @media screen and (min-width : 2100px) {
+    //     .table-container {
+    //         height: 85.4vh;
+    //     }
+    // }
+    .table-parent {
+        // height: calc(100vh - 214px)
+        // height: calc(100vh - 173px)
+        // height: calc(100vh - 182px)
+        height: calc(100vh - 250px)
+    }
+
+
+    .showMoreLess {
+        font-size: 13px;
+        font-weight: 400;
+        color: #146EF6;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+
+
+
+
+    .cards-parent {
+        height: calc(100vh - 290px)
+    }
+
+    .table-container {
+        // height: 60vh !important;
+        height: 100%
+    }
+
+    .sequence-dialog {
+        width: calc(100% - 64px) !important;
+    }
+
+    .sequence-table-Header {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+        font-weight: 500 !important;
+        font-size: 0.875rem !important;
+        line-height: 1.5rem !important;
+        display: table-cell !important;
+        vertical-align: inherit !important;
+        border-bottom: 1px solid rgb(224, 224, 224) !important;
+        text-align: left !important;
+        padding: 6px 16px !important;
+        color: rgba(0, 0, 0, 0.87) !important;
+    }
+
+    .sequence-table-cell {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        border-bottom: 1px solid rgb(224, 224, 224) !important;
+        text-align: left;
+        padding: 6px 16px !important;
+        color: rgba(0, 0, 0, 0.87) !important;
+    }
+
+    .sequnce-modal-header-con {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        padding: 15px 22px 15px 22px !important;
+    }
+
+    .hr-line {
+        margin: 0px !important;
+        flex-shrink: 0 !important;
+        border-width: 0px 0px thin !important;
+        border-style: solid !important;
+        border-color: rgba(0, 0, 0, 0.12) !important;
+    }
+
+    .sequnce-modal-header {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+    }
+
+    .sequnce-modal-close-btn {
+        height: 40px !important;
+        min-width: 40px !important;
+        display: inline-flex !important;
+        -webkit-box-align: center !important;
+        align-items: center !important;
+        -webkit-box-pack: center !important;
+        justify-content: center !important;
+        position: relative !important;
+        box-sizing: border-box !important;
+        -webkit-tap-highlight-color: transparent !important;
+        background-color: transparent !important;
+        outline: 0px !important;
+        border: 0px !important;
+        margin: 0px !important;
+        cursor: pointer !important;
+        user-select: none !important;
+        vertical-align: middle !important;
+        appearance: none !important;
+        text-decoration: none !important;
+        text-align: center !important;
+        flex: 0 0 auto !important;
+        font-size: 1.5rem !important;
+        padding: 8px !important;
+        border-radius: 50% !important;
+        overflow: visible !important;
+        color: rgba(0, 0, 0, 0.54) !important;
+        transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+    }
+
+    .sequnce-modal-close-btn-icon {
+        user-select: none !important;
+        width: 1em !important;
+        height: 1em !important;
+        display: inline-block !important;
+        fill: currentcolor !important;
+        flex-shrink: 0 !important;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+        font-size: 22px !important;
+    }
+
+    .sequnce-modal-close-btn:hover {
+        background-color: rgba(0, 0, 0, 0.04) !important;
+    }
+
+    .top-radio-con {
+        padding: 15px 5px 15px 5px !important;
+    }
+
+    .top-radio-btn-con {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+    }
+
+    .top-radio-btn-label.MuiFormControlLabel-root .MuiFormControlLabel-label {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+        font-weight: 400 !important;
+        font-size: 14px !important;
+    }
+
+    .seq-submit-btn {
+        background-color: transparent !important;
+        outline: 0px !important;
+        border: 0px !important;
+        margin: 0px !important;
+        cursor: pointer !important;
+        user-select: none !important;
+        vertical-align: middle !important;
+        appearance: none !important;
+        text-decoration: none !important;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+        font-weight: 500 !important;
+        font-size: 12px !important;
+        text-transform: uppercase !important;
+        min-width: 64px !important;
+        padding: 6px 8px !important;
+        border-radius: 4px !important;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+        color: rgb(71, 71, 71) !important;
+    }
+
+    .seq-submit-btn:hover {
+        text-decoration: none !important;
+        background-color: rgba(71, 71, 71, 0.04) !important;
+    }
+
+    .seq-add-to-list-btn {
+        text-transform: "capitalize" !important;
+        background-color: #146EF6 !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+        font-family: "Segoe UI" !important;
+        color: #ffffff !important;
+        height: 26px !important;
+        width: auto !important;
+        white-space: nowrap !important;
+        box-shadow: 0px 0px 0px 0px !important;
+        border-radius: 4px !important;
+    }
+
+    .seq-add-to-list-btn:hover {
+        background-color: #0852C2 !important;
+        color: #ffffff !important;
+        box-shadow: 0px 0px 0px 0px !important;
+    }
+
+    .seq-select-option {
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        font-family: "Segoe UI" !important;
+        color: #146EF6 !important;
+        padding-bottom: 5px !important;
+    }
+
+    //2100
+
+    //2500
+
+    //3000
+
+    //3840 × 2160
+
+    // .css-jv7k1c-MuiButtonGroup-root .MuiButtonGroup-grouped:not(:last-of-type):hover {
+    //     border-right-color: #1976d2 !important;
+    // }
+
+    // .css-jv7k1c-MuiButtonGroup-root .MuiButtonGroup-grouped:not(:first-of-type) {
+    //     margin-left: 0 !important
+    // }
+
+    // .customButtonForHover:hover {
+    //     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+    // }
+
+    .change-my-color {
+        color: #7e92a4;
+        font-size: 21px;
+    }
+
+    .contactText {
+        font-family: 'system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+    }
+
+    .searchLayout-text {
+        & .MuiInputBase-input.MuiOutlinedInput-input {
+            color: #1A1A1A;
+            font-size: 14px;
+            font-weight: 600;
+            width: 100%;
+            min-height: 25px;
+            font-family: 'system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+            padding: 5px 45px 5px 0px;
+        }
+
+        & .MuiInputBase-input::placeholder {
+            color: #919191;
+            font-size: 14px;
+            font-weight: 600;
+            font-family: 'system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+            opacity: 1;
+        }
+
+        & .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+            border-color: #146EF6;
+        }
+
+        & .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+            border-color: #146EF6;
+            border-width: 1px;
+        }
+
+        .tableLayout-menulist {
+            & .MuiPaper-root.MuiMenu-paper.MuiPopover-paper {
+                max-height: 380px;
+                min-width: 300px;
+                min-height: 180px;
+                // height : 100%;
+                border: 1px solid #cacacc;
+                border-radius: 8px;
+                // padding: 15px;
+                overflow-y: hidden;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        .layoutItem {
+            width: 100%;
+            margin-left: 10px;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        .pagenumber {
+            &.MuiButtonBase-root.MuiMenuItem-root {
+                padding-right: 8px;
+                padding-left: 8px;
+            }
+
+            ;
+
+            &:hover {
+                background-color: #146EF6;
+                color: #ffffff;
+                margin-right: 8px !important;
+            }
+
+            ;
+        }
+
+        .paginationHidden {
+            width: 200px;
+            color: #474747;
+            height: 250px;
+
+            & .MuiPaper-root.MuiMenu-paper.MuiPopover-paper {
+                overflow-x: hidden;
+                border: #D9D9D9 1px solid;
+                box-shadow: 0px 0px 0px 0px;
+            }
+
+            ;
+
+            & .MuiList-root.MuiMenu-list {
+                padding-top: 0;
+                margin-bottom: 1;
+                margin-right: 1;
+            }
+
+            ;
+        }
+
+        .contactPopup {
+            & .MuiPaper-root.MuiMenu-paper.MuiPopover-paper {
+                min-width: 160px;
+
+                & .MuiPaper-root.MuiMenu-paper.MuiPopover-paper {
+                    overflow-x: hidden;
+                    border: #D9D9D9 1px solid;
+                    box-shadow: 0px 0px 0px 0px;
+                }
+
+                ;
+
+                & .MuiList-root.MuiMenu-list {
+                    padding-top: 0;
+                    margin-bottom: 0;
+                    margin-right: 0;
+                    padding-bottom: 0;
+                }
+
+                ;
+            }
+
+            ;
+        }
+
+        .campaignList {
+            & .MuiInputBase-input.MuiOutlinedInput-input {
+                color: #1A1A1A;
+                font-size: 14px;
+                font-weight: 600;
+                font-family: 'system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
+            }
+
+            & .MuiInputBase-input::placeholder {
+                color: #919191;
+                font-size: 14px;
+                font-weight: 600;
+                font-family: 'system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+                opacity: 1;
+            }
+
+            ;
+
+            & .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+                border-color: #146EF6;
+            }
+
+            ;
+
+            & .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+                border-color: #CACACC;
+                border-width: 1px;
+            }
+
+            ;
+        }
+
+        .upgradeButton {
+            width: 40%;
+            white-space: nowrap;
+            text-transform: capitalize;
+            color: #1A1A1A;
+            border-color: #CACACC;
+            font-size: 14px;
+            font-family: 'system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+            font-weight: "700";
+
+            &:hover {
+                color: #146EF6;
+                background-color: #ffffff;
+                border-color: #146EF6;
+                box-shadow: 0;
+            }
+
+            ;
+        }
+
+        .viewButton {
+            background-color: #146EF6;
+            font-family: 'system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+            color: "#ffffff";
+            height: "32px";
+            width: "fit-content";
+            white-space: "nowrap";
+            box-shadow: "0";
+
+            &:hover {
+                background-color: "#0852C2";
+                color: "#ffffff";
+                box-shadow: "0";
+            }
+
+            ;
+        }
+
+        .layoutName {
+            & .MuiInputBase-root.MuiOutlinedInput-root {
+                // borderRadius: 0px,
+                width: 40%;
+            }
+
+            ;
+
+            & .MuiInputBase-input.MuiOutlinedInput-input {
+                color: #1A1A1A;
+                font-size: 14px;
+                font-weight: 600;
+                width: 100%;
+                min-height: 25px;
+                font-family: 'system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+                padding: 5px 45px 5px 5px;
+            }
+
+            ;
+
+            & .MuiInputBase-input::placeholder {
+                color: #919191;
+                font-size: 14px;
+                font-weight: 600;
+                font-family: 'system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+                opacity: 1;
+            }
+
+            ;
+
+            & .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+                border-color: #146EF6;
+            }
+
+            ;
+
+            & .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+                border-color: #146EF6;
+                border-top: 1px;
+                // borderRadius: "0px";
+            }
+
+            ;
+        }
+
+        .layoutColumnName {
+            & .MuiInputBase-input.MuiOutlinedInput-input {
+                color: #1A1A1A;
+                font-size: 14px;
+                font-weight: 600;
+                width: 100%;
+                min-height: 25px;
+                font-family: 'system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+                padding: 5px 45px 5px 0px;
+            }
+
+            ;
+
+            & .MuiInputBase-input::placeholder {
+                color: #919191;
+                font-size: 14px;
+                font-weight: 600;
+                font-family: 'system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+                opacity: 1;
+            }
+
+            ;
+
+            & .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+                border-color: #146EF6;
+            }
+
+            ;
+
+            & .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+                border-color: #146EF6;
+                border-width: 1px;
+                // borderRadius: "0px";
+            }
+
+            ;
+        }
+
+        .job-title {
+            font-size: 14px;
+            font-family: Segoe UI;
+            font-weight: 400;
+            color: #1A1A1A;
+            width: 190px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            cursor: default;
+        }
+
+        .location {
+            font-size: 14px;
+            font-family: 'system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+            font-weight: 400;
+            color: #1A1A1A;
+            padding: 26.5px 0px;
+            white-space: nowrap;
+            cursor: default;
+        }
+
+        .mail-icon {
+            border-color: #CACACC;
+            background-color: #ffffff;
+            color: #919191;
+            border-right-color: #CACACC;
+            width: 33px;
+        }
+
+        .call-icon {
+            border-color: #CACACC;
+            background-color: #ffffff;
+            color: #919191;
+            width: 33px;
+        }
+
+        .access-contact {
+            // alignSelf: center;
+            width: 125px;
+            height: 30px;
+            white-space: nowrap;
+            text-transform: capitalize;
+            background-color: #146ef6;
+            box-shadow: 0;
+
+            &:hover {
+                background-color: #0852C2;
+                box-shadow: 0;
+            }
+
+            ;
+        }
+    }
+
+    .card-pagination {
+        height: 24px;
+
+        & .MuiButtonGroup-grouped {
+            min-width: 25px !important;
+            margin-right: 1px;
+        }
+
+        ;
+        font-family: 'system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+    }
+
+    .select-pool {
+        width: 259px;
+        height: 30px;
+
+        & .MuiOutlinedInput-root {
+            padding: 0;
+        }
+
+        ;
+
+        & .MuiAutocomplete-popupIndicator {
+
+            transform: unset;
+            color: #737373;
+
+            & .MuiTouchRipple-root {
+                display: none;
+            }
+
+            ;
+
+            &:hover {
+                background-color:
+                    #ffffff;
+            }
+
+            ;
+        }
+
+        ;
+    }
+
+    .company-name {
+        font-size: 14px;
+        font-weight: 600;
+        font-family: Segoe UI;
+        white-space: nowrap;
+        width: 190px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        cursor: default;
+    }
+    .pool-text{
+        width: 100%;
+        & .MuiInputBase-input.MuiOutlinedInput-input {
+          color: #1A1A1A;
+          font-size: 14px;
+          font-weight: 600;
+          font-family:
+            'system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+        };
+        & .MuiInputBase-input::placeholder {
+          color: #919191;
+          font-size: 14px;
+          font-weight: 600;
+          font-family:
+            'system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+          opacity: 1;
+        };
+        & .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline
+        {
+          border-color: #146EF6;
+        };
+        & .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline
+        {
+          border-color: #CACACC;
+          border-width: 1px;
+        }; 
+    }
+    .pool-paper{
+        min-width: 274px;
+        left: 50%;
+        transform: translateX(-3.7%);
+        // paddingLeft: '10px';
+        height: auto;
+        overflow: hidden;
+        padding-right: 5px; 
+    }
+    .campaign-paper{
+        min-width: 250px;
+        left: 50%;
+        transform: translateX(-3.7%);
+        // paddingLeft: '10px';
+        height: auto;
+        overflow: hidden;
+        padding-right: 5px;
+    }
+}

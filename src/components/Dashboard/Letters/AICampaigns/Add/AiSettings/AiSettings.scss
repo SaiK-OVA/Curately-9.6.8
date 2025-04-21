@@ -1,0 +1,74 @@
+
+
+#AiSettings{
+    .MuiDialog-paper {
+        max-width: 750px;
+
+    .settings-container {
+    width: 90%;
+    max-height: 100%; /* To ensure it doesn't take up the full viewport height */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    //overflow: auto;
+  }
+  .containerBorder{
+    border:1px solid #050101;
+ }
+}
+}
+  
+.section {
+  margin-bottom: 20px;
+}
+
+.messaging {
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+  width: 92%;
+ } 
+
+.section-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.days-selection {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.days-selection button {
+  padding: 9px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: background-color 0.2s ease;
+}
+
+.days-selection button.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.days-selection button:hover {
+  background-color: #e0e0e0;
+}
+
+.modal-button {
+  margin-top: 20px;
+  align-self: flex-end;
+}
+.flex-button {
+  display: flex;
+  justify-content: space-between;
+}

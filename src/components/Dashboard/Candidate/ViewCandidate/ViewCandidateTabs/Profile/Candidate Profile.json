@@ -1,0 +1,309 @@
+{
+    "Success": true,
+    "Status": 200,
+    "resumePath": [
+        {
+            "resumeID": "1013.docx",
+            "resumeName": "Leah Ryu.docx",
+            "resumeTOPdfPath": "1013.html"
+        }
+    ],
+    "profilePicPath": [
+        {
+            "userId": 1013,
+            "profilepicBase64": "",
+            "userProfileID": 171
+        }
+    ],
+    "contactInfoList": [
+        {
+            "userBasicID": 874,
+            "userID": 1013,
+            "jobTitle": "",
+            "firstName": "",
+            "lastName": "",
+            "phoneNo": "",
+            "email": "",
+            "countryName": "",
+            "stateName": "",
+            "cityName": "",
+            "zipcode": "",
+            "genderLookupID": 10003999,
+            "accuickUserID": 0,
+            "isAccuick": false,
+            "modifiedDateTime": "2023-01-03 05:32:48.0",
+            "unSubscribe": false,
+            "address": "",
+            "apt": "",
+            "verifiedPhone": false,
+            "profileId": ""
+        }
+    ],
+    "assessmentsList": [
+        {
+            "userId": 1013,
+            "assessmentsId": "",
+            "name": "Cognitive Aptitude and Personality Badge",
+            "description": "This assessment measures your customer service skills - things like \r\nproblem solving and critical thinking - giving you the opportunity to \r\nshow employers your capabilities and potential.",
+            "completeTime": "15 m",
+            "assessmentCode": "CCAT",
+            "assessmentURL": "",
+            "noOfJobs": 520,
+            "primaryAssessment": true,
+            "badgePath": "badge-customer-support.png",
+            "completionStatus": 10018001,
+            "requiredBadgePath": "",
+            "orderId": "",
+            "highestScore": "0",
+            "date": "2023-01-03 05:33:14.0",
+            "count": 0
+        },
+        {
+            "userId": 1013,
+            "assessmentsId": "",
+            "name": "Computer Literacy Badge",
+            "description": "This assessment shows employers you have the computer skills needed \r\nto do the job and awards you a badge to show you know your stuff.",
+            "completeTime": "13 m",
+            "assessmentCode": "CLIK",
+            "assessmentURL": "",
+            "noOfJobs": 310,
+            "primaryAssessment": true,
+            "badgePath": "badge-literacy.png",
+            "completionStatus": 10018001,
+            "requiredBadgePath": "",
+            "orderId": "",
+            "highestScore": "0",
+            "date": "2023-01-08 05:16:32.0",
+            "count": 0
+        },
+        {
+            "userId": 1013,
+            "assessmentsId": "",
+            "name": "Typing Badge",
+            "description": "This assessment measures your typing speed and accuracy.",
+            "completeTime": "1 m",
+            "assessmentCode": "TT",
+            "assessmentURL": "",
+            "noOfJobs": 450,
+            "primaryAssessment": false,
+            "badgePath": "badge-typingtest.png",
+            "completionStatus": 10018003,
+            "requiredBadgePath": "",
+            "orderId": "",
+            "highestScore": "20",
+            "date": "2023-01-11 13:21:45.0",
+            "count": 2
+        },
+        {
+            "userId": 1013,
+            "assessmentsId": "",
+            "name": "Microsoft Word Badge",
+            "description": "This assessment measures how well you know Microsoft Word with just 20 questions.",
+            "completeTime": "10 m",
+            "assessmentCode": "Word 16",
+            "assessmentURL": "",
+            "noOfJobs": 250,
+            "primaryAssessment": false,
+            "badgePath": "badge-word.png",
+            "completionStatus": 10018001,
+            "requiredBadgePath": "",
+            "orderId": "",
+            "highestScore": "0",
+            "date": "2023-01-07 05:07:38.0",
+            "count": 0
+        }
+       
+    ],
+    "summary": [
+        {
+            "userSummaryID": 676,
+            "userID": 1013,
+            "summaryDesc": "",
+            "modifiedDateTime": "2023-03-31 12:30:26.0"
+        }
+    ],
+    "employmentList": [
+        {
+            "userEmploymentID": 4614,
+            "userID": 1013,
+            "companyName": "Modis Consulting",
+            "workAddress": "New York",
+            "jobTitle": "Credit Risk Data Scientist",
+            "startDate": "2021-04-01 00:00:00.0",
+            "endDate": "2022-11-01 00:00:00.0",
+            "empResponsibilities": "",
+            "currentCompany": true,
+            "isManual": false,
+            "modifiedDateTime": "2023-01-03 05:31:40.0",
+            "orderBy": 8
+        },
+        {
+            "userEmploymentID": 4615,
+            "userID": 1013,
+            "companyName": "Clemy Systems",
+            "workAddress": "Kansas",
+            "jobTitle": "Data Entry Specialist",
+            "startDate": "2020-04-01 00:00:00.0",
+            "endDate": "2021-06-01 00:00:00.0",
+            "empResponsibilities": "",
+            "currentCompany": false,
+            "isManual": false,
+            "modifiedDateTime": "2023-01-03 05:31:40.0",
+            "orderBy": 2
+        },
+        {
+            "userEmploymentID": 4616,
+            "userID": 1013,
+            "companyName": "Charter Communications Inc",
+            "workAddress": "Salt Lake City",
+            "jobTitle": "Customer Care Advocate",
+            "startDate": "2019-02-01 00:00:00.0",
+            "endDate": "2020-02-01 00:00:00.0",
+            "empResponsibilities": "",
+            "currentCompany": false,
+            "isManual": false,
+            "modifiedDateTime": "2023-01-03 05:31:40.0",
+            "orderBy": 9
+        },
+        {
+            "userEmploymentID": 4617,
+            "userID": 1013,
+            "companyName": "Bank Of America",
+            "workAddress": "Bossier City",
+            "jobTitle": "Software Developer",
+            "startDate": "2018-10-01 00:00:00.0",
+            "endDate": "2019-01-01 00:00:00.0",
+            "empResponsibilities": "",
+            "currentCompany": false,
+            "isManual": false,
+            "modifiedDateTime": "2023-01-03 05:31:40.0",
+            "orderBy": 4
+        },
+        {
+            "userEmploymentID": 4618,
+            "userID": 1013,
+            "companyName": "Ask Consulting",
+            "workAddress": "New York City",
+            "jobTitle": "Engineering manager",
+            "startDate": "2018-10-01 00:00:00.0",
+            "endDate": "2018-11-01 00:00:00.0",
+            "empResponsibilities": "",
+            "currentCompany": false,
+            "isManual": false,
+            "modifiedDateTime": "2023-01-03 05:31:40.0",
+            "orderBy": 10
+        }
+    ],
+    "educationList": [
+        {
+            "userEducationID": 3066,
+            "userID": 1013,
+            "schoolName": "UW",
+            "degreeType": "Bachelors",
+            "degreeName": "B.S",
+            "degreeCompletionDate": "2016-01-01",
+            "isManual": true,
+            "modifiedDateTime": "2023-03-29 06:16:16.0"
+        },
+        {
+            "userEducationID": 3067,
+            "userID": 1013,
+            "schoolName": "xy",
+            "degreeType": "Masters",
+            "degreeName": "M.S",
+            "degreeCompletionDate": "2018-01-01",
+            "isManual": true,
+            "modifiedDateTime": "2023-03-29 06:16:38.0"
+        }
+    ],
+    "skillsList": [
+        {
+            "userSkillID": 19220,
+            "userId": 1013,
+            "skillID": 1279,
+            "skillLevelID": 10004999,
+            "isManual": false,
+            "skillName": "user experience design"
+        },
+        {
+            "userSkillID": 19221,
+            "userId": 1013,
+            "skillID": 1281,
+            "skillLevelID": 10004999,
+            "isManual": false,
+            "skillName": "product design"
+        },
+        {
+            "userSkillID": 19222,
+            "userId": 1013,
+            "skillID": 196,
+            "skillLevelID": 10004999,
+            "isManual": false,
+            "skillName": "ios"
+        },
+        {
+            "userSkillID": 19223,
+            "userId": 1013,
+            "skillID": 1282,
+            "skillLevelID": 10004999,
+            "isManual": false,
+            "skillName": "virtual reality"
+        }
+    ],
+    "certficationList": [
+        {
+            "userCertID": 3530,
+            "userId": 1013,
+            "certTypeLookupID": 10005001,
+            "authorityName": "",
+            "certName": "",
+            "completedYear": "1900-01-01 00:00:00.0",
+            "isManual": true,
+            "modifiedDateTime": "2023-03-29 06:16:54.0",
+            "credentialID": ""
+        }
+    ],
+    "trainingList": [
+        {
+            "userTrainingID": 203,
+            "userId": 1013,
+            "trainingTypeLookupID": 10006001,
+            "institutionName": "",
+            "trainingName": "",
+            "completedYear": "2015-01-01 00:00:00.0",
+            "fileID": 0,
+            "fileName": "",
+            "isManual": true,
+            "modifiedDateTime": "2023-03-29 06:17:05.0"
+        }
+    ],
+    "languageList": [
+        {
+            "userLangID": 930,
+            "userID": 1013,
+            "langCode": "en",
+            "langExpertLookupID": 10009003,
+            "isManual": false,
+            "modifiedDateTime": "2023-01-03 05:31:40.0"
+        }
+    ],
+    "socialLinksList": [
+        {
+            "userSocialID": 172,
+            "userId": 1013,
+            "socialTypeLookupID": 10007001,
+            "socialURL": "www.linkedin.com\/aditya",
+            "isManual": true
+        }
+    ],
+    "assessmentsReportsList": [
+        {
+            "userId": 1013,
+            "assessmentsId": "JB-HTELNQ8LF",
+            "name": "Cognitive Aptitude and Personality Badge",
+            "assessmentCode": "CCAT",
+            "assessmentReportURL": "",
+            "orderId": ""
+        }
+    ]
+}

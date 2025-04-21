@@ -1,0 +1,119 @@
+#assisgnmentCreated {
+    .pay_rate {
+        direction: "row";
+        justify-content: left;
+        align-items: flex-start;
+        padding: 0 27px 0 27px;
+
+    }
+
+    .assignment_header {
+        font-size: 16px !important;
+        font-weight: 600;
+        line-height: 20px;
+        color: var(--c-text-primary);
+    }
+
+    .text_field_main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text_field_wrkad {
+        display: flex;
+        flex-direction: column;
+        width: 265px;
+    }
+
+    .textfield_main {
+        display: flex;
+        flex-direction: column;
+        // width: 171px;
+        width: 31.156%;
+    }
+
+    .textfield_main_amount {
+        display: flex;
+        flex-direction: column;
+        // width: 160px;
+        width: 30%;
+    }
+
+    .payrate_grid {
+        justify-content: left;
+        align-items: flex-start;
+        padding-left: 27px;
+
+        .payrate_subgrid {
+            width: 95%;
+
+            .assignment_width_tab {
+                width: -webkit-fill-available;
+                display: flex;
+            }
+        }
+
+    }
+
+    .workaddress_grid {
+        padding-left: 27px;
+        padding-bottom: 30px;
+    }
+
+    #startDate,
+    #endDate {
+        padding: 8.5px 14px !important;
+    }
+
+    .date_grid {
+        padding-left: 27px;
+        display: flex;
+
+        gap: 9px;
+    }
+
+    .workadd_grid {
+        gap: 15px;
+        align-items: baseline;
+    }
+
+    .Assignment_footer {
+        direction: 'row';
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px 13px;
+    }
+
+    .sub_headers {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        color: var(--c-text-labels);
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .text_field {
+
+        // width: 490px;
+        .MuiInputBase-input {
+            font-size: 14px !important;
+            padding: 8.5px 14px;
+            width: 193px;
+        }
+    }
+
+
+    .labelText {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+    }
+
+    .valueText {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        color: var(--c-text-secondary);
+    }
+}

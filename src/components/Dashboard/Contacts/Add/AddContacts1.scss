@@ -1,0 +1,94 @@
+.add-contact-heading {
+    font-weight: bold;
+    color: var(--curatelyBlack);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.tabs {
+    .MuiTab-root {
+        color: var(--curatelyDarkBlue);
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        background-color: lightgray;
+    }
+
+    .Mui-selected {
+        background-color: var(--curatelyDarkBlue) !important;
+        color: var(--curatelyWhite) !important;
+    }
+
+    .MuiTabs-indicator {
+        background-color: var(--curatelyDarkBlue);
+    }
+}
+
+
+.tab-margin {
+    margin-left: 10px;
+}
+
+.add-contact-box {
+    border: 1px solid;
+    border-color: var(--curatelyGrey);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.input-spaces {
+    margin-left: 20px;
+}
+
+.checkbox-input-spaces {
+    margin-left: 210px;
+}
+
+// .Check-container {
+//     justify-content: space-evenly;
+//     margin-right: 10px;
+// }
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.errors {
+    color: var(--curatelyRed);
+}
+
+.button-container {
+    justify-content: center;
+}
+
+.select-menu-container:hover {
+    background-color: var(--curatelyGrey);
+    color: var(--curatelyWhite);
+}
+
+.add-contact-buttons {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+}
+
+.next-Button {
+    background-color: var(--curatelyDarkBlue) !important;
+    color: var(--curatelyWhite);
+}
+
+.reset-Button {
+    border-color: var(--curatelyBlue) !important;
+    color: var(--curatelyBlue);
+}

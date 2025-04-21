@@ -1,0 +1,187 @@
+#curatelySearch {
+
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 290px);
+        overflow: auto;
+        max-width: 100%;
+        min-height: calc(100vh - 290px);
+    }
+    .MRTableCustom {
+        .css-192dx0w {
+          display: none;
+        }
+        .MuiBox-root {
+          left: 0 !important;
+          top: 0 !important;
+          align-items: center;
+        }
+      }
+    
+     .MuiTableContainer-root + .MuiBox-root > .MuiBox-root {
+        flex-direction: row-reverse !important;
+        padding: 0;
+      }
+    .MuiButton-startIcon {
+        svg[data-testid="SouthRoundedIcon"] {
+            font-size: 15px;
+            margin-top: 1px;
+            margin-right: -3px;
+        }
+
+        svg[data-testid="MenuIcon"] {
+            font-size: 16px;
+        }
+
+        .flip {
+            transform: scaleY(-1);
+        }
+    }
+
+
+    .tabWithCount {
+        display: flex;
+        align-items: center;
+
+        svg {
+            color: var(--c-neutral-50);
+            width: 18px;
+            margin-left: 6px;
+            position: relative;
+            animation: spin 1s linear infinite;
+        }
+
+        .count {
+            margin-left: 6px;
+        }
+
+    }
+
+    // .MRTableCustom .MuiTableCell-root.MuiTableCell-body {
+    //     font-size: 12px !important;
+    // }
+    // .accordian-wrap .MuiAccordion-root .MuiInputBase-formControl,
+    // #CuratelySearchFilter .accordian-wrap .MuiAccordion-root .MuiInputBase-root {
+    //    padding: 9px 5px !important;
+    // }
+
+    .css-1tuez1y-MuiTableCell-root {
+        padding: 6px !important;
+    }
+
+    .MRTableCustom td span,
+    .MRTableCustom td {
+        text-transform: capitalize;
+    }
+
+    [aria-label="Show/Hide search"] {
+        display: none !important;
+    }
+
+    .MuiTableContainer-root+.MuiToolbar-root {
+        border: 1px solid rgb(192, 192, 192);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        min-height: 40px;
+
+        .MuiBox-root>.MuiBox-root {
+            left: 0;
+            right: auto;
+
+            .MuiToolbar-root.MuiTablePagination-toolbar {
+                padding-left: 0;
+                min-height: 40px;
+            }
+        }
+    }
+
+    .customButtonForHover * {
+        pointer-events: none;
+    }
+
+    .tableTabs {
+        min-height: 20px;
+
+        .MuiButtonBase-root {
+            text-transform: inherit;
+            font-size: 14px;
+            min-width: auto;
+            padding: 6px 16px;
+            min-height: 20px;
+        }
+    }
+
+    .actionItems {
+        top: 42px;
+
+        .btnSecondary {
+            color: #474747 !important;
+            height: 32px !important;
+            font-size: 14px;
+
+            svg {
+                color: var(--c-neutral-60);
+                max-width: 16px;
+            }
+
+            &:hover {
+                color: var(--c-primary-color) !important;
+                border-color: var(--c-primary-color) !important;
+
+                svg {
+                    color: var(--c-primary-color) !important;
+                }
+            }
+        }
+
+        .btnSecondary.Mui-disabled {
+            color: var(--c-text-disabled) !important;
+            border: 1px solid var(--c-border-normal) !important;
+            cursor: not-allowed;
+            pointer-events: auto;
+
+            svg {
+                color: var(--c-text-disabled) !important;
+            }
+
+            &:hover {
+                border: 1px solid var(--c-border-normal) !important;
+
+                svg {
+                    color: var(--c-text-disabled) !important;
+                }
+            }
+        }
+    }
+
+    .customButtonForHover.disabled {
+        cursor: not-allowed;
+    }
+}
+
+.customSorting {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    .MuiButtonBase-root {
+        text-transform: initial;
+        font-size: 14px;
+        padding: 4px 6px;
+    }
+
+    .MuiButton-startIcon {
+        svg[data-testid="SouthRoundedIcon"] {
+            font-size: 15px;
+            margin-top: 1px;
+            margin-right: -3px;
+        }
+
+        svg[data-testid="MenuIcon"] {
+            font-size: 16px;
+        }
+
+        .flip {
+            transform: scaleY(-1);
+        }
+    }
+
+}

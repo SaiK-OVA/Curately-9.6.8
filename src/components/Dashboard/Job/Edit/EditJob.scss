@@ -1,0 +1,156 @@
+.edit {
+    background-color: var(--curatelyRed);
+}
+
+.advertise {
+    background-color: var(--curatelyLightOrange);
+}
+
+.userdefined {
+    background-color: var(--curatelyLightGreen);
+}
+
+.documents {
+    background-color: var(--curatelyBlue);
+}
+
+.searchresume {
+    background-color: var(--curatelyDarkGrey);
+}
+
+.upload {
+    color: var(--curatelyBlack);
+    background-color: var(--curatelyWhite);
+
+}
+
+.submi {
+    background-color: var(--curatelyBlue);
+    color: var(--curatelyWhite);
+}
+
+.box {
+    background-color: lightgrey;
+    width: 170px;
+    height: 35px;
+    padding-left: 4px;
+    border: 1px solid var(--curatelyBlack);
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 12px;
+
+    p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.text {
+    color: var(--curatelyBlack);
+}
+
+
+
+.link {
+    color: var(--curatelyBlue);
+}
+
+.end {
+    float: right;
+    background-color: var(--curatelyBlue);
+    color: var(--curatelyWhite)
+}
+
+th {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin: 0px;
+}
+
+.submiss {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    padding-right: 40px;
+    margin: 0px;
+    font-size: 13px;
+}
+
+TableCell {
+    color: black;
+}
+
+.name {
+    color: var(--curatelyBlack);
+    border: 1px solid var(--curatelyBlack);
+    width: 120px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: start;
+    margin-top: 10px;
+    white-space: nowrap;
+
+}
+
+.download {
+    background-color: var(--curatelyPurple);
+    margin-left: 70px;
+    display: flex;
+    white-space: nowrap;
+
+}
+
+.rad {
+    margin-left: 80px;
+}
+
+.temp {
+    text-transform: capitalize;
+    margin: 5px;
+}
+
+.row-full {
+    width: 202px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 13px;
+}
+
+.para {
+    font-size: 13px;
+    padding-left: 20px;
+
+}
+
+.lab {
+    padding-left: 20px;
+}
+
+.fix {
+    overflow: hidden;
+    position: fixed;
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    position: fixed;
+    overflow: scroll;
+    height: calc(100vh - 80px);
+    /* Used in this example to enable scrolling */
+}
+
+.tab {
+    height: calc(100vh - 500px);
+
+}

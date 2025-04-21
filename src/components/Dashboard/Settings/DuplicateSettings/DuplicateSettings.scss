@@ -1,0 +1,17 @@
+#duplicateSettingsPanelDiv {
+    height: calc(100vh - 70px);
+    overflow: auto;
+    // padding: 20px 0px 40px 10px;
+
+    textarea {
+        background: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        color: var(--c-neutral-50);
+        border: 1px solid rgba(0, 0, 0, 0.23);
+        border-radius: 3px;
+        padding: 0 10px;
+        width: 100%;
+    }
+}

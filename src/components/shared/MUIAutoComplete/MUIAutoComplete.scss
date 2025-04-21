@@ -1,0 +1,31 @@
+.customMUIAutoComplete {
+    .MuiInputBase-formControl {
+        padding-bottom: 2px;
+        padding-top: 2px;
+    }
+
+    .MuiChip-root {
+        height: 24px !important;
+
+        svg {
+            font-size: 18px !important;
+        }
+    }
+
+    .MuiInputBase-root {
+        padding: 1px 6px !important;
+    }
+
+    .MuiOutlinedInput-root .MuiAutocomplete-input {
+        padding: 7.5px 4px 7.5px 5px !important;
+        max-width: calc(100% - 45px);
+        font-size: .9em !important;
+    }
+}
+.commonMUIAutoCompleteOption{
+    text-transform: capitalize !important;
+}
+.commonMUIAutoCompleteOption:hover {
+    background-color: var(--c-primary-color) !important;
+    color: #ffffff !important;
+}

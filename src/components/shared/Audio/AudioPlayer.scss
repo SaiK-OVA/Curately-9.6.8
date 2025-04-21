@@ -1,0 +1,48 @@
+#AudioPlayer {
+
+
+    .activeButtonLink {
+        background-color: var(--c-positive-20);
+        color: var(--c-positive-60);
+        padding: 1px 3px 2px 2px;
+        height: 24px;
+        border-radius: 6px;
+        border: 1px solid var(--c-positive-30) !important;
+        line-height: 1.5 !important;
+        font-size: 12px;
+        display: flex;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+    .activeButtonLink-play {
+        background-color: var(--c-positive-20);
+        color: var(--c-positive-60);
+        padding: 1px 3px 2px 2px;
+        height: 24px;
+        border-radius: 6px;
+        border: 1px solid var(--c-positive-30) !important;
+        line-height: 1.5 !important;
+        font-size: 12px;
+        display: flex;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+    .activeButtonLink-pause {
+        background-color: var(--c-secondary-20) !important;
+        color: var(--c-secondary-60) !important;
+        padding: 1px 3px 2px 2px;
+        height: 24px;
+        border-radius: 6px;
+        border: 1px solid var(--c-secondary-30) !important;
+        line-height: 1.5 !important;
+        font-size: 12px;
+        display: flex;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+
+
+}

@@ -1,0 +1,43 @@
+#CustomNode {
+    .nodeName {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        color: var(--c-text-header);
+        margin-bottom: 5px;
+        min-width: 148px;
+        max-width: 148px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: left;
+        padding-left: 6px;
+    }
+
+    // .nodeIcon {
+    //     margin-left: -20px;
+    // }
+
+    .centerNodeGrid {
+        position: relative !important;
+    }
+
+    .node-add-button {
+        position: absolute;
+        bottom: calc(-50% - 44px);
+        left: calc(50% - 11.5px);
+        border: 1px solid rgb(177, 177, 183);
+        border-radius: 0;
+        padding: 0px;
+        background-color: var(--curatelyWhite);
+    }
+
+    .horizontalRule {
+        border-right: 1px solid rgb(177, 177, 183);
+        position: absolute;
+        bottom: calc(-50% - 19.5px);
+        left: calc(50% - 0.5px);
+        height: 26px;
+    }
+
+}

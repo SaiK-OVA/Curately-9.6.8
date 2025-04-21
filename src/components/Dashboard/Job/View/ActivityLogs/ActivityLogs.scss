@@ -1,0 +1,35 @@
+#jobActivityLog {
+    // font-family: Arial, sans-serif;
+    // margin: 20px;
+    box-shadow: var(--shadow-1);
+    width: 100%;
+    min-height: 100px;
+    background-color: var(--curatelyWhite);
+    margin-bottom: 20px;
+    padding: 20px;
+
+    .activityEntry {
+        // border: 5px solid #ddd;
+        // // box-shadow: 5px 10px #ddd;
+        // padding: 10px ;
+        // margin: 5px;
+        border: 1px solid #ddd;
+        z-index: 999;
+        margin: 10px;
+
+        .message {
+            font-weight: bold;
+            color: #333;
+            padding: 4px;
+            text-transform: capitalize;
+        }
+
+        .dateLogged {
+            color: #999;
+            font-size: 0.9em;
+            padding: 4px;
+        }
+    }
+
+
+}

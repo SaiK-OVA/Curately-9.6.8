@@ -1,0 +1,68 @@
+#ExpandTearSheet {
+    flex-wrap: nowrap !important;
+
+    .Match,
+    .PotentialMatch,
+    .NotaMatch {
+        margin-right: 10px;
+        border-radius: 6px;
+        padding: 2px; 
+    }
+    .grid-container {
+        display: grid;
+        column-gap: 50px;
+        grid-template-columns: auto auto;
+        background-color:var(--curatelyWhite);
+        padding: 5px;
+        width: 100%;
+      }
+      
+      .grid-item {
+        background-color: var(--c-neutral-10);
+        border: 1px solid rgba(238, 231, 231, 0.8);
+        padding: 0px 5px;
+        font-size: 14px;
+        text-align: left;
+        width: 100%;
+      }
+
+
+
+/* Remove margins and padding from the list */
+ul {
+    margin: 0;
+    padding: 5px 2px;
+    max-height: 250px;
+    overflow-y: auto;
+    width: 100%;
+  }
+  
+  /* Style the list items */
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 8px 10px 8px 40px;
+    list-style-type: none;
+    background: #d7d3d3;
+    font-size: 14px;
+    transition: 0.2s;
+    
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Set all odd list items to a different color (zebra-stripes) */
+  ul li:nth-child(odd) {
+    background: #e9e7e7;
+  }
+  
+  /* Darker background-color on hover */
+  ul li:hover {
+    background: #ddd;
+  }
+  
+
+}

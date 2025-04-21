@@ -1,0 +1,48 @@
+#BullhornJobs {
+    margin: 10px;
+
+
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 380px) !important;
+        overflow: auto;
+        max-width: 100%;
+        min-height: calc(100vh - 380px) !important;
+    }
+
+    [aria-label="Show/Hide search"] {
+        display: none !important;
+    }
+
+    .user-disabled {
+        margin-right: 5px;
+        color: var(--curatelyDisabledGrey);
+        border-color: var(--curatelyDisabledGrey);
+        text-transform: capitalize;
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+
+    .actionItems {
+        margin-left: -10px;
+    }
+
+    .CardView,
+    .MRTableCustom {
+        .css-192dx0w {
+            display: none;
+        }
+
+        .MuiBox-root {
+            left: 0 !important;
+            top: 0 !important;
+            align-items: center;
+        }
+
+    }
+
+    .MuiTableContainer-root+.MuiBox-root>.MuiBox-root {
+        flex-direction: row-reverse !important;
+        padding: 0;
+    }
+
+}

@@ -1,0 +1,155 @@
+.MRTableCustom {
+    max-width: calc(100%);
+    position: relative;
+    background-color: var(--c-neutral-10);
+    padding-left: 16px;
+
+    [aria-label="Show/Hide filters"],
+    [aria-label="Show/Hide columns"],
+    [aria-label="Toggle density"],
+    [aria-label="Toggle select all"],
+    .MuiTablePagination-selectLabel {
+        display: none !important;
+    }
+
+    .Mui-TableHeadCell-ResizeHandle-Wrapper hr {
+        visibility: hidden;
+    }
+
+    .Mui-TableHeadCell-ResizeHandle-Wrapper:hover hr,
+    .Mui-TableHeadCell-ResizeHandle-Wrapper:active hr {
+        visibility: visible;
+    }
+
+    [aria-label="Column Actions"] {
+        visibility: hidden !important;
+    }
+
+    .MuiTableCell-head {
+        border-top: 1px solid rgba(224, 224, 224, 1);
+    }
+
+    .MuiTableContainer-root {
+        max-height: calc(100vh - 370px);
+        overflow: auto;
+        max-width: calc(100%);
+        min-height: calc(100vh - 370px);
+        box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    }
+
+    .MuiPaper-root {
+        box-shadow: none !important;
+    }
+
+    .MuiToolbar-root {
+        background-color: var(--c-neutral-10) !important;
+
+    }
+
+    // table Header CSS
+    .Mui-TableHeadCell-Content-Wrapper {
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.87);
+    }
+
+    .MuiTableCell-root.MuiTableCell-body {
+        color: rgba(0, 0, 0, 0.87);
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .hightLightTd {
+        color: var(--c-primary-color);
+        // font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+
+    // select rows Count
+    .css-sq9qdz {
+        position: absolute !important;
+    }
+
+    .css-1cjiko4 .css-1d98dbz-MuiCollapse-root {
+        z-index: 9999;
+    }
+
+    .css-6at7xe-MuiPaper-root-MuiAlert-root {
+        background-color: none !important;
+    }
+
+    // select rows Count
+
+    // .bp-icon {
+    //     border-radius: 1px;
+    //     width: 16px;
+    //     height: 16px;
+    //     // background-color: var(--curatelyuickWhite);
+    //     background-color: var(--curatelyuickWhite);
+    //     border: 1px solid var(--c-border-normal);
+    // }
+
+    // .bp-icon.checked {
+    //     background-color: var(--c-primary-color);
+    // }
+
+    // .bp-icon.checked:before {
+    //     display: block;
+    //     width: 16;
+    //     height: 16;
+    //     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath" + " fill-rule='evenodd' clip-rule='evenodd' d='M12 5c-.28 0-.53.11-.71.29L7 9.59l-2.29-2.3a1.003 " + "1.003 0 00-1.42 1.42l3 3c.18.18.43.29.71.29s.53-.11.71-.29l5-5A1.003 1.003 0 0012 5z' fill='%23fff'/%3E%3C/svg%3E");
+    //     content: " ";
+    // }
+
+    .selectedCountText {
+        padding-left: 1px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #737373;
+        text-transform: lowercase !important;
+    }
+
+    .select-all-checkbox.MuiCheckbox-indeterminate,
+    .select-all-checkbox.Mui-checked {
+        .MuiSvgIcon-root {
+            fill: var(--c-primary-color);
+        }
+    }
+
+    .select-all-checkbox {
+        .MuiSvgIcon-root {
+            width: 16px;
+            height: 16px;
+            border-radius: 1px;
+        }
+
+        .MuiCheckbox-indeterminate {
+            .MuiSvgIcon-root {
+                width: 22px;
+                height: 22px;
+                border-radius: 1px;
+            }
+        }
+    }
+
+    .MuiAlert-message {
+        display: none !important;
+    }
+
+    .arrowDownIcon {
+        color: var(--c-icon-normal) !important;
+        padding-left: 1px
+    }
+
+    .Mui-TableHeadCell-Content-Wrapper+.MuiBadge-root {
+        transform: rotate(-90deg) !important;
+
+        svg {
+            color: rgb(17 44 220 / 60%);
+        }
+    }
+
+}

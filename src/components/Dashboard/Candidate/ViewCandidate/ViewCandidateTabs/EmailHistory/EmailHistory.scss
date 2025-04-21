@@ -1,0 +1,25 @@
+.custom-list-text {
+    .MuiListItemText-primary {
+        font-weight: 700;
+        margin-bottom: 10px;
+        line-height: 16px;
+    }
+}
+
+.email-details {
+    span {
+        color: blue;
+    }
+
+    border-bottom: 1px solid blue;
+    margin-bottom: 1rem;
+}
+
+.email-date {
+    text-align: right;
+}
+
+.mail-details {
+    padding-left: 3rem;
+    padding-top: 1rem;
+}

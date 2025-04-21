@@ -1,0 +1,36 @@
+#ViewShortlistCustomForm {
+    padding: 10px 30px;
+
+    .parent {
+        display: grid;
+        grid-template-columns: 160px 1fr;
+        grid-gap: 8px;
+        gap: 8px;
+        align-items: baseline;
+        // min-height: 40px;
+    }
+
+    .label {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: var(--c-neutral-60);
+        letter-spacing: -0.154px;
+        width: -moz-fit-content;
+        width: fit-content;
+        max-width: 100%;
+        padding: 8px 0;
+    }
+
+    .value {
+        display: flex;
+        align-items: center;
+        min-width: 160px;
+        font-size: 14px;
+        color: var(--c-text-header);
+        letter-spacing: -0.154px;
+    }
+}

@@ -1,0 +1,42 @@
+#TableHeaderFilter {
+    .MuiButton-root {
+        background: none;
+        text-transform: capitalize;
+        color: #282828;
+        font-size: 12px;
+        padding: 0px;
+        pointer-events: auto !important;
+
+        .MuiButton-startIcon {
+            margin: 0px;
+        }
+    }
+}
+
+.header-filter-container {
+    .MuiList-root {
+        max-height: 15rem;
+        overflow-y: auto;
+
+        .MuiListItem-root {
+            padding: 0px;
+
+            .MuiFormControlLabel-root {
+                width: 100%;
+                cursor: pointer;
+                padding: 0px;
+
+                .MuiButtonBase-root {
+                    padding: 6px 8px
+                }
+            }
+        }
+    }
+
+    .MuiButton-root {
+        text-transform: capitalize;
+        width: 100% !important;
+        box-shadow: none;
+        height: 28px !important;
+    }
+}

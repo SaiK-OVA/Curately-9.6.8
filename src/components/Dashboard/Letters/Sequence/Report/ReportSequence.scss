@@ -1,0 +1,109 @@
+.ReportSequence {
+    .mainDiv {
+        // height: 100vh;
+        background-color: #f7f9fb;
+        padding: 10px 0 10px 0;
+    }
+
+    .name {
+        font-weight: 600;
+        padding-left: 15px;
+    }
+
+    .header {
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        padding: 10px 20px;
+    }
+
+    .count {
+        padding-left: 8px;
+        padding-right: 8px;
+        white-space: nowrap;
+        line-height: 13px;
+        text-align: center;
+    }
+
+    .header {
+        .mainCount {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .mainText {
+            font-size: 12px;
+            font-weight: 600;
+        }
+    }
+
+    .mainCount {
+        color: #5d6a7e;
+    }
+
+    .mainText {
+        color: #949fb1;
+    }
+
+    .section {
+        overflow: auto;
+        height: calc(100vh - 185px);
+    }
+
+    .stageBody {
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        border: 1px solid #d3dae3;
+        border-radius: 4px;
+
+        .mainCount {
+            font-size: 12px;
+            font-weight: 600;
+            padding-right: 3px;
+        }
+
+        .mainText {
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        .firstLine {
+            border-bottom: 1px solid #d3dae3;
+        }
+
+        .secondLine {
+            .subject {
+                font-size: 14px;
+                font-weight: 600;
+                color: #242d3e;
+            }
+
+            .mailBody {
+                color: #5d6a7e;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+
+            }
+        }
+    }
+
+    .stageNumber {
+        padding: 10px 20px;
+        border-right: 1px solid #d3dae3;
+    }
+
+    .mailIcon {
+        width: 18px !important;
+        height: 18px !important;
+        color: var(--curatelyWhite);
+    }
+
+
+    .deleteIcon {
+        width: 16px !important;
+        height: 16px !important;
+        color: var(--curatelyRed);
+    }
+}

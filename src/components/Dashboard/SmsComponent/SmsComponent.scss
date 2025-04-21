@@ -1,0 +1,33 @@
+#SmsComponent {
+    .MuiDrawer-paper {
+        width: 80vw;
+        height: 100vh;
+        max-height: 100vh;
+        margin: 0;
+    }
+
+    .drawer-header {
+        padding: 0.5rem 1.5rem;
+        background-color: var(--c-neutral-10);
+        border-bottom: 1px solid var(--c-neutral-40);
+
+        .MuiTypography-root {
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+    .customCard {
+        margin-bottom: 10px;
+    }
+
+    .MuiTableContainer-root {
+        max-height: calc(100vh - 235px) !important;
+        min-height: calc(100vh - 235px) !important;
+    }
+
+    .p-dialog-content {
+        padding-bottom: 0 !important;
+        // overflow: none;
+    }
+}

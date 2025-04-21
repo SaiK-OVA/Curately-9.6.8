@@ -1,0 +1,40 @@
+#logs-list {
+    // .MuiButtonBase-root, .MuiTab-root, .MuiTab-textColorPrimary, .Mui-selected, .MuiTabs-flexContainer, .MuiList-root, .MuiListItem-root, .log-date, .log-item {
+    //   //   padding: 10px 20px;
+    //   //  font-size: 16px;
+    //    font-weight: 600;
+    // }
+
+
+    .MuiButtonBase-root,
+    .MuiTab-root {
+        // color: var(--c-text-header);
+        // font-size: 1rem;
+        // font-weight: 600;
+        // height: 30px;
+    }
+
+    .MuiTabs-flexContainer,
+    .MuiList-root {
+        background: white;
+        //height: 558px;
+        max-height: 100%;
+        overflow-y: auto;
+
+        .MuiListItem-root {
+            border: 1px solid var(--c-neutral-30);
+            border-radius: 4px;
+            margin-bottom: 0.4rem;
+            padding: 1px 6px;
+        }
+    }
+
+    .log-date {
+        color: #919191;
+        font-size: 10px;
+    }
+
+    .log-item {
+        border-bottom: 1px solid #cacacc
+    }
+}

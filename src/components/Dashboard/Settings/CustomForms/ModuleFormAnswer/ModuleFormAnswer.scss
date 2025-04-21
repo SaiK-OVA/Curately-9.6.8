@@ -1,0 +1,79 @@
+.componentView.showAllFields {
+
+    .moduleView {
+        padding-left: 20px;
+        padding-bottom: 10px;
+        // width: 650px;
+        // margin: auto;
+        // background-color: var(--c-neutral-10);
+        // box-shadow: var(--shadow-1);
+    }
+
+    box-shadow: var(--shadow-1);
+    background-color: var(--curatelyWhite);
+    .moduleView{
+        padding-bottom: 0 !important;
+    }
+
+    .formInputsGrid {
+        width: 650px;
+        margin: auto;
+    }
+
+    .onlyFoe {
+        overflow: auto;
+        height: calc(100vh - 183px);
+    }
+    
+    .formInputsGrid {
+        // padding-right: 20px;
+        
+        display: block !important;
+        min-height: auto !important;
+        max-height: auto !important;
+        max-width: auto !important;
+        margin: auto !important;
+        padding: 0 0 0 20px !important;
+    }
+
+    .preview-container-child {
+        margin-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .previewContainter {
+        width: 100% !important;
+        max-width: none !important;
+        margin: auto;
+        height: auto !important;
+        overflow: hidden !important;
+        padding-bottom: 10px;
+    }
+
+    .address-city,
+    .address-state,
+    .address-zip {
+        width: 100%;
+    }
+
+    .dateComponent input.MuiInputBase-input {
+        padding: 9.5px 14px !important;
+    }
+
+    .errorText {
+        min-height: 0px !important;
+    }
+
+    input {
+        background-color: var(--curatelyWhite);
+    }
+
+    .preview-header {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 14px;
+        color: var(--c-text-header);
+        margin-bottom: 3px;
+    }
+
+}

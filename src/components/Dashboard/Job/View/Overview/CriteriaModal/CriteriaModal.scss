@@ -1,0 +1,140 @@
+#CriterialModal
+{
+    
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 294px);
+        min-height: calc(100vh - 294px);
+    }
+    .MRTableCustom {
+        .css-192dx0w {
+          display: none;
+        }
+        .MuiBox-root {
+          left: 0 !important;
+          top: 0 !important;
+          align-items: center;
+        }
+      }
+    
+     .MuiTableContainer-root + .MuiBox-root > .MuiBox-root {
+        flex-direction: row-reverse !important;
+        padding: 0;
+      }
+    .filterListTab {
+        max-height: calc(100vh - 203px) !important;
+        min-height: calc(100vh - 203px) !important;
+        overflow: auto;
+    }
+
+    .k-button {
+        margin: 5px;
+        float: right
+    } 
+
+    .popupHight{
+        max-height: calc(100vh - 294px);
+        min-height: calc(100vh - 294px);
+        overflow-y: auto;
+    }
+    .elli {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .topRowButtons {
+        font-weight: 400;
+        font-size: 13px;
+        color: black;
+        text-transform: capitalize;
+        border-color: black;
+    }
+
+    .icons {
+        color: black;
+        font-weight: 400;
+    }
+
+    .sideButtons {
+        font-weight: 400;
+        font-size: 13px;
+        color: black;
+        text-transform: capitalize;
+        border-color: none;
+
+    }
+
+    .manage {
+        text-transform: capitalize;
+        color: black;
+    }
+
+    .MuiTableContainer-root+.MuiToolbar-root {
+        border: 1px solid rgb(192, 192, 192);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        min-height: 40px;
+
+        .MuiBox-root>.MuiBox-root {
+            left: 0;
+            right: auto;
+
+            .MuiToolbar-root.MuiTablePagination-toolbar {
+                padding-left: 0;
+                min-height: 40px;
+            }
+        }
+
+    }
+
+    [aria-label="Show/Hide search"] {
+        display: none !important;
+    }
+.boxRow {
+    border: 2px solid #1f0202 !important;
+    border-radius: 5px !important;
+   // width: 180px !important;
+    background-color: #fff;
+}
+
+    .statusRow {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 180px;
+        background-color: #fff;
+
+        // span:hover {
+        //     background-color: var(--curatelyGrey);
+
+        //     &::before {
+        //         background-color: var(--curatelyGrey);
+        //     }
+        // }
+
+        span {
+            display: flex;
+            width: 36px;
+            height: 26px;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding-right: 4px;
+
+            &::before {
+                content: '';
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border: 1px solid #ccc;
+                transform: rotate(45deg);
+                border-left-color: transparent;
+                border-bottom-color: transparent;
+                right: 0px;
+            }
+
+            &:last-child::before {
+                display: none;
+            }
+        }
+    }
+}

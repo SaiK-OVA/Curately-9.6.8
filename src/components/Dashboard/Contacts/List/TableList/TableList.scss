@@ -1,0 +1,77 @@
+.filter-item-container-spacing {
+    justify-content: space-between;
+}
+
+.table-head-container {
+    background-color: var(--curatelyPurple);
+}
+
+.table-head-container-items {
+    color: var(--curatelyWhite);
+}
+
+.list-checkbox.Mui-checked .MuiSvgIcon-root {
+    color: var(--curatelyLightGreen) !important;
+}
+
+.table-head-name-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    padding-right: 50px;
+}
+
+.table-head-name {
+    font-weight: normal;
+    padding-right: 8px;
+}
+
+.table-font-size {
+    font-size: 12px;
+}
+
+.arrow-buttons-span {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.arrow-buttons {
+    font-size: medium;
+}
+
+.filter-item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filter-search-field {
+    width: 500px;
+}
+
+.data-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    :not(.Mui-selected) {
+        color: var(--curatelyPurple);
+    }
+
+    .MuiPaginationItem-root.Mui-selected {
+        background-color: var(--curatelyPurple);
+        color: var(--curatelyWhite);
+    }
+}
+
+
+.item-per-page-container-width {
+    width: 180px;
+}
+
+.action-buttons {
+    background-color: var(--curatelyWhite);
+}

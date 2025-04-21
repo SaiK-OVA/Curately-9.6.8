@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Curately" />
+  <!-- <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self'; 
+    script-src 'self' https://app.explo.co https://api.explo.co https://embed.explo.co https://*.data.explo.co https://us-east-1.data.explo.co; 
+    style-src 'self' https://custom-assets.explo.co; 
+    font-src 'self' https://custom-assets.explo.co; 
+    img-src 'self' https://*.explo.co; 
+    connect-src 'self' https://app.explo.co https://api.explo.co https://embed.explo.co https://*.data.explo.co https://us-east-1.data.explo.co; 
+    base-uri 'self'; 
+    frame-ancestors 'self';
+  "> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/manifest.json" />
+
+  <title>Curately</title>
+
+  <script>
+    function appendScript(url, async, defer) {
+      let s = document.createElement("script");
+      s.type = "text/javascript";
+      s.src = url;
+      if (async) {
+        s.async = true;
+      }
+      if (defer) {
+        s.defer = true;
+      }
+      s.onerror = () => onErrorHandler(s.src);
+      document.body.appendChild(s);
+    }
+  </script>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script type="module" src="/src/index.tsx"></script>
+
+  <script type="text/javascript" async>
+    setTimeout(() => {
+      appendScript('https://js.stripe.com/v3/pricing-table.js', 'async', null);
+      appendScript('https://embed.explo.co/bundle.js', null, null);
+    }, 1000);
+  </script>
+</body>
+
+</html>

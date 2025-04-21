@@ -1,0 +1,658 @@
+[
+    {
+        "id": "197",
+        "label": "Truist-RAC Collections"
+    },
+    {
+        "id": "196",
+        "label": "Truist-RAC Collections- NC"
+    },
+    {
+        "id": "195",
+        "label": "227787-CSR-Alight- SMS"
+    },
+    {
+        "id": "194",
+        "label": "227787-CSR-Alight"
+    },
+    {
+        "id": "193",
+        "label": "CVSJP00092405-Medical Sales"
+    },
+    {
+        "id": "192",
+        "label": "MOR2JP00011844-Finance"
+    },
+    {
+        "id": "191",
+        "label": ""
+    },
+    {
+        "id": "190",
+        "label": ""
+    },
+    {
+        "id": "189",
+        "label": "Sourabh follow up Email"
+    },
+    {
+        "id": "188",
+        "label": "Sourabh Follow Up SMS"
+    },
+    {
+        "id": "187",
+        "label": "Sourabh Initial SMS Template"
+    },
+    {
+        "id": "186",
+        "label": " 225940 CSR-HD Supply"
+    },
+    {
+        "id": "184",
+        "label": "227554-CSR-Spanish-Accenture"
+    },
+    {
+        "id": "183",
+        "label": "MOR2JP00011775-CSR"
+    },
+    {
+        "id": "182",
+        "label": "schedule interview Reminder"
+    },
+    {
+        "id": "180",
+        "label": "Questionnaire Stage Follow up "
+    },
+    {
+        "id": "179",
+        "label": "Assessment Stage Follow up"
+    },
+    {
+        "id": "178",
+        "label": "226911-Customer Service-Alight"
+    },
+    {
+        "id": "177",
+        "label": "CTZJP00002704-Consumer Lending Service Advisor"
+    },
+    {
+        "id": "176",
+        "label": "CTZJP00002699-Contact Center- Education Finance- SMS Template "
+    },
+    {
+        "id": "175",
+        "label": "CTZJP00002699-Contact Center- Education Finance- Email Template "
+    },
+    {
+        "id": "174",
+        "label": "CTZJP00002700-Contact Center- Johnston RI- SMS Template"
+    },
+    {
+        "id": "173",
+        "label": "CTZJP00002700-Contact Center- Johnston RI- Email Template"
+    },
+    {
+        "id": "172",
+        "label": "13675579- CSR-Charles Schwab - SMS Template"
+    },
+    {
+        "id": "171",
+        "label": "13675579- CSR-Charles Schwab - Email Template"
+    },
+    {
+        "id": "170",
+        "label": "13694453- CSR-Charles Schwab- SMS Template "
+    },
+    {
+        "id": "169",
+        "label": "13694453- CSR-Charles Schwab- Email Template "
+    },
+    {
+        "id": "167",
+        "label": "13675329- CSR-Charles Schwab-Mandarin-SMSTemplate "
+    },
+    {
+        "id": "166",
+        "label": "13675329- CSR-Charles Schwab-Mandarin-Email Template "
+    },
+    {
+        "id": "165",
+        "label": " 13675329- CSR-Charles Schwab-Spanish-- SMS template "
+    },
+    {
+        "id": "164",
+        "label": " 13675329- CSR-Charles Schwab-Spanish-- Email template "
+    },
+    {
+        "id": "163",
+        "label": "225392"
+    },
+    {
+        "id": "162",
+        "label": "225125"
+    },
+    {
+        "id": "161",
+        "label": "224820 "
+    },
+    {
+        "id": "160",
+        "label": "223944"
+    },
+    {
+        "id": "159",
+        "label": "Spanish Test"
+    },
+    {
+        "id": "158",
+        "label": "223056_AL_AZ_FL_GA_KS"
+    },
+    {
+        "id": "157",
+        "label": "223056_TX_DE"
+    },
+    {
+        "id": "156",
+        "label": "220887(shortlist)"
+    },
+    {
+        "id": "155",
+        "label": "220887(Applicants)"
+    },
+    {
+        "id": "154",
+        "label": "inyerview survey(formbuilder)"
+    },
+    {
+        "id": "153",
+        "label": "inyerview survey"
+    },
+    {
+        "id": "152",
+        "label": "218580 , 218729(Applicants)"
+    },
+    {
+        "id": "151",
+        "label": "216877 (applicants)"
+    },
+    {
+        "id": "150",
+        "label": "abc customer service -216877"
+    },
+    {
+        "id": "149",
+        "label": "ABC (Jobboards)"
+    },
+    {
+        "id": "148",
+        "label": "ABC Benefits Verification Representative Position(Applicants)"
+    },
+    {
+        "id": "147",
+        "label": "maxumus onboarding pending"
+    },
+    {
+        "id": "146",
+        "label": "maximus onboard initiate"
+    },
+    {
+        "id": "145",
+        "label": "Follow up, check in"
+    },
+    {
+        "id": "144",
+        "label": "abc submitted candidates"
+    },
+    {
+        "id": "143",
+        "label": "BackgroundCheck Complete or Processing DrugTest: blank"
+    },
+    {
+        "id": "142",
+        "label": "Background Check :Complete DrugTest : NEGATIVE"
+    },
+    {
+        "id": "141",
+        "label": "background check"
+    },
+    {
+        "id": "140",
+        "label": "BVS Completed"
+    },
+    {
+        "id": "139",
+        "label": "verify contact"
+    },
+    {
+        "id": "138",
+        "label": "all assessment pending"
+    },
+    {
+        "id": "137",
+        "label": "abc onboard intiate"
+    },
+    {
+        "id": "136",
+        "label": "abc onboarding pending"
+    },
+    {
+        "id": "135",
+        "label": "Computer Assessment Failed"
+    },
+    {
+        "id": "134",
+        "label": "Aptitude Assessment Pending"
+    },
+    {
+        "id": "133",
+        "label": "Computer Assessment Pending"
+    },
+    {
+        "id": "132",
+        "label": "NO Assessment taken"
+    },
+    {
+        "id": "131",
+        "label": "webinar invitaion email"
+    },
+    {
+        "id": "130",
+        "label": "CustomerService-SC"
+    },
+    {
+        "id": "129",
+        "label": "Patient Services"
+    },
+    {
+        "id": "128",
+        "label": "Template for Blast email"
+    },
+    {
+        "id": "127",
+        "label": "Template for Blast email"
+    },
+    {
+        "id": "126",
+        "label": "QA Automation"
+    },
+    {
+        "id": "125",
+        "label": "javafullstack"
+    },
+    {
+        "id": "124",
+        "label": "Vali Test (Apply Job)"
+    },
+    {
+        "id": "123",
+        "label": "Job Description Template"
+    },
+    {
+        "id": "122",
+        "label": "dummy"
+    },
+    {
+        "id": "121",
+        "label": "Bulk Email Template"
+    },
+    {
+        "id": "119",
+        "label": "vali_onboard_67starts_laptop"
+    },
+    {
+        "id": "118",
+        "label": "vali_square_surge_3"
+    },
+    {
+        "id": "117",
+        "label": "vali_square_surge_2"
+    },
+    {
+        "id": "116",
+        "label": "vali_square_surge_1"
+    },
+    {
+        "id": "115",
+        "label": "vali_onboard_531starts"
+    },
+    {
+        "id": "114",
+        "label": "vali_onboard_524starts_laptop_issue"
+    },
+    {
+        "id": "113",
+        "label": "vali_onboard_524starts_training"
+    },
+    {
+        "id": "112",
+        "label": "vali_onboard_524starts_1"
+    },
+    {
+        "id": "110",
+        "label": "vali_accenture_vsurge_verify_contact"
+    },
+    {
+        "id": "109",
+        "label": "vali_onboard_criminal_cleared_2"
+    },
+    {
+        "id": "108",
+        "label": "vali_onboarding_gsec"
+    },
+    {
+        "id": "107",
+        "label": "vali_csr_surge_MAY"
+    },
+    {
+        "id": "106",
+        "label": "vali_onboard_426starts_leptop_issue"
+    },
+    {
+        "id": "105",
+        "label": "vali_aon_blast"
+    },
+    {
+        "id": "104",
+        "label": "vali_onboard_426_start"
+    },
+    {
+        "id": "103",
+        "label": "vali_onboard_426"
+    },
+    {
+        "id": "102",
+        "label": "vali_fbleads"
+    },
+    {
+        "id": "101",
+        "label": "vali_onboard_tarining_KS_TX"
+    },
+    {
+        "id": "100",
+        "label": "vali_onboard_419_training_MD"
+    },
+    {
+        "id": "98",
+        "label": "vali_onboard_419_start"
+    },
+    {
+        "id": "97",
+        "label": "vali_onboard_142starts_MD_ready"
+    },
+    {
+        "id": "96",
+        "label": "vali_onboard_412starts_KS_ready"
+    },
+    {
+        "id": "95",
+        "label": "vali_onboard_412starts_MD_training"
+    },
+    {
+        "id": "94",
+        "label": "vali_onboard_412starts_md_laptop_issue"
+    },
+    {
+        "id": "93",
+        "label": "vali_onboard_412starts_ks_laptop_issue"
+    },
+    {
+        "id": "92",
+        "label": "vali_onboard_412ks_start"
+    },
+    {
+        "id": "91",
+        "label": "vali_onboard_412md_start"
+    },
+    {
+        "id": "90",
+        "label": "vali_onboard_criminal_cleared_1"
+    },
+    {
+        "id": "89",
+        "label": "vali_onboard_criminal_cleared"
+    },
+    {
+        "id": "88",
+        "label": "vali_onboard_starts_ready_yes"
+    },
+    {
+        "id": "87",
+        "label": "vali_onboard_329starts_2"
+    },
+    {
+        "id": "86",
+        "label": "vali_onboard_524starts"
+    },
+    {
+        "id": "85",
+        "label": "vali_onboard_Cansadie_initiate"
+    },
+    {
+        "id": "84",
+        "label": "vali_onboard_Amanda_initiate"
+    },
+    {
+        "id": "83",
+        "label": "vali_onboard_Alyssa_initiate"
+    },
+    {
+        "id": "82",
+        "label": "vali_onboard_Cansadie_pending"
+    },
+    {
+        "id": "81",
+        "label": "vali_onboard_Amanda_pending"
+    },
+    {
+        "id": "80",
+        "label": "vali_onboard_ Alyssa_pending"
+    },
+    {
+        "id": "79",
+        "label": "vali_csr_surge_april"
+    },
+    {
+        "id": "78",
+        "label": "vali_onboard_pending"
+    },
+    {
+        "id": "77",
+        "label": "vali_onboard_initiate"
+    },
+    {
+        "id": "76",
+        "label": "vali_csr_surge2_blast"
+    },
+    {
+        "id": "75",
+        "label": "vali_csr_tx_1_blast"
+    },
+    {
+        "id": "74",
+        "label": "ASK Consulting Intro/Charlotte"
+    },
+    {
+        "id": "73",
+        "label": "vali_salesforce_blast"
+    },
+    {
+        "id": "72",
+        "label": "vali_csr_surge"
+    },
+    {
+        "id": "71",
+        "label": "vali_csr_md_blast"
+    },
+    {
+        "id": "70",
+        "label": "vali_csr_ga_blast"
+    },
+    {
+        "id": "69",
+        "label": "vali_cvsr_tx_blast"
+    },
+    {
+        "id": "68",
+        "label": "vali_claims_blast"
+    },
+    {
+        "id": "67",
+        "label": "Synovus Intro"
+    },
+    {
+        "id": "66",
+        "label": "vali_blast"
+    },
+    {
+        "id": "65",
+        "label": "Thanksgiving -Amanda"
+    },
+    {
+        "id": "64",
+        "label": "Thanksgiving Chelsea - Text Only"
+    },
+    {
+        "id": "63",
+        "label": "Thanksgiving-new "
+    },
+    {
+        "id": "62",
+        "label": "Thanksgiving= Chelsea"
+    },
+    {
+        "id": "61",
+        "label": "Thanksgiving - Doug"
+    },
+    {
+        "id": "60",
+        "label": "Thanksgiving (new)"
+    },
+    {
+        "id": "58",
+        "label": "Truist Accounting/Finance"
+    },
+    {
+        "id": "57",
+        "label": "Follow up, check in"
+    },
+    {
+        "id": "56",
+        "label": "Coke Accounting Intro"
+    },
+    {
+        "id": "55",
+        "label": "July 4th Greeting - Existing manager"
+    },
+    {
+        "id": "54",
+        "label": "July 4th Greeting - New managers"
+    },
+    {
+        "id": "52",
+        "label": "Zep Intro Accounting/Finance"
+    },
+    {
+        "id": "51",
+        "label": "Wendy - What's next in your career?"
+    },
+    {
+        "id": "50",
+        "label": "NCR Blast Email - Courtney "
+    },
+    {
+        "id": "49",
+        "label": "Sravan - Java Architect"
+    },
+    {
+        "id": "48",
+        "label": "Ray -SFDC"
+    },
+    {
+        "id": "47",
+        "label": "Verizon - BA/QA"
+    },
+    {
+        "id": "46",
+        "label": "Bush-Salesforce Developer"
+    },
+    {
+        "id": "45",
+        "label": "Edgar - Java"
+    },
+    {
+        "id": "44",
+        "label": "Henry Ios- Shahid"
+    },
+    {
+        "id": "43",
+        "label": "Dennis BA pratima"
+    },
+    {
+        "id": "42",
+        "label": "Dennis mobile QA"
+    },
+    {
+        "id": "41",
+        "label": "Dennis oracle pl/sql"
+    },
+    {
+        "id": "40",
+        "label": "Alex's Blast"
+    },
+    {
+        "id": "39",
+        "label": "Reconnect email"
+    },
+    {
+        "id": "38",
+        "label": "Jose Cabrera Blast Email - Fannie Mae"
+    },
+    {
+        "id": "37",
+        "label": "Haley Hewett"
+    },
+    {
+        "id": "36",
+        "label": ""
+    },
+    {
+        "id": "33",
+        "label": "Jason's email blast Verizon NJ"
+    },
+    {
+        "id": "32",
+        "label": "Jason's email blast Verizon PA"
+    },
+    {
+        "id": "31",
+        "label": "\"Haven't heard from you\" Blast"
+    },
+    {
+        "id": "29",
+        "label": "Jason's email blast"
+    },
+    {
+        "id": "28",
+        "label": "Nick's email blast"
+    },
+    {
+        "id": "27",
+        "label": "Corey's email blast"
+    },
+    {
+        "id": "26",
+        "label": "John's Email Blast, new job"
+    },
+    {
+        "id": "20",
+        "label": "Alex's Blast"
+    },
+    {
+        "id": "19",
+        "label": "Copy/Paste Blast"
+    },
+    {
+        "id": "18",
+        "label": "Brents Blast"
+    }
+]

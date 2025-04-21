@@ -1,0 +1,24 @@
+$black-color: #1A1A1A;
+$ligh-text-color: #737373;
+$grey-color:#CACACC;
+$primary-text-color: #146EF6;
+$default-text-color : #474747;   // default text color for peoples, companies, lists, search, savedSearch, filters, total, Net New, saved, table columns head titles etc. 
+$border-color-1 : #146EF6; // onClick dropDowns in left section border color
+$border-color-2 : #E6E6E6; // border color on collapse items in job titles
+$arrow-drop-down-color : #919191; // Arrow drop down icon color in left section
+$back-ground-color-on-hover : #F7F7F7; // on hover background coolor in left section
+$border-bottom-color : #F0F0F0; // border bottom color in left section b/w drop downs
+
+// the :export directive is the magic sauce for webpack
+:export {
+  blackcolor: $black-color;
+  primaryTextColor : $primary-text-color;
+  lighTextColor : $ligh-text-color;
+  greyColor:$grey-color;
+  defaultTextColor : $default-text-color;
+  borderColor1 : $border-color-1;
+  borderColor2 : $border-color-2;
+  arrowDropDownColor : $arrow-drop-down-color;
+  backGroundColorOnHover : $back-ground-color-on-hover;
+  borderBottomColor : $border-bottom-color;
+}

@@ -1,0 +1,99 @@
+.FindPool {
+    max-width: calc(100vw - 40px);
+    margin: auto 16px;
+    #mrt_table_D_talentpool{
+        .css-1tbggly{
+            display: none;
+        }
+    }
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 290px) !important;
+        min-height: calc(100vh - 290px) !important;
+    }
+    .MRTableCustom {
+        .css-192dx0w {
+          display: none;
+        }
+        .MuiBox-root {
+          left: 0 !important;
+          top: 0 !important;
+          align-items: center;
+        }
+      }
+    
+     .MuiTableContainer-root + .MuiBox-root > .MuiBox-root {
+        flex-direction: row-reverse !important;
+        padding: 0;
+      }
+    
+    .MuiTableContainer-root+.MuiToolbar-root {
+        border: 1px solid rgb(192, 192, 192);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        min-height: 40px;
+
+        .MuiBox-root>.MuiBox-root {
+            left: 0;
+            right: auto;
+
+            .MuiToolbar-root.MuiTablePagination-toolbar {
+                padding-left: 0;
+                min-height: 40px;
+            }
+        }
+
+    }
+
+    
+    .filterListTab {
+        max-height: calc(100vh - 203px) !important;
+        min-height: calc(100vh - 203px) !important;
+        overflow: auto;
+    }
+
+    .header {
+        // margin-top: 50px;
+        // margin-bottom: 30px;
+        color: black;
+        font-weight: 700;
+    }
+
+    .cand-form {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        margin-top: 10px;
+    }
+
+    // .inputDiv {
+    //     width: calc(50% - 10px);
+    // }
+
+    .mainCard {
+        min-width: 750px;
+        // max-width: 950px;
+        // margin-left: auto;
+        // margin-right: auto;
+        margin-top: 50px;
+    }
+
+    .candidate {
+        color: var(--curatelyPurple);
+        background-origin: padding-box;
+
+    }
+
+    .text-center {
+        text-align: center !important;
+    }
+
+    .mainhead {
+        padding: 5px;
+        color: #1a54a1;
+        font-weight: 500;
+        font-size: 17px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background-color: #f1f1f1;
+    }
+}

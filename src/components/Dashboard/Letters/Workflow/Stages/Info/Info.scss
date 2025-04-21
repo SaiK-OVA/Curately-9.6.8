@@ -1,0 +1,17 @@
+.info {
+    .videoLink {
+        color: var(--c-primary-color);
+    }
+
+    .videoLabel {
+        color: #98a9bb;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .activeTab,
+    .activeTab:hover {
+        background-color: var(--c-primary-color);
+        color: #ffffff;
+    }
+}

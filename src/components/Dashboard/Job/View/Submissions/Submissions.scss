@@ -1,0 +1,19 @@
+.Submissions {
+
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 220px);
+        min-height: calc(100vh - 220px);
+
+    }
+
+    .MRTableCustom {
+        .css-192dx0w {
+            display: none;
+        }
+
+        .MuiTablePagination-root {
+            display: none;
+        }
+    }
+
+}

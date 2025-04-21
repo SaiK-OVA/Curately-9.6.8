@@ -1,0 +1,24 @@
+#WorkflowCandidateView {
+    .p-dialog-header {
+        padding: 0 10px;
+        background-color: var(--c-neutral-10);
+        border-bottom: 1px solid var(--c-neutral-40);
+
+        .p-dialog-title {
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+    .p-dialog-content {
+        padding: 0;
+    }
+
+    .dataCollectionDiv {
+        max-height: none !important;
+    }
+
+    .rectCard {
+        background-color: none !important;
+    }
+}

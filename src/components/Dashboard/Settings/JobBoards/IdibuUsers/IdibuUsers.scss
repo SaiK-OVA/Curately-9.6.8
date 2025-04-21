@@ -1,0 +1,16 @@
+#IdibuUsersList {
+
+    .idibu-list-header {
+        position: absolute;
+        margin-top: 6px;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .MRTableCustom {
+        .MuiTablePagination-root {
+            display: none;
+        }
+    }
+}

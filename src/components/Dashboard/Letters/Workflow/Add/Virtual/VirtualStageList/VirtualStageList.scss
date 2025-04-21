@@ -1,0 +1,93 @@
+.StageCard {
+    .cardStyle {
+        padding: 0.5rem 1rem;
+        margin-bottom: .6rem;
+        height: 62px;
+        box-shadow: 0px 0px 1px -1px rgb(0 0 0 / 20%), 0px 0px 1px 0px rgb(0 0 0 / 14%), 0px 0px 3px 0px rgb(0 0 0 / 12%) !important;
+        // pointer-events: none !important;
+    }
+
+    .cardStyle:hover .deleteIconDiv {
+        display: block !important;
+    }
+
+    .handleBar {
+        // width: 1rem;
+        // height: 1rem;
+        // display: inline-block;
+        // pointer-events: all !important;
+        margin-right: 0.75rem;
+        cursor: move;
+        float: right;
+        margin-bottom: 0px;
+    }
+
+    .lockIcon {
+        color: #bebebe;
+        height: 19px;
+        width: 19px;
+    }
+
+    .stageName {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .deleteIconDiv {
+        .MuiSvgIcon-root {
+            color: #f65e6a !important;
+        }
+
+        // position: relative;
+        // bottom: 5px;
+        display: none;
+        cursor: pointer;
+    }
+
+    .icon {
+        height: 16px;
+        width: 16px;
+    }
+
+    .displayStageName {
+        font-size: 14px;
+        font-weight: 700;
+        color: #494949;
+        overflow: hidden;
+        //     display: -webkit-box;
+        //     -webkit-line-clamp: 1;
+        //     -webkit-box-orient: vertical;
+    }
+
+    .originalStageName {
+        font-size: 12px;
+        font-weight: 500;
+        color: #8f8f8f;
+    }
+
+    .totalCount {
+        font-size: 12px;
+        font-weight: 500;
+        color: #494949;
+
+    }
+
+    .d-flexAlignStart {
+        display: flex;
+        align-items: flex-start !important;
+    }
+
+}
+
+.StageCard.stageSelected {
+
+    .displayStageName,
+    .originalStageName,
+    .MuiSvgIcon-root {
+        color: var(--c-primary-color);
+    }
+}

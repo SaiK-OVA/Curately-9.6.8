@@ -1,0 +1,18 @@
+.criteria-form {
+    .custom-label {
+        width: 170px;
+        flex-shrink: 0;
+
+        .MuiButtonBase-root.MuiCheckbox-root {
+            padding-left: 0;
+        }
+    }
+
+    .MuiStack-root>.MuiButtonBase-root.MuiCheckbox-root {
+        padding-left: 0px;
+    }
+
+    .MuiInputBase-input.MuiOutlinedInput-input.Mui-disabled {
+        -webkit-text-fill-color: rgba(0, 0, 0, 0.8);
+    }
+}

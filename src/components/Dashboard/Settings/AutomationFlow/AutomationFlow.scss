@@ -1,0 +1,54 @@
+#AutomationFlow {
+
+    .reactflow-wrapper {
+        flex-grow: 1;
+        height: calc(100vh - 65px);
+    }
+
+    // .customDragHandle {
+    //     position: relative;
+    //     left: -36px;
+    // }
+
+    .react-flow {
+        // .react-flow__node-input {
+        //     border-color: var(--curatelyGreen);
+        // }
+
+        .react-flow__node {
+            border: 0 !important;
+            background-color: transparent;
+            padding: 0;
+            box-shadow: none !important;
+        }
+
+        #CustomNode {
+            border: 1px solid var(--curatelySkyBlue);
+            background-color: var(--curatelyWhite);
+            padding: 10px;
+        }
+
+        #CustomNode.customStage {
+            border-color: rgba(237, 108, 2, 0.7);
+            // color: #ed6c02;
+        }
+
+        .react-flow__node-output {
+            border-color: var(--curatelyRed);
+        }
+
+        .react-flow__handle {
+            width: 11px !important;
+            height: 11px !important;
+            background-color: #aeaeae !important;
+        }
+
+        .react-flow__handle-bottom {
+            bottom: -6px !important;
+        }
+
+        .react-flow__handle-top {
+            top: -6px !important;
+        }
+    }
+}

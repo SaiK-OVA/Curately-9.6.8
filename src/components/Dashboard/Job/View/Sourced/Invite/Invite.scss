@@ -1,0 +1,26 @@
+.assessment {
+    .switchSpaceBetween {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.data-collection-form-name {
+    font-weight: 600;
+    font-size: 12px;
+    color: #474747;
+
+    .MuiTypography-caption {
+        white-space: pre-wrap !important;
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--c-text-body);
+    }
+}
+
+.invite-dialog-container {
+    .MuiPaper-root {
+        height: 460px;
+        max-height: 100%;
+    }
+}

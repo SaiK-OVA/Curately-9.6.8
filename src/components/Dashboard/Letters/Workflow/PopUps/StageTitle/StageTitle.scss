@@ -1,0 +1,57 @@
+.StageTitle {
+    .editIcon {
+        display: none;
+        position: absolute;
+        // right: 1vw;
+        // bottom:1.5vw;
+        // right: 5px;
+        // bottom: 5px;
+        padding-left: 3px;
+    }
+
+
+    // .editGrid {
+    //     min-height: 43px;
+    //     cursor: pointer;
+    //     border-radius: 5px;
+    //     display: inline-block;
+    // }
+
+    // .titleGrid {
+    //     padding-top: 1px;
+    // }
+    .editGrid{
+        .titleSpan{
+            .stage_title{
+                white-space: nowrap;
+            }
+        }
+        
+    }
+
+    .titleGrid,
+    .instructionsGrid {
+        padding: 5px;
+        padding-right: 34px;
+        position: relative;
+    }
+
+    // .editGrid:hover {
+    //     padding-top: 0px;
+    //     background-color: rgba(0, 105, 255, 0.067);
+
+    //     .editIcon {
+    //         display: inline-block !important;
+    //     }
+    // }
+
+    .addButton:hover {
+        background-color: rgba(0, 105, 255, 0.067);
+    }
+
+    .titleSpan {
+        max-width: calc(100% - 50px);
+        padding: 13px;
+
+    }
+}

@@ -1,0 +1,88 @@
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    padding-bottom: 5px;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.interview {
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 370px);
+        min-height: calc(100vh - 370px);
+    }
+}
+
+.interview-container {
+    margin: 20px 40px;
+    justify-content: space-between;
+
+    .i-stack {
+        border: 1px solid #ccc;
+        justify-content: space-between;
+    }
+
+    .round {
+        text-align: center;
+        border-right: 1px solid #ccc;
+
+        .round-label {
+            background-color: #eff3fe;
+            padding: 6px 15px;
+            border-top: 1px solid #ccc;
+        }
+    }
+
+    .interviewed-box {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+
+        &:last-child {
+            margin-right: 15px;
+        }
+
+        .name {
+            color: #889bab;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+
+            &.candidate {
+                color: #7d62ef;
+            }
+        }
+
+        .details {
+            font-size: 13px;
+            padding-bottom: 6px;
+            padding-top: 5px;
+        }
+
+        .date-time {
+            svg {
+                margin-left: 0;
+            }
+        }
+
+        .btn-details {
+            color: #7d62ef;
+            border-radius: 20px;
+            border-color: #7d62ef;
+            padding: 8px 20px;
+            font-weight: 700;
+        }
+
+        .btn-status {
+            color: #fff;
+            padding: 8px 30px;
+            border-radius: 0;
+            font-weight: 700;
+            background-color: #63cb9a;
+
+            &:hover {
+                background-color: #63cb9a;
+            }
+        }
+    }
+}

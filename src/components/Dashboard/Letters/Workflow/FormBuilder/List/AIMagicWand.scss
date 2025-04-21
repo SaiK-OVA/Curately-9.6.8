@@ -1,0 +1,139 @@
+.AIMagicWand {
+    width: 98%;
+    height: calc(100% - 50px);
+    max-height: 98%;
+    max-width: 1280px;
+    z-index: 1050;
+    background-color: #484646 !important;
+
+    .p-dialog {
+        display: flex;
+        flex-direction: column;
+        pointer-events: auto;
+        max-height: 98%;
+        transform: scale(1);
+        position: relative;
+    }
+
+    .ai-dialog-header {
+        display: flex;
+        align-items: center;
+        padding: 8px 16px;
+        position: relative;
+        border: 1px solid #ddd;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        opacity: 0.95;
+        border-radius: 4px;
+        background-color: white;
+    }
+
+    .ai-dialog-border {
+        position: absolute;
+        left: 0;
+        top: -10px;
+        bottom: 0;
+        width: 16px;
+        background: repeating-linear-gradient(0deg,
+                black,
+                black 2px,
+                transparent 2px,
+                transparent 4px);
+    }
+
+    .ai-dialog-title {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 600;
+        padding-left: 8px;
+    }
+
+    .wandHeader {
+        padding: 5px 10px;
+        border: 1px solid #ddd;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        opacity: 0.95;
+        border-radius: 4px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: white;
+        z-index: 1;
+    }
+
+    .dialogbody {
+        margin-top: 14px;
+        padding: 1px;
+        border: 0px solid #dfdede;
+        height: calc(100% - 14px);
+    }
+
+    .dialogborder {
+        padding: 0px 10px 10px 10px;
+        border: 1px solid #dfdede;
+        height: calc(100% - 20px);
+        overflow: auto;
+        border-radius: 5px;
+   
+    }
+
+    .headercontent {
+        font-size: 13px;
+        font-weight: 'light';
+        color: 'gray';
+        padding-bottom: '10px';
+    }
+    .task_box_main{
+        border-radius: 5px;
+        border: 1px solid #1c1ead;
+         padding: 5px 10px;   
+       // padding-bottom: 0;
+       text-align: center;
+       
+       vertical-align: top;
+       min-width: 200px;
+       width: 20%;
+        .taskTask{
+            color: var(--c-primary-60)
+        }
+        .categorySpan{ font-style: italic; font-size: 10px;}
+        .task_icon{
+          //  padding-top: 7px;
+            font-size: 14px;
+        }
+        .task_box_sub{
+            padding-top: 1px;
+        }
+        .calendar_icon{
+            color: #9DAABF;
+            vertical-align: middle;
+        }
+    }
+    .tasksDiv {
+        overflow: auto;
+
+        // height: 269px;
+        // margin: 10px;
+        width: 100%;
+        border: 1px;
+
+        .task_subdiv {
+            margin-right: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+            width: 96%;
+            border-collapse: separate;
+        }
+
+        .task {
+            padding: 6px;
+            // border-bottom: 1px solid var(--c-neutral-30);
+        }
+
+        .checkBoxLabel {
+            font-size: 13px;
+        }
+    }
+}

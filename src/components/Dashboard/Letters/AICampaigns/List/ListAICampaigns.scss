@@ -1,0 +1,91 @@
+#ListAICampaigns {
+  // width: 90%;
+  // margin: auto;
+
+
+  // width: 90%;
+  // margin: auto;
+
+  .MRTableCustom .MuiTableContainer-root {
+    max-height: calc(100vh - 270px);
+    min-height: calc(100vh - 270px);
+  }
+
+  .MRTableCustom {
+    .css-192dx0w {
+      display: none;
+    }
+
+    .MuiBox-root {
+      left: 0 !important;
+      top: 0 !important;
+      align-items: center;
+    }
+  }
+
+  .MuiTableContainer-root+.MuiBox-root>.MuiBox-root {
+    flex-direction: row-reverse !important;
+    padding: 0;
+  }
+
+  .editLink {
+    color: var(--c-primary-color);
+    cursor: pointer;
+  }
+
+  .editLink:hover {
+    text-decoration: underline;
+  }
+
+  .actions svg {
+    cursor: pointer;
+  }
+
+  .actionIcons {
+    min-width: 21px;
+    display: inline-block;
+  }
+
+
+
+
+  .icon-action {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+    &.edit {
+      color: #FFA726;
+    }
+
+    &.edit:hover {
+      background-color: #FB8C00;
+      color: white;
+    }
+
+    &.delete {
+      color: #e57373;
+    }
+
+    &.delete:hover {
+      background-color: #e57373;
+      color: white;
+    }
+
+    &.arrow {
+      color: #146ef6;
+    }
+
+    &.arrow:hover {
+      background-color: #146ef6;
+      color: white;
+    }
+  }
+
+}

@@ -1,0 +1,33 @@
+.imageInput {
+    display: none;
+}
+
+.modalBox {
+    // position: absolute !important;
+    // top: 50% !important;
+    // left: 50% !important;
+    // transform: translate(-50% !important; -50%) !important;
+    // width: 400 !important;
+    // bgcolor: background.paper !important;
+    // border: 2px solid #000 !important;
+    // boxShadow: 24 !important;
+    // p: 4;
+
+    display: flex;
+    justify-content: center;
+    top: 35%;
+    position: absolute;
+    left: 35%;
+}
+
+.popoverSecondaryBox .MuiPopover-paper {
+    left: 650px !important;
+    width: 250px;
+    height: 250px;
+}
+
+.popoverPrimaryBox .MuiPopover-paper {
+    left: 350px !important;
+    width: 250px;
+    height: 250px
+}

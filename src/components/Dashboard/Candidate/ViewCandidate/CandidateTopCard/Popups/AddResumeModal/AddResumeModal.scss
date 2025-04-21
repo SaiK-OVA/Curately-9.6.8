@@ -1,0 +1,130 @@
+#addResumeModal {
+    .MuiPaper-root.MuiDialog-paper {
+        max-width: 560px;
+        width: 560px;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            color: var(--c-text-primary);
+        }
+    }
+
+    .input-label {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        color: var(--c-text-header);
+        margin-bottom: 5px;
+    }
+
+    .MuiInputBase-inputSizeSmall {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--c-text-header);
+
+        b {
+            font-weight: 500;
+        }
+
+        &:hover {
+            color: var(--c-primary-color);
+        }
+
+        &::placeholder {
+            font-weight: 600;
+            color: var(--c-text-placeholder);
+            opacity: 1;
+        }
+    }
+
+    .MuiInputBase-root {
+        &:hover {
+            fieldset {
+                border-color: var(--c-primary-color);
+            }
+        }
+
+        &.Mui-focused fieldset {
+            border-width: 1px;
+        }
+
+        &.Mui-disabled {
+            color: var(--c-text-placeholder);
+            -webkit-text-fill-color: var(--c-text-placeholder);
+            background-color: var(--c-bg-feedback) !important;
+
+            &:hover {
+                fieldset {
+                    border-color: rgba(0, 0, 0, 0.26) !important;
+                }
+            }
+        }
+    }
+
+    .MuiDialogContent-root {
+        padding: 0 24px 20px;
+    }
+
+    .MuiDialogActions-root {
+        padding: 0px 20px 15px;
+    }
+
+    label.btnPrimary {
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1.75;
+    }
+
+    .customDropZone {
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            font-family: sans-serif;
+        }
+
+        .container>p {
+            font-size: 1rem;
+        }
+
+        .container>em {
+            font-size: .8rem;
+        }
+
+        .dropzone {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border-width: 2px;
+            border-radius: 2px;
+            border-color: #eeeeee;
+            border-style: dashed;
+            background-color: #fafafa;
+            color: #bdbdbd;
+            outline: none;
+            transition: border .24s ease-in-out;
+
+            &.fileDroped {
+                color: var(--c-text-primary);
+            }
+        }
+
+        .dropzone:focus {
+            border-color: #2196f3;
+        }
+
+        .dropzone.disabled {
+            opacity: 0.6;
+        }
+    }
+}

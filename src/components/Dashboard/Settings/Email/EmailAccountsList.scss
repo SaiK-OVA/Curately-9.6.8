@@ -1,0 +1,68 @@
+#EmailAccountsList {
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 270px) !important;
+        min-height: calc(100vh - 270px) !important;
+    }
+          .MRTableCustom {
+              .css-192dx0w {
+                  display: none;
+              }
+    
+              .MuiBox-root {
+                  left: 0 !important;
+                  top: 0 !important;
+                  align-items: center;
+              }
+          }
+    
+          .MuiTableContainer-root+.MuiBox-root>.MuiBox-root {
+              flex-direction: row-reverse !important;
+              padding: 0;
+          }
+    .emailAccount-card {
+        width: 400px;
+        position: relative;
+        .action {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        h4 {
+            font-size: 18px;
+            margin-top: 0;
+        }
+        p {
+            font-size: 16px;
+        }
+        .textCapital {
+            text-transform: capitalize;
+        }
+        .label {
+            width: 58px;
+            display: inline-block;
+        }
+    }
+    .status-btn {
+        display: inline-flex;
+        width: 130px;
+        padding: 5px 10px;
+        text-transform: capitalize;
+        font-size: 16px;
+    }
+    .connected {
+        background-color: var(--c-positive-20);
+        color: var(--c-positive-60)
+    }
+
+    .pending {
+        background-color: var(--c-secondary-20);
+        color: var(--c-secondary-60)
+    }
+}
+.accountActionPopover .MuiPopover-paper {
+    width: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

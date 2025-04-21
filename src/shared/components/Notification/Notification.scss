@@ -1,0 +1,48 @@
+#NotificationDialog {
+    // width: 350px;
+    // height: calc(100vh - 56px);
+    // max-height: 100vh;
+    // margin: 0;
+    // bottom: 0;
+    // position: fixed;
+
+    .MuiDialogContent-root {
+        height: calc(100vh - 56px);
+        width: 350px;
+        overflow: auto;
+    }
+
+    .drawer-header {
+        padding: 2px 10px;
+        background-color: var(--c-neutral-10);
+        border-bottom: 1px solid var(--c-neutral-40);
+
+        .MuiTypography-root {
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+
+    .p-dialog-header {
+        padding: 0 10px;
+        background-color: var(--c-neutral-10);
+        border-bottom: 1px solid var(--c-neutral-40);
+
+        .p-dialog-title {
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+    .p-dialog-content {
+        padding: 0;
+    }
+
+    .notification {
+        width: 100%;
+        padding: 10px 16px;
+        border-bottom: 1px solid var(--c-neutral-40);
+        background-color: var(--c-neutral-0);
+    }
+}

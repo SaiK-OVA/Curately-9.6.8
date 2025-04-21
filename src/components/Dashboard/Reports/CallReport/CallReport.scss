@@ -1,0 +1,21 @@
+#callReportComponent {
+    .MuiStack-root>:not(style)+:not(style) {
+        margin: 10;
+        padding: 7.5px;
+    }
+
+    .MuiAutocomplete-root .MuiOutlinedInput-root.MuiInputBase-sizeSmall .MuiAutocomplete-input {
+        padding: 8.5px 4px 8.5px 8px;
+    }
+
+    small {
+        color: var(--curatelyGrey);
+    }
+
+    .MuiFormHelperText-root.Mui-error {
+
+        height: 0;
+
+    }
+
+}

@@ -1,0 +1,15 @@
+.atsText {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 16px;
+    display: inline-flex;
+    border-radius: var(--border-2);
+    height: 20px;
+    white-space: nowrap;
+    text-align: center;
+    padding: 2px 6px;
+    // background-color: var(--c-neutral-20);
+    color: var(--c-text-primary);
+    margin-right: 4px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}

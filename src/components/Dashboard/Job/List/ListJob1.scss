@@ -1,0 +1,27 @@
+.header {
+    color: rgba(38, 38, 211, 0.778);
+    font-size: 17px;
+    text-align: center;
+}
+
+.reset {
+    background-color: var(--curatelyDarkGrey);
+    text-transform: capitalize;
+}
+
+.search {
+    text-transform: capitalize;
+    margin-right: 15px;
+}
+
+.styles {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 120px;
+    padding: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}

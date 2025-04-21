@@ -1,0 +1,21 @@
+.box {
+    background-color: lightgrey;
+    width: 170px;
+    height: 35px;
+    padding-left: 4px;
+    border: 1px solid var(--curatelyBlack);
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 12px;
+}
+
+.poolPanelDiv {
+    // overflow: auto;
+    padding: 10px 20px;
+     height: calc(100vh - 75px);
+    max-width: 960px;
+    // min-height: calc(100vh - 275px);
+    
+}

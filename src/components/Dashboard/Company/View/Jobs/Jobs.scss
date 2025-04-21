@@ -1,0 +1,56 @@
+.jobsList {
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 335px);
+        min-height: calc(100vh - 335px);
+
+    }
+}
+
+
+
+
+
+
+
+
+// .contactsList {
+//     max-width: calc(100%);
+
+//     [aria-label="Show/Hide filters"],
+//     [aria-label="Show/Hide columns"],
+//     [aria-label="Toggle density"] {
+//         display: none;
+//     }
+
+//     [aria-label="Column Actions"],
+//     .Mui-TableHeadCell-ResizeHandle-Wrapper {
+//         visibility: hidden !important;
+//     }
+
+//     .MuiTableContainer-root {
+//         max-height: calc(100vh - 190px);
+//         overflow: auto;
+//         max-width: calc(100%);
+//     }
+
+//     // table Header CSS
+//     .Mui-TableHeadCell-Content-Wrapper {
+//         font-size: 12px;
+//         font-weight: 400;
+//         color: rgba(0, 0, 0, 0.87);
+//     }
+
+//     .MuiTableCell-root.MuiTableCell-body {
+//         color: rgba(0, 0, 0, 0.87);
+//         font-weight: 400;
+//         font-size: 14px;
+//     }
+
+//     .hightLightTd {
+//         color: var(--c-primary-color);
+//         // font-size: 14px;
+//         font-weight: 600;
+//         text-decoration: none;
+//         cursor: pointer;
+//     }
+// }

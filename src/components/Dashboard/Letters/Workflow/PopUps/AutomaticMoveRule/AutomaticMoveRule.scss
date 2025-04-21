@@ -1,0 +1,45 @@
+.AutomaticDialog {
+
+    .label {
+        margin-top: 8px;
+        margin-bottom: 2px;
+    }
+
+    .dialogContent {
+        // height: calc(100vh - 250px);
+        width: 600px;
+    }
+
+}
+.edit_Icon svg{
+    position: absolute;
+    bottom: 1vw;
+    right: 0vw;
+}
+.edit_Grid{
+    min-height: 43px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-flex;
+
+    span {
+        padding-top: 1px;
+    }
+
+    .edit_Icon {
+        display: none;
+    }
+
+    .edit_Icon:hover {
+        background-color: none !important;
+        background: none !important;
+    }
+}
+.edit_Grid:hover {
+    padding-top: 0px;
+    background-color: rgba(0, 105, 255, 0.067);
+
+    .edit_Icon {
+        display: inline-block !important;
+    }
+}

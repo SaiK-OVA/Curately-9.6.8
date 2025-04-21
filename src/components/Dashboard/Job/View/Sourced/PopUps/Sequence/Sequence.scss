@@ -1,0 +1,98 @@
+#nextActionDialogBox {
+    .MuiPaper-root.MuiDialog-paper {
+        max-width: 560px;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            color: var(--c-text-primary);
+        }
+    }
+
+    .actionCard {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 20px 15px;
+    }
+
+    .input-label {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        color: var(--c-text-header);
+        margin-bottom: 5px;
+    }
+
+    .callOutcome {
+
+        &>.MuiFormControl-fullWidth {
+            margin-top: 20px;
+        }
+    }
+
+    .MuiInputBase-inputSizeSmall {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--c-text-header);
+
+        b {
+            font-weight: 500;
+        }
+
+        &:hover {
+            color: var(--c-primary-color);
+        }
+
+        &::placeholder {
+            font-weight: 600;
+            color: var(--c-text-placeholder);
+            opacity: 1;
+        }
+
+        &.Mui-disabled {
+            color: var(--c-text-header);
+            -webkit-text-fill-color: var(--c-text-header);
+        }
+    }
+
+    .MuiInputBase-root {
+        &:hover {
+            fieldset {
+                border-color: var(--c-primary-color);
+            }
+        }
+
+        &.Mui-focused fieldset {
+            border-width: 1px;
+        }
+    }
+
+    textarea {
+        padding: 6px 14px;
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--c-text-header);
+        border-width: 1px;
+        border-color: rgba(0, 0, 0, 0.23);
+        border-radius: 4px;
+
+        &:hover {
+            border-color: var(--c-primary-color);
+        }
+
+        &:focus-visible {
+            outline: none;
+        }
+    }
+
+    .MuiDialogActions-root {
+        padding: 0px 20px 15px;
+    }
+}

@@ -1,0 +1,127 @@
+#Fields {
+
+    border: 0px solid #444;
+    margin: 4px;
+    vertical-align: top;
+    padding: 5px;
+    font-size: 12px !important;
+    z-index: 9999999;
+
+    .header {
+        font-size: calc(10px + 2vmin);
+        color: black;
+        text-align: left;
+    }
+
+    Button {
+        text-transform: capitalize;
+    }
+
+    
+    .heightField {
+        text-transform: capitalize;
+        margin: 5px;
+    }
+
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        width: 100%;
+        border: 0px solid #555;
+    }
+
+    .Column-item-header {
+        border-top: 1px solid gray;
+       // padding: 1rem 0px;
+        font-size: 1rem;
+         background-color: white; 
+        margin: 0px;
+        /* min-width: 250px !important; */
+        max-width:98%;
+        text-align: left;
+      }
+
+    .columnVal-list {
+        display: grid;
+        flex-direction: column;
+        align-items: left;
+        width: 100%;
+        border: 0px solid #444;
+        margin-top: 5px;
+    }
+
+    .columnVal-list-section {
+        display: grid;
+        flex-direction: column;
+        align-items: left;
+        width: 100%;
+    }
+
+    .columnVal-list-section>h1 {
+        text-decoration: underline;
+    }
+
+    .cart-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .cart-section>h1 {
+        text-decoration: underline;
+    }
+
+    .MuiAccordionSummary-content.Mui-expanded {
+        margin: 0px;
+    }
+
+    .MuiAccordionSummary-content p {
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: var(--c-text-labels);
+    }
+
+    .MuiAccordionSummary-root {
+        height: 40px !important;
+        min-height: 30px !important;
+        max-height: 40px !important;
+    }
+
+    .MuiAccordion-root {
+        margin: 0px 0;
+        border-radius: 0px;
+        box-shadow: var(--shadow-1);
+    }
+
+    // .MuiCollapse-root  {
+    //     margin: 3px;
+    //     border-radius: 4px;
+    //     box-shadow: var(--shadow-1);
+    // }
+
+    .MuiAccordion-root:before {
+        display: none;
+    }
+
+
+    .MuiAccordion-root.Mui-expanded {
+        margin: 1px 0;
+    }
+
+    .MuiDialogContent-root {
+        background-color: var(--c-neutral-10);
+    }
+
+    .MuiAccordion-region {
+        .MuiGrid-item {
+            padding-top: 1px;
+        }
+    }
+
+}

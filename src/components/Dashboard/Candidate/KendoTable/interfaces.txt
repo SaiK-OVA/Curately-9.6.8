@@ -1,0 +1,17 @@
+export interface Product {
+    fname?: string,
+    loc?: string,
+    notes?: string,
+    nle?: string,
+    phone2?: string,
+    dept?: string,
+    title?: string,
+    phone1?: string,
+    dlist?: string,
+    contid?: string,
+    lname?: string,
+    id?: string,
+    web?: string,
+    supervisor?: string,
+    
+}

@@ -1,0 +1,33 @@
+#TeamMembers {
+    .member {
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+        padding: 16px;
+    }
+
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 170px) !important;
+        min-height: calc(100vh - 170px) !important;
+    }
+
+
+    .Accepted,
+    .Pending {
+        height: 27px;
+        display: inline-flex;
+        align-items: center;
+        svg {
+            font-size: 17px;
+            margin: 5px;
+        }
+    }
+
+    .Accepted {
+        background-color: var(--c-positive-20);
+        color: var(--c-positive-60)
+    }
+
+    .Pending {
+        background-color: var(--c-secondary-20);
+        color: var(--c-secondary-60)
+    }
+}

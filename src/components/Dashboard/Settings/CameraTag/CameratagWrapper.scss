@@ -1,0 +1,29 @@
+.align-input {
+    display: flex;
+    gap: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.align-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.h-38 {
+    height: 38px;
+}
+
+.modal-height {
+    height: 344px;
+}

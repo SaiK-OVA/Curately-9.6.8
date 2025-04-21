@@ -1,0 +1,29 @@
+// .custom-tooltip .MuiTooltip-tooltip {
+//     background-color: red; /* Set the desired background color */
+//   }
+
+
+/* styles.css */
+.applyButton {
+    background-color: #146ef6;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    position: relative;
+}
+
+.applyButton:hover {
+    background-color: #146ef6;
+}
+
+.loaderIcon {
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.checkIcon {
+    color: #ffffff;
+    margin-left: 8px;
+    font-size: 20px;
+}

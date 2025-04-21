@@ -1,0 +1,147 @@
+.addContacts-wrap {
+    // width: 656px;
+    // margin: 10px auto;
+    // background-color: var(--curatelyWhite);
+    // box-shadow: var(--shadow-1);
+    // border-radius: 4px;
+.Phone_input_addcontact{
+    .MuiInputBase-root{
+        width: 100%;
+    }
+}
+    .header {
+        padding: 12px 20px;
+
+        h4 {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            color: var(--c-text-header);
+        }
+    }
+
+    .form-block {
+        border-top: 1px solid var(--c-border-light);
+
+        &.disabled {
+            .sub-heading {
+                color: var(--c-text-header);
+            }
+        }
+
+        .sub-heading {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: var(--c-primary-color);
+            background-color: var(--c-bg-secondary);
+        }
+
+        .block-inner {
+            padding: 12px 20px 20px;
+        }
+
+        .form-wrap {
+            margin-bottom: 16px;
+        }
+
+        .input-label {
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 14px;
+            color: var(--c-text-header);
+            margin-bottom: 5px;
+        }
+
+        .input-info {
+            font-size: 12px;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .MuiInputBase-inputSizeSmall {
+            // padding: 5px 14px;
+
+            &::placeholder {
+                font-weight: 600;
+                color: var(--c-text-placeholder);
+                opacity: 1;
+            }
+
+        }
+
+        .MuiInputBase-root {
+            &:hover {
+                fieldset {
+                    border-color: var(--c-primary-color);
+                }
+            }
+
+            &.Mui-focused fieldset {
+                border-width: 1px;
+            }
+        }
+
+        .phone-block {
+            padding: 10px;
+            border: 1px solid var(--c-border-light);
+            box-shadow: var(--shadow-1);
+            border-radius: 4px;
+            margin-bottom: 16px;
+
+            .form-wrap {
+                margin-bottom: 0;
+
+                .phone {
+                    box-shadow: var(--shadow-1);
+                }
+            }
+        }
+
+        .addnum-btn {
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: initial;
+            color: var(--c-text-header);
+            border: 1px solid transparent;
+            border-radius: 0;
+            margin-bottom: 16px;
+            padding: 2px 8px 0;
+
+            .MuiSvgIcon-root {
+                display: block;
+                margin: 0px auto;
+                color: var(--c-primary-color);
+                width: 14px;
+                height: 14px;
+            }
+
+            &:hover {
+                background-color: transparent;
+                border: 1px solid var(--c-primary-color);
+            }
+        }
+
+        textarea {
+            padding: 5px 14px;
+            font: inherit;
+            letter-spacing: inherit;
+            border: 1px solid #0000003b;
+            border-radius: 4px;
+
+            &::placeholder {
+                color: var(--c-text-placeholder);
+                opacity: 1;
+            }
+
+            &:hover {
+                border-color: var(--c-primary-color);
+            }
+        }
+    }
+}

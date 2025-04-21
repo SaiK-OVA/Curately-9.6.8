@@ -1,0 +1,320 @@
+#EmailDialogBox {
+    .MuiDialog-paper {
+        // max-width: 750px;
+
+        .header {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            color: var(--c-text-header);
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    .form-wrap {
+        margin-bottom: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .input-label {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        color: var(--c-text-header);
+        margin-bottom: 5px;
+    }
+
+    .saveTemplate {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        color: var(--c-primary-color);
+        cursor: pointer;
+        float: right;
+    }
+
+    .MuiInputBase-inputSizeSmall {
+        padding: 6px 14px;
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--c-text-header);
+
+        b {
+            font-weight: 500;
+        }
+
+        &:hover {
+            color: var(--c-primary-color);
+        }
+
+        &::placeholder {
+            font-weight: 600;
+            color: var(--c-text-placeholder);
+            opacity: 1;
+        }
+
+        &.Mui-disabled {
+            color: var(--c-text-header);
+            -webkit-text-fill-color: var(--c-text-header);
+        }
+    }
+
+    .MuiInputBase-root {
+        &:hover {
+            fieldset {
+                border-color: var(--c-primary-color);
+            }
+        }
+
+        &.Mui-focused fieldset {
+            border-width: 1px;
+        }
+    }
+
+
+    // @media screen and (max-width: 992px) {
+    //     max-width: 580px;
+    //     margin: auto;
+    // }
+
+    // @media screen and (max-width: 1140px) and (min-width: 993px) {
+    //     max-width: 650px;
+    //     margin: auto;
+    // }
+
+    // @media screen and (max-width: 1280px) and (min-width: 1141px) {
+    //     max-width: 700px;
+    //     margin: auto;
+    // }
+
+    // @media screen and (max-width: 1389px) and (min-width: 1281px) {
+    //     max-width: 750px;
+    //     margin: auto;
+    // }
+
+    .ai-dialog-container {
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+    }
+
+    .scrollable-container {
+        height: calc(100vh - 217px);
+        max-height: 100%;
+        overflow-y: auto;
+        padding: 8px 0px;
+    }
+
+}
+
+.emailMenuItem {
+    display: flex;
+
+    b {
+        font-weight: 500;
+        width: 30%;
+    }
+}
+
+#save-popover {
+    .MuiTypography-body1 {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        color: var(--c-text-header);
+        margin-bottom: 5px;
+        padding-top: 18px;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .MuiInputBase-root {
+        &:hover {
+            fieldset {
+                border-color: var(--c-primary-color);
+            }
+        }
+
+        &.Mui-focused fieldset {
+            border-width: 1px;
+        }
+    }
+
+    .MuiInputBase-inputSizeSmall {
+        padding: 6px 14px;
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--c-text-header);
+    }
+
+    .btnPrimary.Mui-disabled {
+        background-color: var(--c-neutral-40) !important;
+    }
+
+}
+
+#menu-template .MuiPopover-paper.MuiMenu-paper {
+    max-height: calc(100% - 200px);
+}
+
+.AddJobModal {
+    z-index: 1000;
+}
+
+.ai-dialog-header {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    position: relative;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0.95;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.ai-dialog-border {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    bottom: 0;
+    width: 16px;
+    background: repeating-linear-gradient(0deg,
+            black,
+            black 2px,
+            transparent 2px,
+            transparent 4px);
+}
+
+.ai-dialog-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-left: 8px;
+}
+
+.personalization-settings {}
+
+.tab-content {
+    padding: 5px 10px;
+    position: relative;
+    height: 100%;
+}
+
+.tab-content .MuiAccordion-root {
+    margin-top: 6px;
+}
+
+.tab-content .MuiAccordion-root:last-child {
+    margin-bottom: 10px;
+}
+
+.generate-button {
+    position: absolute;
+    bottom: 16px;
+    right: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.radio-group-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.like-dislike-buttons {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 12px;
+    margin-bottom: 9px;
+    margin-top: -12px;
+}
+
+.button-group .MuiButton-root {
+    background-color: #7e57c2;
+    color: white;
+    margin-left: 8px;
+}
+
+.button-group .MuiButton-root:hover {
+    background-color: #5e35b1;
+}
+
+.generate-button1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 12px;
+    // margin-bottom: 9px;
+    // margin-top: -12px;
+}
+
+.generate-button1 .MuiButton-root {
+    border-color: #7e57c2;
+    color: #7e57c2;
+    margin-left: 8px;
+}
+
+.generate-button1 .MuiButton-root:hover {
+    background-color: #7e57c2;
+    color: #fff;
+}
+
+.tab-content .MuiAccordion-root {
+    margin-top: 6px;
+}
+
+.tab-content .MuiAccordion-root:last-child {
+    margin-bottom: 6px;
+}
+
+.tab-content .generate-button {
+    margin-top: auto;
+}
+
+
+.tab-content {
+    padding: 5px 10px;
+    position: relative;
+    height: calc(100% - 72px);
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.generate-button {
+    bottom: 0;
+    width: calc(100% - 5px);
+    padding: 8px 16px;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    opacity: 0.95 !important;
+    background-color: white !important;
+    z-index: 1
+}
+
+.emailBuilder-body {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    padding: 14px;
+    height: 300px;
+    max-height: 100%;
+    overflow-y: auto;
+}

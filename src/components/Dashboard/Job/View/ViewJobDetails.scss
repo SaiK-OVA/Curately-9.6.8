@@ -1,0 +1,331 @@
+#viewJobDetails {
+    .tab {
+
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        margin-right: 35px !important;
+        text-decoration: none !important;
+        height: 40px !important;
+        line-height: 40px !important;
+        color: #474747 !important;
+
+        text-transform: none !important;
+
+        &:hover {
+            color: var(--c-primary-color) !important
+        }
+
+    }
+
+    .jobDescription {
+        overflow: auto !important;
+        height: 965px !important;
+        max-height: 1080px !important;
+        // max-width: 100%;
+    }
+
+    .jobDescription * {
+        white-space: normal !important;
+        word-wrap: break-word !important;
+    }
+
+
+    .jobDescription p {
+      //  padding-top: 1px !important;
+      //  padding-bottom: 2px !important;
+      margin: 1px 2px;
+    }
+
+    .jobDescription strong {
+        margin-top: 15px !important;
+       // padding: 20px 0px;
+    }
+
+    .jobDescriptiontab {
+        overflow: auto;
+        height: 345px;
+        max-height: 345px;
+    }
+
+    .jobDescriptiontab * {
+        white-space: normal !important;
+        word-wrap: break-word !important;
+    }
+
+    .vertical-menu-item {
+        max-width: 165px;
+    }
+
+    .vertical-tabpanel {
+        max-width: calc(100% - 165px);
+    }
+
+    .inputLabelJobDesc {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22px;
+        color: var(--c-text-labels);
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .MuiChip-label {
+
+        width: inherit;
+    }
+
+    .highlight {
+        display: inline-block;
+        margin: 5px;
+        padding: 5px;
+        vertical-align: middle;
+
+        border: 1px solid rgb(14, 111, 239);
+        max-width: max-content;
+        border-radius: 3px;
+
+        &:hover {
+            background-color: rgb(14, 111, 239);
+            color: white
+        }
+    }
+
+    .textBackground {
+        background-color: #f3f2f2;
+        font-size: 13px !important;
+    }
+
+    .textBackground:hover {
+        color: #0000ffa1;
+    }
+
+    .booleanBg {
+        background-color: #f3f2f2;
+
+    }
+
+    // .addicon {
+    //     padding-top: 25px;
+    // }
+
+    // .tick-icon {
+
+    //     margin: 5px;
+    //     vertical-align: middle;
+    // }
+
+    // .plus-icon {
+
+    //     margin: 55px !important;
+    //     vertical-align: middle !important;
+    // }
+
+    // .delete-icon {
+
+    //     margin-left: 10px !important;
+    //     vertical-align: middle !important;
+    // }
+
+    .highlight svg {
+        vertical-align: middle;
+        position: relative;
+
+    }
+
+
+    .hidden-icon {
+        display: none;
+        transition: opacity 0.3s;
+
+    }
+
+    .skillText {
+        padding: 5px;
+
+    }
+
+
+    .highlight:hover .hidden-icon {
+        display: inline-block;
+        opacity: 1;
+
+
+    }
+
+    .highlight:hover .delete-icon.hidden-icon {
+        display: inline-block !important;
+        color: white !important;
+
+
+    }
+
+    .highlight:hover .done-icon {
+
+        fill: white;
+        cursor: pointer;
+    }
+
+    .highlight:hover .add-icon {
+        fill: white;
+        cursor: pointer;
+    }
+
+
+
+    // .iconWrapper {
+    //     display: inline-block;
+    //     vertical-align: middle;
+
+    // }
+
+    // .iconWrapper .delete-icon {
+    //     display: none;
+    //     width: 24px;
+    //     height: 24px;
+
+    // }
+
+
+
+
+
+
+
+    // .delete-icon:hover {
+    //     fill: white !important;
+    //     cursor: pointer;
+    // }
+
+    // .tick-icon:hover,
+    // .plus-icon:hover {
+    //     fill: white !important;
+    //     cursor: pointer;
+    // }
+
+    .mainDetailsVerticalTabPanel {
+        min-height: calc(100vh - 254px) !important;
+    }
+
+    .Activities-Style-2 {
+        height: 32px;
+        // background-color: #F7F7F7;
+        border-bottom: 1px solid #E6E6E6;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 20px;
+        justify-content: space-between;
+
+        // p {
+        //     color: var(--c-text-header);
+        //     font-size: 16px;
+        //     font-weight: 600;
+        // }
+    }
+
+    .boxText-text {
+        //color: #474747;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        font-family: Segoe UI;
+        color: var(--c-text-primary);
+    }
+
+    .notesAction {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+
+    }
+
+    .notesDiv .notesAction svg {
+        // display: none;
+        color: var(--curatelyBrown);
+
+    }
+
+    .noteItem:hover .notesAction {
+        opacity: 1;
+
+    }
+
+
+    .noteRecrLabel {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        color: var(--c-text-labels);
+        text-transform: capitalize;
+    }
+
+    .dateBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 4px 0;
+        // font-weight: 500;
+    }
+
+    .dateText {
+
+        font-size: 12px;
+        font-weight: 600;
+
+
+        line-height: 1;
+        color: var(--c-text-secondary);
+
+
+    }
+
+    .typeNote {
+        width: 100%;
+        color: #1A1A1A;
+
+        & .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+            border-color: var(--c-primary-color);
+        }
+
+
+        & .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+            border-color: var(--c-primary-color);
+            border-width: 1px;
+        }
+
+
+        & .MuiInputBase-input {
+            color: #1A1A1A;
+            font-size: 14px;
+            font-weight: 600;
+
+        }
+
+
+        & .MuiInputBase-input::placeholder {
+            color: #919191;
+            font-size: 14px;
+            font-weight: 600;
+
+            opacity: 0.80;
+        }
+    }
+
+    .deleteDisable {
+        // pointer-events: none;
+        cursor: no-drop;
+
+    }
+
+    .noteItem {
+        position: relative;
+    }
+
+
+    // .noteBox {
+    //     height: 300px;
+    //     min-height: 255px;
+    //     // overflow: auto;
+    // }
+
+}

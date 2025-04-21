@@ -1,0 +1,18 @@
+#ViewCandidateDrawer {
+    .viewContactModalHeader {
+        top: 0;
+        position: fixed;
+        width: 85vw;
+        z-index: 999;
+        box-shadow: none;
+        background-color: white;
+        // background-color: var(--c-neutral-10);
+        border-bottom: 1px solid var(--c-neutral-40);
+        padding: 10px 0px;
+
+        .MuiTypography-root {
+            color: var(--c-neutral-80);
+            font-weight: 600;
+        }
+    }
+}

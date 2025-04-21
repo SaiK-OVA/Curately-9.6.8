@@ -1,0 +1,45 @@
+#EmailAutoComplete {
+    .p-inputgroup {
+        display: flex;
+        flex-direction: row;
+        align-items: center !important;
+    }
+
+    .p-inputgroup-addon {
+        width: 82px;
+        height: 36px;
+        border-radius: 0 !important;
+        color: #646464 !important;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+    }
+
+    .p-autocomplete {
+        input {
+            height: 36px;
+            border-radius: 0 !important;
+        }
+
+        .p-inputtext {
+            height: 36px;
+            border-radius: 0 !important;
+            padding: 5px 14px !important
+        }
+
+        .p-autocomplete-token {
+            padding: 4px 12px !important;
+            height: 25px;
+            margin: 0 8px !important;
+        }
+
+        .p-autocomplete-input-token {
+            padding: 0 12px !important;
+            height: 25px;
+
+            input {
+                height: 25px;
+
+            }
+        }
+    }
+}

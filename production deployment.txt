@@ -1,0 +1,13 @@
+comment all console logs using "console.log.*$"
+search the above in find all and replace it
+
+1) made changes in this file to make production deployment paths 
+    made a copy of the same file 
+
+    node_modules\react-scripts\config\webpack.config.js
+
+2) added below in package.json file to add folder name in Index.html
+    "homepage": "/curately",
+
+
+https://www.freecodecamp.org/news/how-to-migrate-from-create-react-app-to-vite/

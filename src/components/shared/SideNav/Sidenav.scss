@@ -1,0 +1,297 @@
+.sideNavBar {
+
+    background-color: white;
+
+    .sidenav {
+        width: 220px;
+        transition: width 0.3s ease-in-out;
+        height: calc(100vh - 60px);
+        // background-color: rgb(10, 25, 41);
+        // background-color: #f7f7f7;
+        // padding-top: 28px;
+        overflow: auto;
+    }
+
+    .sidenavClosed {
+        transition: width 0.3s ease-in-out;
+        width: 55px;
+        overflow: auto;
+        height: calc(100vh - 60px);
+
+        .linkText {
+            display: none !important;
+        }
+    }
+
+    .linkText {
+        padding-left: 16px;
+        min-width: 124px;
+    }
+
+    .sideitem:hover {
+        background-color: #244f7d1c;
+
+    }
+
+    .menuBtn {
+        align-self: center;
+        align-self: flex-start;
+        justify-self: flex-end;
+        color: var(--c-neutral-60);
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding-left: 20px;
+        float: right;
+
+    }
+
+    .sideItem {
+        position: relative;
+        // display: inline-block;
+        display: flex;
+        align-items: center;
+        padding: 10px 0px 10px 20px;
+        cursor: pointer;
+        color: var(--c-neutral-60);
+        text-decoration: none;
+        overflow: hidden;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        z-index: 2;
+        top: 0;
+        right: -62px;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    // .menuWithChildren {
+
+    //     .childMenu {
+    //         display: none;
+    //         position: absolute;
+    //         top: -30px;
+    //         left: 55px;
+    //     }
+
+    //     .sideItem:hover {
+    //         .childMenu {
+    //             display: block;
+    //         }
+    //     }
+    // }
+
+    .fixToBottom {
+        position: absolute;
+        width: 55px;
+    }
+
+    @for $i from 1 through 5 {
+        .fixToBottom:nth-last-child(#{$i}) {
+            bottom: ($i * 44 - 20px) !important;
+        }
+    }
+
+    .panel::before {
+        height: 0px !important;
+    }
+
+    .panel {
+        margin: 0 !important;
+        box-shadow: none;
+
+        .MuiAccordionSummary-content {
+            margin: 0 !important;
+            align-content: center;
+        }
+
+        .summary {
+            min-height: 40px !important;
+        }
+
+        .details {
+
+            padding: 0px 16px;
+        }
+
+
+        .childLink {
+            text-decoration: none !important;
+            padding: 5px 30px;
+            // color: #244f7d !important;
+            color: var(--c-text-labels);
+            display: block;
+        }
+
+        .childLink:hover {
+            background-color: var(--c-bg-secondary);
+            color: var(--c-text-links);
+            cursor: pointer;
+            // color: #000000;
+        }
+
+        .childLink.active {
+            background-color: var(--c-primary-10);
+        }
+
+
+    }
+
+    .sideItem,
+    .panel {
+        margin-bottom: 10px;
+    }
+
+
+
+    .summary .MuiTypography-root {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        font-size: 16px;
+        margin-right: 8px;
+    }
+
+    .summary .MuiTypography-root>*:first-child {
+        margin-right: 8px;
+    }
+
+    // .MuiSvgIcon-root {
+    //     color: black;
+    // }
+
+
+    .summary:hover {
+        background-color: rgb(225, 225, 225);
+        color: var(--c-neutral-60);
+    }
+
+
+    .sideItem {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        padding: 20px 0 15px 16px;
+        max-height: 30px;
+
+        a,
+        svg {
+            color: var(--c-neutral-60);
+        }
+    }
+
+    .sideItem:hover {
+        background-color: rgb(225, 225, 225);
+        color: var(--c-neutral-60);
+    }
+
+
+    .linkText {
+        padding: 5px;
+        font-weight: bold;
+        color: var(--c-neutral-60);
+        margin-left: 5px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .sideNavIcon,
+    .accordionTitle {
+        color: var(--c-neutral-60);
+    }
+
+    #settingsSideNav {
+        width: 220px;
+        height: calc(100vh - 100px);
+        overflow: auto;
+    }
+
+    #backToButton {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        color: var(--color-text-header);
+        text-transform: capitalize;
+    }
+
+    .settingsChildLink {
+        text-decoration: none !important;
+        // padding: 5px 30px;
+        // color: var(--c-text-labels);
+        // display: block;
+
+        font-weight: 600;
+        line-height: 20px;
+        color: var(--color-text-header);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 6px 6px 6px 16px;
+        margin-left: -5px;
+        border-radius: var(--border-radius-4);
+        transition: all .2s ease-in-out;
+    }
+
+    .settingsChildLink.active {
+        background-color: var(--c-primary-10);
+    }
+
+    .settingsChildLink:hover {
+        background-color: var(--c-bg-secondary);
+        color: var(--c-text-links);
+        cursor: pointer;
+        // color: #000000;
+    }
+
+    .menuTextIcon {
+        font-weight: 600;
+        // padding-left: 2px;
+    }
+
+    .nameSideMenuAvatar {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        line-height: 1;
+        border-radius: 50%;
+        overflow: hidden;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: #bdbdbd;
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+        font-weight: 700;
+        background-color: transparent;
+        color: #737373;
+        border: 1px solid;
+    }
+
+}

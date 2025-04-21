@@ -1,0 +1,60 @@
+.StageName {
+
+    .add-btn {
+        color: dodgerblue;
+        font-weight: 700;
+    }
+
+    .displayStageName {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .column {
+
+        border-radius: 5px;
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .task-title-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .task-title {
+        display: flex;
+        align-items: center;
+    }
+
+    .handle {
+        display: flex;
+        align-items: center;
+    }
+
+    .task-edit {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .task-edit input {
+        flex: 1;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 50%;
+    }
+
+    .task-container.selected {
+        background-color: #e3f2fd;
+
+    }
+
+    .drag-btn {
+        color: gray;
+    }
+}

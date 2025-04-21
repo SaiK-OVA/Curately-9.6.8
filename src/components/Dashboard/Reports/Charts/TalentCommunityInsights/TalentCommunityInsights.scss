@@ -1,0 +1,42 @@
+#TalentCommunityInsights {
+    .applicationCard {
+        text-align: center;
+    }
+
+    .gender{
+        height: 80px;
+        left: 112px;
+        top: 0px;
+        width: 240px;
+        background: rgb(255, 255, 255);
+        border: 2px solid rgb(228, 228, 228);
+        padding-left:10px;
+    }
+    .comparing {
+        height: 336px;
+        left: 112px;
+        top: 192px;
+        width: 512px;
+    }
+
+    .match {
+        height: 336px;
+        left: 96px;
+        top: 96px;
+        width: 512px;
+    }
+
+    .race {
+        height: 240px;
+        left: 112px;
+        top: 96px;
+        width: 336px;
+    }
+
+    .input-label {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 5px;
+        color: var(--c-text-header);
+    }
+}

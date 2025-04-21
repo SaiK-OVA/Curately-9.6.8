@@ -1,0 +1,18 @@
+.customMUIAutoComplete {
+    .MuiInputBase-formControl {
+        padding-bottom: 2px;
+        padding-top: 2px;
+    }
+
+    .MuiChip-root {
+        height: 24px !important;
+
+        svg {
+            font-size: 18px !important;
+        }
+    }
+
+    .MuiInputBase-root {
+        padding: 1px 6px !important;
+    }
+}

@@ -1,0 +1,25 @@
+#DocumentSigning {}
+
+.error {
+    font-size: 13px;
+    color: red;
+
+}
+
+.main-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-sub {
+    display: flex;
+    // justify-content: space-between;
+}
+
+.btn-action {
+    min-width: 0px;
+}
+
+.btn-delete {
+    color: red;
+}

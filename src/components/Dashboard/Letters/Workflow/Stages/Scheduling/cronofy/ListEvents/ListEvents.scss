@@ -1,0 +1,16 @@
+.EventsList {
+    .cronofyList .MuiDataGrid-footerContainer {
+        display: none !important;
+    }
+
+    .actionIcons svg {
+        cursor: pointer;
+    }
+
+    .actionIcons svg {
+        min-width: 21px;
+        display: inline-block;
+        margin-left: 16px;
+        margin-top: 6px;
+    }
+}

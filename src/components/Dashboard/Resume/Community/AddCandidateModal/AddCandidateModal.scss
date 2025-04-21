@@ -1,0 +1,38 @@
+#addCandidateModal{
+    .MuiToggleButtonGroup-groupedHorizontal {
+        padding-left: 6px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 6px;
+    }
+    .MuiFormControlLabel-root {
+        align-items: center;
+        cursor: pointer;
+        margin-right: 1px;
+    }
+    .phoneinput_candidate{
+        .MuiInputBase-root{
+            width: 100%;
+        }
+    }
+    .selectedCheckBox {
+        // background-color: var(--c-primary-color);
+        // color: var(--c-primary-10);
+ 
+        .Mui-checked.MuiCheckbox-root {
+            // color: var(--c-primary-10);
+        }
+    }
+    .toggle_button_group{
+        border: none !important;
+    }
+    .toggle_button_group:hover,.toggle_button_group:active{
+        background-color: transparent;
+    }
+    .errorText{
+        min-height: auto !important;
+    }
+    .c-white {
+        color: rgb(105, 103, 103) !important;
+    }
+}

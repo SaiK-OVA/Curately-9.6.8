@@ -1,0 +1,139 @@
+// .message-bubble {
+//     padding: 8px;
+//     font-size: 12px;
+//     border-radius: 14px;
+//     color: rgb(40, 60, 89);
+//     max-width: 75%;
+//     word-wrap: break-word;
+// }
+
+// .message-bubble-in {
+//     background-color: rgb(212, 230, 255);
+// }
+
+// .message-bubble-out {
+//     background-color: rgb(230, 230, 230);
+// }
+
+// .message-wrapper {
+//     display: flex;
+//     flex-direction: column;
+//     margin-bottom: 16px;
+// }
+
+// .message-wrapper-in {
+//     align-items: flex-end;
+// }
+
+// .message-wrapper-out {
+//     align-items: flex-start;
+// }
+
+// .message-time {
+//     font-size: 12px;
+//     margin-left: 8px;
+//     color: #999;
+// }
+
+// .checked-icon {
+//     color: #4CAF50;
+//     margin-right: 8px;
+//     font-size: 14px;
+// }
+.message-bubble {
+
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 14px;
+    color: rgb(40, 60, 89);
+    max-width: 75%;
+    word-wrap: break-word;
+}
+
+
+
+.message-bubble-in {
+
+    // margin: 1rem 3rem 0rem auto;
+    margin-right: 25px;
+    border-radius: 1.125rem 1.125rem 0 1.125rem;
+    background: #a0a0a0;
+    background: rgb(212, 230, 255);
+    color: rgb(40, 60, 89);
+}
+
+
+
+.message-bubble-out {
+
+    background: rgb(230, 230, 230);
+    border-radius: 14px;
+    color: rgb(40, 60, 89);
+    margin-left: 15px;
+
+}
+
+
+
+.message-wrapper {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+
+}
+
+
+
+.message-wrapper-in {
+
+    align-items: flex-end;
+
+}
+
+
+
+.message-wrapper-out {
+
+    align-items: flex-start;
+
+}
+
+
+
+.message-time {
+
+    font-size: 0.8rem;
+    padding: 0.25rem 1rem;
+    border-radius: 2rem;
+    color: #999;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 15px;
+}
+
+
+
+.checked-icon {
+
+    color: #4CAF50;
+   // margin-right: 6px;
+    font-size: 10px;
+   // margin-top: 5px;
+
+}
+
+.userName {
+    background: linear-gradient(-135deg, rgb(89, 200, 177), rgb(59, 179, 154));
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 50%;
+    color: white;
+     padding: 5px 8px;
+    //margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    cursor: default
+}

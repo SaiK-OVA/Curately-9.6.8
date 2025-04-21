@@ -1,0 +1,57 @@
+.detailsDiv {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.mainLabel {
+    width: 120px;
+}
+
+.valueLabel {
+    width: calc(100% - 130px);
+}
+
+.labelDiv {
+    .mainLabel {
+        width: 130px;
+    }
+
+    .valueLabel {
+        width: calc(100% - 140px);
+    }
+}
+
+.linkLabel {
+    color: var(--c-text-links) !important;
+}
+
+.tab {
+    border-right: 1 !important;
+    // border-color: divider !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
+
+
+}
+
+.vertical-menu-item {
+    color: var(--c-neutral-60) !important;
+    align-items: flex-start !important;
+    text-transform: none !important;
+    font-size: 14px
+}
+
+// .jobDescriptiontab {
+
+//     overflow: auto !important;
+//     height: 345px !important;
+//     max-height: 345px !important;
+
+
+// }
+
+// .jobDescriptiontab * {
+//     white-space: normal !important;
+//     word-wrap: break-word !important;
+// }

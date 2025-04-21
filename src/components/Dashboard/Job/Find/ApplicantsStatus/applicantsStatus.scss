@@ -1,0 +1,38 @@
+#ApplicantsStatusView {
+    .applicantsStatusViewHeader {
+        top: 0;
+        position: fixed;
+        width: 80vw;
+        z-index: 999;
+        box-shadow: none;
+        background-color: var(--c-neutral-10);
+        border-bottom: 1px solid var(--c-neutral-40);
+        padding: 5px 10px;
+
+        .MuiTypography-root {
+            color: var(--c-neutral-80);
+            font-weight: 600;
+            font-size: 14px;
+        }
+    }
+
+    .Submissions-table {
+        .MRTableCustom .MuiTableContainer-root {
+            max-height: calc(100vh - 220px);
+            min-height: calc(100vh - 220px);
+            border-right: 1px solid var(--c-neutral-40);
+            border-left: 1px solid var(--c-neutral-40);
+
+        }
+
+        .MRTableCustom {
+            .css-192dx0w {
+                display: none;
+            }
+
+            .MuiTablePagination-root {
+                display: none;
+            }
+        }
+    }
+}

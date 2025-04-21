@@ -1,0 +1,21 @@
+.personaInSettings {
+    width: 900px;
+    background-color: var(--curatelyWhite);
+    margin: 12px auto;
+    .topPersonaRow {
+        height: 50px !important;
+    }
+
+    .personaListInSettings {
+        height: calc(100vh - 150px) !important;
+    }
+
+    .personaFilters {
+        height: calc(100vh - 275px) !important;
+    }
+
+    .newPersonaModal {
+        height: calc(100vh - 170px) !important;
+        overflow: auto;
+    }
+}

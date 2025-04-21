@@ -1,0 +1,65 @@
+.findCompany {
+    max-width: calc(100vw - 40px);
+    margin: auto 16px;
+
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 290px) !important;
+        min-height: calc(100vh - 290px) !important;
+    }
+
+    .filterListTab {
+        max-height: calc(100vh - 203px) !important;
+        min-height: calc(100vh - 203px) !important;
+        overflow: auto;
+    }
+
+    .header {
+        // margin-top: 50px;
+        // margin-bottom: 30px;
+        color: black;
+        font-weight: 700;
+    }
+
+    .cand-form {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // min-width: 750px;
+        // max-width: 950px;
+        // margin-left: auto;
+        // margin-right: auto;
+        margin-top: 10px;
+    }
+
+    // .inputDiv {
+    //     width: calc(50% - 10px);
+    // }
+
+    .mainCard {
+        min-width: 750px;
+        // max-width: 950px;
+        // margin-left: auto;
+        // margin-right: auto;
+        margin-top: 50px;
+    }
+
+    .candidate {
+        color: var(--curatelyPurple);
+        background-origin: padding-box;
+
+    }
+
+    .text-center {
+        text-align: center !important;
+    }
+
+    .mainhead {
+        padding: 5px;
+        color: #1a54a1;
+        font-weight: 500;
+        font-size: 17px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background-color: #f1f1f1;
+    }
+}

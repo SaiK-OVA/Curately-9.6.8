@@ -1,0 +1,30 @@
+#ReferMember {
+    
+
+    .MRTableCustom .MuiTableContainer-root {
+        max-height: calc(100vh - 170px) !important;
+        min-height: calc(100vh - 170px) !important;
+    }
+
+
+    .Accepted,
+    .Pending {
+        height: 27px;
+        display: inline-flex;
+        align-items: center;
+        svg {
+            font-size: 17px;
+            margin: 5px;
+        }
+    }
+
+    .Accepted {
+        background-color: var(--c-positive-20);
+        color: var(--c-positive-60)
+    }
+
+    .Pending {
+        background-color: var(--c-secondary-20);
+        color: var(--c-secondary-60)
+    }
+}

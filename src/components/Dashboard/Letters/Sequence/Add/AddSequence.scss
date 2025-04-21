@@ -1,0 +1,312 @@
+.AddSequence {
+    .mainDiv {
+        // height: 100vh;
+        // background-color: #7f7f7f;
+        padding: 16px;
+    }
+.Stage_main{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15px;
+}
+    .header {
+        background-color: rgb(255, 255, 255);
+        padding: 12px 12px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    .nav,
+    .article {
+        height: calc(100vh - 160px);
+        overflow: auto;
+        width: 100%;
+    }
+
+    .nav {
+        float: left;
+        width: 240px !important;
+        /* only for demonstration, should be removed */
+        background: rgb(255, 255, 255);
+        padding: 20px 16px;
+        border-right: 1px solid #eee;
+    }
+
+    .nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .article {
+        float: left;
+        // padding: 12px;
+        // width: calc(100vw - 350px);
+        min-width: 600px;
+        // margin-bottom: 24px;
+    }
+
+    .section {
+        background-color: white;
+        border-top: 1px solid #eee;
+    }
+
+    .footer {
+        background-color: rgb(255, 255, 255);
+        padding: 12px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top: 1px solid #eee;
+    }
+
+    .stageContainer {
+        background-color: #eeeeee;
+    }
+
+    // timeline
+
+    // .timeline {
+    //     padding-left: 0 !important;
+    //     padding-right: 0 !important;
+    // }
+
+    // .timeItem.active {
+    //     background-color: var(--curatelyBlue);
+    //     color: var(--curatelyWhite);
+    // }
+
+    // .timeItem {
+    //     padding-left: 16px;
+    //     padding-right: 16px;
+    //     cursor: pointer;
+    // }
+
+
+    // .timeDot {
+    //     margin: 0 !important;
+    // }
+
+    // .timeDot.m17 {
+    //     margin-top: 16px !important;
+    // }
+
+    // .timeConnector {}
+
+    // .timeContent {
+    //     padding-top: 24px !important;
+    // }
+
+    // timeline
+
+
+    // List start
+
+    .sideLine {
+        left: 25px;
+        width: 1px;
+        height: 21px;
+        position: absolute;
+        background-color: #02b8b8;
+        top: -10px;
+    }
+
+    .listIcon {
+        background-color: #7f7f7f;
+        border-radius: 50%;
+    }
+
+    .mailIcon {
+        width: 18px !important;
+        height: 18px !important;
+        color: var(--curatelyWhite);
+    }
+
+    .addIcon {
+        width: 20px !important;
+        height: 20px !important;
+        // color: var(--curatelyWhite);
+    }
+
+    .deleteIcon {
+        width: 16px !important;
+        height: 16px !important;
+        color: var(--curatelyRed);
+    }
+
+    .iconSpan {
+        width: 28px !important;
+        height: 28px !important;
+        background-color: #02b8b8 !important;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .buttonGroup {
+        width: 100%;
+
+        button {
+            text-align: left;
+            justify-content: initial !important;
+            padding: 12px 15px;
+            font-size: 14px;
+            text-transform: capitalize;
+            min-height: 50px;
+
+            .textBtn {
+                color: var(--curatelyBlack);
+            }
+
+            .deleteIcon {
+                display: none;
+                position: absolute;
+                right: 22px;
+            }
+        }
+
+        button:hover {
+            .deleteIcon {
+                display: block;
+            }
+        }
+
+        button.active {
+            background-color: #f3f4f6;
+            // border-color: #f3f4f6;
+        }
+
+        button:not(:last-of-type) {
+            border-bottom: 0 !important;
+        }
+
+        button:not(:first-child) {
+            border-top: 0 !important;
+        }
+    }
+
+    .stageBody {
+        margin: 20px 35px !important;
+        border-radius: 6px !important;
+
+        .MuiInputBase-sizeSmall {
+            border-radius: inherit;
+            height: 38.6px !important;
+            outline: none !important;
+
+        }
+
+        .text-editor {
+            .ql-container {
+                border-radius: 0 !important;
+            }
+        }
+
+    }
+
+    // List end
+
+    .quill {
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    // .editor-wrapper {
+    // }
+    .ql-container {
+        border-top: 1px solid #ccc !important;
+    }
+
+    // .ql-toolbar {
+    //     // position: absolute;
+    //     // bottom: 0;
+    //     // width: 100%;
+    //     width: 100%;
+    //     position: absolute;
+    //     bottom: -41px;
+    //     // transform: translateY(100%);
+    // }
+
+    .ql-editor {
+        min-height: 210px !important;
+        height: 210px !important;
+        overflow: auto;
+    }
+
+    .mailInputs {
+        .MuiInputBase-inputAdornedStart {
+            border-left: 1px solid rgb(196, 196, 196) !important;
+            border-radius: 0 !important;
+            padding-left: 8px !important;
+        }
+
+        .MuiInputBase-formControl {
+            border-radius: 0 !important;
+
+        }
+
+        .MuiOutlinedInput-notchedOutline {
+            border-color: rgba(0, 0, 0, 0.23) !important;
+            border-width: 1px !important;
+
+        }
+
+        .MuiInputAdornment-positionStart p {
+            color: rgb(100 100 100) !important;
+            width: 55px !important;
+        }
+    }
+
+    .ccInput {
+        width: calc(100% - 77.2px);
+
+        .MuiInputBase-adornedStart {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+            padding-left: 14px !important;
+        }
+
+        .MuiInputBase-inputAdornedStart {
+            border-left: 0 !important;
+        }
+
+        .MuiAutocomplete-input {
+            padding: 2.5px 4px 2.5px 8px !important;
+        }
+
+        .MuiAutocomplete-tag {
+            border-radius: 5px !important;
+        }
+
+        .p-chips-multiple-container {
+            padding: 2px 1rem !important;
+            width: 100% !important;
+            border-radius: 0 !important;
+        }
+
+        .p-chips-multiple-container .p-chips-token {
+            padding: 0.3rem 1rem !important;
+        }
+
+        .p-focus {
+            box-shadow: none !important;
+        }
+    }
+
+    .ccText {
+        border: 1px solid #c4c4c4;
+        padding: 8px 10px 8px 14px;
+        // background-color: #f3f4f6;
+        width: 77px;
+        border-right: 0 !important;
+        color: rgb(100 100 100) !important;
+        font-weight: 500 !important;
+    }
+
+    input[type="number"] {
+        padding-right: 5px !important;
+    }
+
+    .ql-toolbar {
+        bottom: 0 !important;
+    }
+}
